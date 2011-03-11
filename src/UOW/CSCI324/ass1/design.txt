@@ -1,0 +1,44 @@
+"Desk" - Task 1
+
+User Requirements:
+	Without any accoutrements the user can directly access the system via a transductive attachment.
+	The system allows them takes notes related to the lecture, transfer data between primary and secondary storage.
+	Personal data is encrypted against biometric identification.
+	Allows for maximum seated comfort during the lecture.
+	Access to information related to course content, and previously stored information.
+	Standard internet access as provided by the University.
+	Easy to use, intuitive, customisable interface.
+
+
+Design Specification Overview:
+
+I/O - Data transfer between User and System
+	- Trodes (Specifics in artifact design)
+	- Part of the chair system
+	- Transductive
+	- Transfer protocol
+
+Storage/Computation
+	- User Id
+	- User DB, eg Notes, observations, comments, etc.
+	- Encryption using biometrics (brainwaves)
+	- Access rights - User ONLY
+	- Method of storage?
+
+User Interface
+	- Vision overlay
+	- Translation of speech
+	- Tracks thought focus
+	- Customisation
+
+Artifact Design
+	- Chair
+		- Auto-adjusting
+	- Trode
+		- Personal system
+		- Re-usable
+		- Vanderwall force attachment
+		- Wired back to chair
+		- If user walks off with system attached it drops off and retracts back to chair
+		- Auto-cleansing system (ultrasonic + autoclave?)
+

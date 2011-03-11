@@ -1,0 +1,50 @@
+body {
+	font-family: sans-serif;
+	color: #00C000;
+	background: #000000;
+}
+
+:link {	
+	color: #00FF00;
+	background: transparent;
+}
+
+:visited {
+	color: #008000;
+	background: transparent;
+}
+
+:active {
+	color: #00F000;
+	background: transparent;
+}
+
+:hover {
+	color: #00FF00;
+	background: #005000;
+}
+
+.s1 {
+	font-size: 10pt;
+}
+
+.s2 {
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+.myHeadingStyle1 {
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+.myHeadingStyle2 {
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.myTextStyle1 {
+	font-size: 10pt;
+}
+
+<!-- $Id: style.css 2 2007-07-19 13:00:48Z pdezwart $ -->

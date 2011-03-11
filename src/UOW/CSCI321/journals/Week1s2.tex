@@ -1,0 +1,41 @@
+\parskip=6 pt
+\nopagenumbers
+
+\font\mainfont=cmr10
+\font\secfont=cmbx12
+\font\tf=cmr14
+\font\ti=cmti14
+
+\def\RCS$#1:#2${\expandafter\def\csname RCS#1\endcsname{#2}}
+\RCS$Id: Week1s2.tex 2 2007-07-19 13:00:48Z pdezwart $
+
+\newcount\itemnum \itemnum=0
+
+\newcount\subitemnum
+
+\def\items{\parindent 24 pt \advance\itemnum by 1 \subitemnum=0 \item{\secfont\the\itemnum)}}
+\def\subitems{\parindent 24 pt \advance\subitemnum by 1 \itemitem{\secfont\the\itemnum.\the\subitemnum)}}
+
+\centerline{\tf CSCI321: Project, \ti Source of the Nile\tf.}
+\centerline{Week 1, Spring Session, Pete de Zwart's project journal.}
+\centerline{\sevenrm \RCSId}
+
+\vskip 24 pt
+
+\mainfont
+
+\items Code Gardening, 6 hours:
+\subitems Spent a few hours fixing up the current codebase to reflect the direction that I wanted to take the code. Considering recent events, namely the supervisor meeting on 25/07/03, I've decided to freeze the codebase until we have a firm idea of where we are going with it.
+
+\items XP methodology research, 2 hours:
+\subitems http://www.extremeprogramming.org/
+\subitems Read up on Extream Programming and realised that we haven't been adhering to this methodology at all. Dr. Piper isn't concerned how we do it as long as it does get done. It would be good to formally adopt this methodology but I fear that we don't have the time considering how late it is in the project.
+\subitems Nevertheless, there are some things that we can use from this to help us. Considering using XP without the unit testing as I can't see how that is relevant to a computer game.
+
+\items Cogitation, 6 hours (I do this all the time but some quanta is needed):
+\subitems Having a plethora of insomnia this week, I've been attempting to create some sort of mental map of how to tie up all the parts of the project.
+
+\items Week 2, Session 2 formal meeting agenda, 1 hour:
+\subitems Creating the meeting agenda for the next formal meeting.
+
+\bye

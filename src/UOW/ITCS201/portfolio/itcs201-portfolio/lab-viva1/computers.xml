@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Computers>
+	<Computer>
+		<Name>
+			Tropism
+		</Name>
+
+		<Arch>
+			i686
+		</Arch>
+
+		<OS>
+			Debian GNU/Linux stable 3.0r2 "Woody"
+		</OS>
+
+		<RAM>
+			512 MB
+		</RAM>
+
+		<CPUs>
+			4
+		</CPUs>
+
+		<Objective>
+			Core server
+		</Objective>
+	</Computer>
+
+	<Computer>
+		<Name>
+			Pyroclastic
+		</Name>
+
+		<Arch>
+			i586
+		</Arch>
+
+		<OS>
+			Microsoft Windows 98 SE
+		</OS>
+
+		<RAM>
+			128 MB
+		</RAM>
+
+		<CPUs>
+			1
+		</CPUs>
+
+		<Objective>
+			Music jukebox
+		</Objective>
+	</Computer>
+
+</Computers>

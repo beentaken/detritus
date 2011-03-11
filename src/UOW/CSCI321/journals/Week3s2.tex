@@ -1,0 +1,48 @@
+\parskip=6 pt
+\nopagenumbers
+
+\font\mainfont=cmr10
+\font\secfont=cmbx12
+\font\tf=cmr14
+\font\ti=cmti14
+
+\def\RCS$#1:#2${\expandafter\def\csname RCS#1\endcsname{#2}}
+\RCS$Id: Week3s2.tex 2 2007-07-19 13:00:48Z pdezwart $
+
+\newcount\itemnum \itemnum=0
+
+\newcount\subitemnum
+\newcount\hours \hours=0
+
+\def\items{\parindent 24 pt \advance\itemnum by 1 \subitemnum=0 \item{\secfont\the\itemnum)}}
+\def\subitems{\parindent 24 pt \advance\subitemnum by 1 \itemitem{\secfont\the\itemnum.\the\subitemnum)}}
+\def\addhours#1{\advance\hours by #1 {#1 hours}}
+
+\centerline{\tf CSCI321: Project, \ti Source of the Nile\tf.}
+\centerline{Week 3, Spring Session, Pete de Zwart's project journal.}
+\centerline{\sevenrm \RCSId}
+
+\vskip 24 pt
+
+\mainfont
+
+\items Meeting Preparation, \addhours{2}:
+\subitems Review of the previous weeks meeting.
+\subitems Review of the previous supervisor meeting.
+\subitems Creation of the meeting agendas.
+
+\items Pair programming, \addhours{10}:
+\subitems SDL Net programming with Mike.
+
+\items Programming, \addhours{4}:
+\subitems Working on the Game Engine.
+
+\items Administration, \addhours{1}:
+\subitems \TeX ifying meeting minutes to be given to Dr. Ian Piper.
+
+\items Project Plan, \addhours{3}:
+\subitems Re-creating the project plan as requested by Dr. Ian Piper.
+
+\items Total hours: \the\hours
+
+\bye

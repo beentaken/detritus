@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<net:network xmlns:net="http://froob.optus.nu/network/"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+	xs:schemaLocation="http://froob.optus.nu/network/ 
+		http://froob.optus.nu:65533/~dezwart/portfolio/itcs201-portfolio/tut-stage4/network.xsd">
+	<!-- This is the beastly computer that runs the show -->
+	<net:computer>
+		<net:name>Tropism</net:name>
+		<net:objective>Core server</net:objective>
+		<net:arch>i686</net:arch>
+		<net:os>
+			<net:name>Debian GNU/Linux</net:name>
+			<net:release>Stable</net:release>
+			<net:nickname>Woody</net:nickname>
+			<net:revision>3.0r2</net:revision>
+		</net:os>
+	</net:computer>
+</net:network>

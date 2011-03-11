@@ -1,0 +1,4 @@
+BIT	main.c	/^#define BIT(x)		(1 << ((x) % BYTE))$/
+ELEMENT	main.c	/^#define ELEMENT(x)	(x) \/ BYTE$/
+Mmain	main.c	/^int main(int argc, char **argv) {$/
+WritePNG	main.c	/^int WritePNG(char *filename, char *packed_data, un/

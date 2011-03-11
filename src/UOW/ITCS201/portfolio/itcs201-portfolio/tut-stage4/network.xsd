@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+ targetNamespace="http://froob.optus.nu/network/"
+ elementFormDefault="qualified"
+ attributeFormDefault="unqualified">
+ <xs:element name="network">
+  <xs:complexType>
+   <xs:sequence>
+    <xs:element name="computer">
+     <xs:complexType>
+      <xs:sequence>
+       <xs:element name="name" type="xs:string" />
+       <xs:element name="objective" type="xs:string" />
+       <xs:element name="arch" type="xs:string" />
+       <xs:element name="os">
+	<xs:complexType>
+	 <xs:sequence>
+	  <xs:element name="name" type="xs:string" />
+	  <xs:element name="release" type="xs:string" />
+	  <xs:element name="nickname" type="xs:string" />
+	  <xs:element name="revision" type="xs:string" />
+	 </xs:sequence>
+	</xs:complexType>
+       </xs:element>
+      </xs:sequence>
+     </xs:complexType>
+    </xs:element>
+   </xs:sequence>
+  </xs:complexType>
+ </xs:element>
+</xs:schema>

@@ -1,0 +1,109 @@
+\input epsf
+\input verbatim
+
+\parskip 6 pt
+
+\font\titlefont=cmbx18
+
+\newcount\itemnum \itemnum=0
+
+\newcount\subitemnum
+
+\def\items{\parindent 24 pt \advance\itemnum by 1 \subitemnum=0 \item{\bf\the\itemnum)}}
+\def\subitems{\parindent 24 pt \advance\subitemnum by 1 \itemitem{\bf\the\itemnum.\the\subitemnum)}}
+\def\subitemscont{\parindent 24 pt \itemitem{}}
+
+\def\stuff#1{\eject \itemnum=0 {\bf#1:}}
+
+\def\RCS$#1: #2 ${\expandafter\def\csname RCS#1\endcsname{#2}}
+\RCS$Id: report.tex 2 2007-07-19 13:00:48Z pdezwart $
+
+\def\title#1#2#3{\centerline{\titlefont #1} \vskip 12pt \centerline{\rm Author: #2} \vskip 12 pt \centerline{\rm Student ID\#: #3} \vskip 12 pt \centerline{\rm \RCSId} \vskip 24pt}
+
+\def\text#1{{\tt #1}}
+
+\def\listing#1{\subitems{Listing of #1:}\par\begingroup\setupverbatim\input#1 \endgroup}
+\def\image#1{\subitemscont\epsffile{#1}}
+
+\title{CSCI399: Assignment 3}{Peter Nathaniel Theodore de Zwart}{9840642}
+
+\stuff{Introduction}
+
+\items For CSCI399: Assignment 3, we were given the task to create a Nutrition Clinic patient consultation management system, using Java Servlets, where:
+\subitems Patients could be added to the system.
+\subitems Consultation data could be entered for a patient.
+\subitems Patient data could be displayed in tabular or graphical format.
+\subitems Patients could be listed.
+\subitems Patients could be removed from the system.
+
+\items Certain roles also had to be defined, which allowed for authenticated access to patient data.
+\subitems Administrators \text{(administrator)}: were allowed to delete patients.
+\subitems Nutritionists \text{(nutritionist)}: were allowed to add and view patients and their data.
+\subitems Clerks \text{(clerk)}: were allowed to enter in patient consultation data.
+
+\items To achieve this, the system needed to have four distinct servlets:
+\subitems New Patient: for adding a new patient.
+\subitems Consultation: for adding consultation data for a patient.
+\subitems View Patient Data: for view patient data.
+\subitems View Patients: for view patients and optionally removing them.
+
+\stuff{System configuration}
+
+\items In order for the system to behave as desired, there was some footwork that had to be done before the servelets could be created.
+
+\items The SQL tables needed to be set up to describe the patients and their consultation data.
+\subitems There were two tables, one for a patient and one for patient consultation data.
+\subitems The patient table needed to have, per patient, a system allocated identifier, a surname, patient's initials, age, gender and height.
+\subitems The consultation data table needed to have, per consultation, the system identifier of the patient, the date of the consultation and the patient's weight.
+\listing{tables.sql}
+\subitems The tables were set in a way that when a patient was removed form the patient table, their corresponding consultation entries would be removed via a cascading delete.
+
+\items Once the SQL setup was done, the HTML infrastructure needed to be set up. To allow for future expansion and for consistency of the component web pages, a cascading style sheet was set up.
+\subitems The CSS needed to have provisioning for error messages and other informative sections.
+\listing{style.css}
+
+\items Tomcat then needed to have some users set up to take advantage of Jakarta's authentication model.
+\subitems ``canker'' is the clerk.
+\subitems ``aardvark'' is the administrator.
+\subitems ``nuncle'' is the nutritionist.
+\listing{tomcat-users.xml}
+
+\items To set up the servlets so that Tomcat knew what to serve up and how, a \text{web.xml} was created to allow for the following:
+\subitems Definition of all the four servlets.
+\subitems Access controls for the servlets.
+\subitems Authentication mechanisms.
+\subitems Database information.
+\listing{WEB-INF/web.xml}
+
+\items Some metapages were created to facilitate user authentication, login errors and to tie all the servlets together:
+\subitems A main index page was created to tie all the various servlets together.
+\listing{index.html}
+\subitems A simple login page used to authenticate the user.
+\listing{login.html}
+\subitems An even simpler error page if the user didn't get authenticated.
+\listing{error.html}
+
+\stuff{Servlet Common Code}
+\items Within lies all the common code used by the various servlets. Notably:
+\subitems SQL Authentication.
+\subitems SQL Query.
+\subitems HTML Preamble and Postamble.
+\listing{WEB-INF/classes/CommonServlet.java}
+
+\stuff{New Patient Servlet}
+\items Commented with Javadoc.
+\listing{WEB-INF/classes/NewPatientServlet.java}
+
+\stuff{New Consultation Servlet}
+\items Commented with Javadoc.
+\listing{WEB-INF/classes/NewConsultationServlet.java}
+
+\stuff{Review Servlet}
+\items Commented with Javadoc.
+\listing{WEB-INF/classes/ReviewServlet.java}
+
+\stuff{Administration Servlet}
+\items Commented with Javadoc.
+\listing{WEB-INF/classes/AdminServlet.java}
+
+\bye

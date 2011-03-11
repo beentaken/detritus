@@ -1,0 +1,189 @@
+\font\mainfont=cmr10
+\font\mi=cmti10
+\font\subsectionfont=cmbx10
+\font\sectionfont=cmbx12
+\font\headingfont=cmbx14
+\font\titlefont=cmbx16
+
+\def\RCS$#1: #2 ${\expandafter\def\csname RCS#1\endcsname{#2}}
+
+\RCS$Id: HCI-report.tex 2 2007-07-19 13:00:48Z pdezwart $
+
+\def\heading#1{\noindent {\headingfont #1} \hfill\break}
+
+\newcount\footnotes \footnotes=0
+
+\def\footnoter#1{\advance\footnotes by 1 \footnote{$^{\the\footnotes}$}{\rm #1}}
+
+\newcount\sectionnum \sectionnum=0
+
+\newcount\subsectionnum \subsectionnum=0
+
+\def\section#1{\advance\sectionnum by 1 \subsectionnum=0 \noindent {\sectionfont \the\sectionnum. #1} \hfill\break}
+
+\def\subsection#1{\advance\subsectionnum by 1 \noindent {\subsectionfont \the\sectionnum.\the\subsectionnum. #1} \hfill\break}
+
+\def\title#1{\centerline{\titlefont #1} \centerline{\sevenrm \RCSId} \vskip 12 pt}
+
+\newcount\itemnum
+
+\def\items{\advance\itemnum by 1 \itemitem {\the\itemnum)}}
+
+\def\iDesk{{\mi iDesk}}
+
+\def\iDesks{{\mi iDesks}}
+
+\def\UOW{{\mi University of Wollongong}}
+
+\parskip 12 pt
+
+\parindent 24 pt
+
+\title{HCI Decisions Report.}
+
+\mainfont
+
+\heading{Introduction.}
+
+This report will outline the Human Computer Interface decisions that were made in the design of the various screens used for the Login, Save, Load and Print subsystems also for the design of the \iDesks\ graphical layout.
+
+\heading{iDesk interface.}
+
+The screen is split in half, each side of the screen may load up either of the input methods, e.g. Lecture notes, live video feed, personal notes, etc... Each side is configurable as to what will be displayed.
+
+Below the two main windows, the subtitle window is located.
+
+The icon menu, which is always displayed, located at the top of the \iDesks\ interface, cantered in relation to the maximal width of the \iDesk.
+
+\heading{Screens.}
+
+All actions apart from Login, such as Save, Load and Print, change the modality of the \iDesk\ interface so that the user is locked in to using only the current foreground window.
+
+\section{Login.}
+
+The login subsystem has common interface elements that are shared by all of it's states:
+
+\itemnum=0
+\items A Subtle grey background to ensure that there is no incidents of floating text due to a solid black background.
+\parskip 0 pt
+\items Dark grey (shaded transparent) foreground windows to delineate the active parts of the screen from the inactive.
+\items White text that contrasts well with the foreground windows.
+\items Black boxes for where the user is to enter information.
+\items Small \UOW\ logo in the top left hand corner to brand the interface.
+\items Main window cantered to draw the users attention.
+\items A welcome message to placate the user, located at the top of the main window.
+\parskip 12 pt
+
+\subsection{Prompt for user biometric scan.}
+
+No cognitive burden on the user, the user is not required to recall any information.
+
+Simple instructions under the welcome message in common language.
+
+A red progress bar on a white background to indicate the progress of the biometric scan.
+
+A black box with the scanned image of the thumb to show the user that the scan is taking place and that it is taking a scan of their thumb.
+
+\subsection{Prompt for user password.}
+
+Simple instructions under the welcome message requesting that the user enter their password in a large black box the main window.
+
+As the password is really a scanned signature of the user, the authentication system will use a heuristic analysis of the signature to determine if it is really the user. To ensure that the user knows that they have entered, their signature is displayed on the screen. The security of this situation is acceptable as the risk analysis of having a users signature displayed is deemed to be lower than the probability that a person will be able to assimilate that persons writing style and fabricate their fingerprint.
+
+\subsection{Authentication failure.}
+
+Error message place in a large black box in the main window clearly stating the error and what the user must do to recover from it.
+
+Simple red circle with a X in it drawing the users attention to the error message.
+
+\subsection{Authorisation failure.}
+
+Similar to the Authentication failure error screen except that the message contents is relative to this particular error.
+
+\subsection{Welcome.}
+
+Text stating what the login subsystem is now doing.
+
+A progress bar, similar to the one use in the biometric scan is used to show the user where the system is at in regards to loading their preferences.
+
+\section{Save.}
+
+The save dialog has been designed with many features in common with existing industry defacto interfaces to aid the user by giving them a sense of familiarity decreasing the cognitive burden in having to learn yet another way of doing something.
+
+\subsection{Save screen.}
+
+The save screen has been designed as a pop-up that will appear in the middle of the \iDesk\ to draw the users attention to what action they have selected. In addition to this the pop-up is modal in the sense that the user can only interact with the current dialog.
+
+The save pop-up itself has four sections, a selectable media side bar, a box describing the current contents of the selected media, a list of check boxes detailing which sections of the current session will be saved, a drop down text box where the user is able to manually enter the file name or to choose from a pre-determined list of file names. There are two action buttons, the ``save'' button which will commit the users action and a ``cancel'' button which will exit the entire save sub-system.
+
+\subsection{Save error pop-up.}
+
+Simple small pop-up using the same error icon as with the Login sub-system's error messages.
+
+Displays a message indicating to the user what the error was and they are left up to their own devices on how to solve the problem.
+
+The uses is locked in to pressing the ``OK'' button to acknowledge the error and get on with their \iDesk\ session.
+
+\subsection{Save success pop-up.}
+
+An informative pop-up window indicating that the save operation was successful.
+
+Similar to the error pop-up, the user must acknowledge this message by pressing the ``OK'' button.
+
+\section{Load.}
+
+\subsection{Load screen.}
+
+Identical to the Save dialog, except that the list of check boxes will have grayed out options for those sections which do not exist in the current save file. The user may then select which sections from the file they desire.
+
+\subsection{Load error pop-up.}
+
+Identical to the Save error pop-up. Except for the error message being relative to the desired load operation.
+
+\subsection{Load success pop-up.}
+
+Similarly identical to the Save success pop-up.
+
+\section{Print.}
+
+Similar to Save and Load in it's modality.
+
+Each part of the dialog which is not an information pop-up will have a ``cancel'', ``back'' and ``next'' buttons, except as indicated in the relevant sections.
+
+\subsection{Printer selection dialog.}
+
+The top section will be a white box with selectable printer icons, when a printer has been selected the information section below the printers will then be updated to contain the particular information of that selected printer.
+
+The ``back'' button is grayed out in this part of the dialog as there is no previous screen in the dialog.
+
+\subsection{Select data to print.}
+
+The dialog changes to display four check boxes detailing the lecture material that can be selected for printing. Notes, scans, etc...
+
+\subsection{Printer options dialog.}
+
+Printer options: Page range, layout, scaling, copies \& collation.
+
+Page range: All, current page, listed range in text box.
+
+Layout: Zoom, as in the number of pages per printed sheet.
+
+Scaling: Expand or shrink the material to fit the printed medium of the selected printer.
+
+Copies \& collation: Text box to enter the desired number of copies, when used shall allow the user to select the ``collate'' check box, which is otherwise grayed out when there is only one copy desired.
+
+\subsection{Print error pop-up.}
+
+Similar to the error pop-ups used in the Save and Load subsections.
+
+This section will encompass the ``No printers available.'' error.
+
+\subsection{Print success pop-up.}
+
+Similar to the success pop-ups of Save and Load.
+
+\heading{Conclusion.}
+
+As we have detailed in the above documentation, the major factor in the design of our interface for the \iDesk\ is to maximise ease of use and familiarity with existing interface to help the user by not introducing new interfaces paradigms that require unnecessary effort to learn.
+
+\bye

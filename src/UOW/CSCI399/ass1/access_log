@@ -1,0 +1,2 @@
+127.0.0.1 - tom [TIME DELETED] "GET /mystuff/Welcome.shtml HTTP/1.1" 200 628
+127.0.0.1 - charlie [TIME DELETED] "GET /mystuff/Welcome.shtml HTTP/1.1" 401 495

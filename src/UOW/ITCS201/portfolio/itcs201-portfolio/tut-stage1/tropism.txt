@@ -1,0 +1,6 @@
+Name: Tropism
+Archetecture: i686
+Operating System: Debian GNU/Linux stable 3.0r2 "Woody"
+Memory: 512 MB
+Number of CPUs: 4
+Primary objective: Core server

@@ -1,0 +1,67 @@
+\def\mbox#1{\leavevmode\hbox{#1}}
+\input btxmac
+
+\font\footnotefont=cmr7
+\font\mainfont=cmr12
+\font\mi=cmti12
+\font\subsectionfont=cmbx12
+\font\sectionfont=cmbx14
+\font\headingfont=cmbx16
+\font\titlefont=cmbx18
+
+\def\RCS$#1: #2 ${\expandafter\def\csname RCS#1\endcsname{#2}}
+
+\RCS$Id: essay2.tex 2 2007-07-19 13:00:48Z pdezwart $
+
+\def\heading#1{\vskip 12 pt \leftline{\headingfont #1}}
+
+\def\quotation#1#2{{\mi ``#1''}~\cite{#2}}
+
+\def\title#1#2#3{\centerline{\titlefont #1} \vskip 12pt \centerline{\mainfont Author: #2} \vskip 12 pt \centerline{\mainfont Student ID\#: #3} \vskip 12 pt \centerline{\footnotefont \RCSId} \vskip 24pt}
+
+\def\abbrev#1{#1}
+\def\IP{\abbrev{Intellectual Property}}
+\def\RIAA{\abbrev{Recording Industry Association of America}}
+\def\MPAA{\abbrev{Motion Picture Association of America}}
+\def\CSS{\abbrev{Content Scrambling System}}
+\def\DVD{\abbrev{Digital Video Disc}}
+
+\rightskip=1.5cm
+\leftskip=3cm
+\baselineskip 18pt
+
+\title{IACT201: Essay 2}{Peter Nathaniel Theodore de Zwart}{9840642}
+
+\mainfont
+
+While privacy advocates argue for greater control of personal information by individuals and the commercial sector argue for the access to that information, it cat be seen that there is an apparent converse relationship between the individual and the commercial sector. It can be shown that the commercial sector desire to control the flow of information over the Internet whereas the individual desires access to that information. This is ironic in the transposition of the relationship and inconsistent in the sense that each side are playing the devils advocate with the same issue. The problem is whether this issue can be resolved in a logically coherent manner. Considering the standpoint that the commercial sectors goal is that of commerce, then from the perspective of individual and collective social ideals based on the open flow of information, it can be seen that this is a hyperbolic problem, where absolute balance is an asymptote. Therefore, unless both parties are willing to acknowledge that balance is not possible but there are regions were the situation is acceptable, there will be no ``reasonable'' solution.
+
+The individual and the commercial sector don't have the same viewpoint when it comes to the issues of privacy, which has previously discussed in an earlier essay\cite{pete}. The inverse relationship also exists when it comes to what the commercial deems as private, information that it doesn't want to be publicly available, or if available, not used without express permission. Taviani states \quotation{entrepreneurs and business interests argue for strong legal measures that will enable them to control proprietary information in cyberspace, while ordinary users argue for greater access to that information}{itcr}, showing that the inverted relationship is in regards to the intangible concept of \IP, being both the bane and saviour to innovation, once again, dependant on you viewpoint, either that of academia or commerce.
+
+The reasoning behind the push for unfettered access to \IP\ via the Internet is one where the agility given by the rise in technological innovations is greater than the capability of the commercial sector to harness for legitimate and illegitimate business means. This has led to a remarkable increase in the capability of the individual to access content rich material over the Internet but to the purported decline in sales for the same material as reported by commercial sectors. For example, the rise and fall of Napster as the \RIAA\ flexed it litigious muscle which forced the closure of the Peer to Peer (P2P) network\cite{nawci}. Peer to peer networks have become the transport medium of choice between individuals to share data. This can be seen as both an act of piracy and an attempt to circumvent outdated models on the ownership of information.
+
+Here a great irony can be seen, with the proliferation of P2P networks. The same characterisation of commercial entities to take advantage of situations that are conducive to profit, for example, the brokerage of individuals private data, can be seen in the actions of individuals in the use of these P2P resources. Perhaps the reason that the commercial sector acts in an avaricious manner is because of whom they are directed by. This is not the entirety of the the situation, there are such initiatives, such as the Open Source community, which is attempting to harness the greater availability of \IP to further technological innovation. For example, the Internet infrastructure is largely based on \IP in the public domain. Clearly a good example where open information is a ``good thing''$^{tm}$. However, these sort of initiatives are seen as competition in the commercial sector, but competition on a ideological level, it has been said that the Open Source community is to the commercial sector like communism is to capitalism.
+
+In response, the commercial sector at large, has reacted in a heavy handed manner to individuals attempting to use their \IP, only exacerbating the problem. Avioli wrote the following about current issues between the \MPAA\ and the use of \CSS\ circumvention software to legitimate view the contents of a \DVD, \quotation{The Electronic Frontier Foundation $\ldots$ accuses the MPAA of trying to remake the technology world to suit it's own ends}{huaicpf}. Here the problem is tainted by the interspersion of legitimate personal use of \IP\ and blatant piracy. With the view taken by commercial entities that there is no delineation between the pirate and the individual with non villainous ideas.
+
+There is also evidence to show that entities in the commercial sector have been abusing current infrastructure to protect \IP. Such as the patenting system, which is used to store information about existing \IP, such as the specifics of the invention, ownership and application. Due to the patenting system being largely a bureaucratic institution, there has been incidents where disparate commercial entities have been granted the patent for the same invention, the Graphical Image Format (GIF) patent for example, which was held by both UNISYS and IBM simultaneously. This type of problem also has an effect where a business attempts to file for a patent for \IP\ considered to be in the public domain. Usually there is prior art that can be used to debunk the patent claim. Another problem with relying on the patenting system is that it is also being used for frivolous claims such as hyper linking, the ability to link text in one electronic document to text in another electronic document. This innovation has been in the public domain for decades yet some commercial entities have the audacity to attempt to seize the opportunity to use the tools, fear, uncertainty and doubt to extort monies out of other commercial entities and individuals.
+
+Santa Cruz Operations, who held the patents for the majority of System V UNIX has recently engaged itself in nefarious legal actions against the Open Source community at large using the methods described previously. They claimed that they had \IP\ rights to crucial source code portions of the Linux kernel. This could be seen as an attempt by the failing company to increase it's stock price so that the major shareholders could perform what is colloquially knows as a ``pump and dump'', where the share price is inflated due to massive capital gains, achieved by approaching fortune 500 companies and demanding licensing fees insurance on \IP\ which is currently being contested in court.
+
+However, where can the line be drawn between the actions of an individual abusing the current nearly incapacitated \IP\ protection infrastructure to achieve their own Machiavellian ends or that of a commercial entity attempting to appropriate similar \IP\ using the same means. Since it has been determined that both the individual and commercial sector will taxis towards the position that suits them best irregardless of the desires of the other party, a system needs to be devised to balance these orthogonal postulations. This needs to be done as both the access to \IP\ and its protection benefit all parties. As Smith and Mann have written about this dichotomy in relation to the software industry, \quotation{IP protection has given software developers the incentive to invest in developing and marketing new programs by providing a legal mechanism through which developers can capture at least some of their software's value-whatever that may be-in the marketplace $\ldots$ At times, however, acts that may otherwise impinge on IP rights have been regarded as necessary to promote IT interoperability.}{iaippitsi}. They show that even though \IP\ is necessary to ensure innovation, there needs to be flexibility for when technology advances faster than the legal system associated with it in order not to stunt growth because of the lesser impetus.
+
+There are many technical solutions to the privacy problem from a sharing point of view, such as Karjoth and Schunter's \quotation{Privacy Policy Model for Enterprises}{appmfe} and Dreyer and Olivier's \quotation{Workbench for Privacy Policies}{awfpp}. However, this are technical implementation to only a small aspect of the problem. The domain which needs to be addressed with greatest urgency is that of governance. Assuming that there can be a governing body that is relatively impartial to this debate, it could create a structure defining simple instrumental goals and policies derived form the goals. Enforcing these is another matter.
+
+As Taviani et al eloquently put it, \quotation{Perhaps our greatest challenge, then, is to persuade policy makers to develop a scheme that will enable the software industry to enjoy certain legal protections for the creation of its products without jeopardizing the sharing of information among ordinary users.}{itcr}, so how are we meant to sway the minds of the powerful? Can market forces be used to achieve this, the same forces that perhaps put us in this precarious situation? Here we have to make some assumptions and create a model of best fit, a heuristic.
+
+Assume that entities within the system, both individual and collective, either commercial, governmental or public, all act in a rational manner. Find a locus of desire common to all of the entities, a carrot, in this case power, the will to power, to exercise said power to achieve an entities needs and desires. Assume that an impartial entity can be created to have judicial power over all other entities, which has the task to arbiter disputes and exercise it's dominion by executing punishment on those who attempt to use their power to abuse those of lesser power. But where does this leave us? It puts us in a situation where there is an entity with executive power which is under the same influences as any other living entity, it wants to survive, a potential tool which can be abused. Despite this Orwellian creation, something akin to this needs to be achieved, a system where \IP\ can be adequately governed so that the forces of desire for profits and the desire for innovation can be managed.
+
+As it is advocated to balance the equation of open versus shared \IP, there are many difficulties in attempting to regulate the situation of opposed desires between the individuals access to the \IP\ of entities within the commercial sector. This is ironic, as the inverse situation exists where the commercial sector desires access to private data about individuals, where the individual may desire to keep this data private. As both sides are playing the devils advocate and displaying the same propensity for abuse of the opposing party, there would be great difficulties in creating a governing body to oversee the regulation of \IP\ in a reasonable manner, as this body would have to be created using elements of individuals and that of the commercial sector. Perhaps it could be said that the problem is not so much in the policy making, or the technical implementation but at a base level. Is there a living organism that does not attempt to consume resources in a competing environment? In a society that adheres to the Darwinian theory of evolution, any entity that does not take advantage of situation is at grave peril of extinction. However, if society as a whole can at least manage a rational quorum with majority, perhaps the near balance could be achieved by careful application of power, assuming that individuals and the commercial sector are willing to give power to such a regulating body.
+
+\heading{References}
+
+\nocite{*}   % put all database entries into the reference list
+\bibliography{essay2}   % specify the database files
+\bibliographystyle{plain}   % specify plain.bst as the style file
+
+\bye

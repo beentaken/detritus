@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tomcat-users>
+  <role rolename="admin"/>
+  <role rolename="manager" description="Manages stuff"/>
+  <role rolename="administrator"/>
+  <role rolename="role1"/>
+  <role rolename="clerk"/>
+  <role rolename="tomcat"/>
+  <role rolename="nutritionist"/>
+  <user username="role1" password="REDACTED" roles="role1"/>
+  <user username="canker" password="REDACTED" roles="clerk"/>
+  <user username="aardvark" password="REDACTED" roles="administrator"/>
+  <user username="nuncle" password="REDACTED" roles="nutritionist"/>
+  <user username="dezwart" password="REDACTED" fullName="" roles="admin,manager"/>
+  <user username="tomcat" password="REDACTED" roles="tomcat"/>
+  <user username="both" password="REDACTED" roles="tomcat,role1"/>
+</tomcat-users>

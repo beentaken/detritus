@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="glade.xsl" type="text/xsl"?>
+
+<GTK-Interface>
+
+<project>
+  <name>ITCS201</name>
+  <program_name>itcs201</program_name>
+  <directory></directory>
+  <source_directory>src</source_directory>
+  <pixmaps_directory>pixmaps</pixmaps_directory>
+  <language>C</language>
+  <gnome_support>False</gnome_support>
+  <gettext_support>False</gettext_support>
+</project>
+
+<widget>
+  <class>GtkWindow</class>
+  <name>window1</name>
+  <title>window1</title>
+  <type>GTK_WINDOW_TOPLEVEL</type>
+  <position>GTK_WIN_POS_NONE</position>
+  <modal>False</modal>
+  <allow_shrink>False</allow_shrink>
+  <allow_grow>True</allow_grow>
+  <auto_shrink>False</auto_shrink>
+
+  <widget>
+    <class>GtkVBox</class>
+    <name>vbox1</name>
+    <homogeneous>False</homogeneous>
+    <spacing>0</spacing>
+
+    <widget>
+      <class>GtkMenuBar</class>
+      <name>menubar1</name>
+      <shadow_type>GTK_SHADOW_OUT</shadow_type>
+      <child>
+	<padding>0</padding>
+	<expand>False</expand>
+	<fill>False</fill>
+      </child>
+
+      <widget>
+	<class>GtkMenuItem</class>
+	<name>file2</name>
+	<signal>
+	  <name>activate</name>
+	  <handler>on_file2_activate</handler>
+	  <last_modification_time>Tue, 04 May 2004 05:05:26 GMT</last_modification_time>
+	</signal>
+	<label>File</label>
+	<right_justify>False</right_justify>
+      </widget>
+
+      <widget>
+	<class>GtkMenuItem</class>
+	<name>edit1</name>
+	<signal>
+	  <name>activate</name>
+	  <handler>on_edit1_activate</handler>
+	  <last_modification_time>Tue, 04 May 2004 05:05:26 GMT</last_modification_time>
+	</signal>
+	<label>Edit</label>
+	<right_justify>False</right_justify>
+      </widget>
+
+      <widget>
+	<class>GtkMenuItem</class>
+	<name>view2</name>
+	<signal>
+	  <name>activate</name>
+	  <handler>on_view2_activate</handler>
+	  <last_modification_time>Tue, 04 May 2004 05:05:26 GMT</last_modification_time>
+	</signal>
+	<label>View</label>
+	<right_justify>False</right_justify>
+      </widget>
+
+      <widget>
+	<class>GtkMenuItem</class>
+	<name>help1</name>
+	<signal>
+	  <name>activate</name>
+	  <handler>on_help1_activate</handler>
+	  <last_modification_time>Tue, 04 May 2004 05:05:26 GMT</last_modification_time>
+	</signal>
+	<label>Help</label>
+	<right_justify>False</right_justify>
+      </widget>
+    </widget>
+
+    <widget>
+      <class>GtkScrolledWindow</class>
+      <name>scrolledwindow1</name>
+      <hscrollbar_policy>GTK_POLICY_NEVER</hscrollbar_policy>
+      <vscrollbar_policy>GTK_POLICY_ALWAYS</vscrollbar_policy>
+      <hupdate_policy>GTK_UPDATE_CONTINUOUS</hupdate_policy>
+      <vupdate_policy>GTK_UPDATE_CONTINUOUS</vupdate_policy>
+      <child>
+	<padding>0</padding>
+	<expand>True</expand>
+	<fill>True</fill>
+      </child>
+
+      <widget>
+	<class>GtkText</class>
+	<name>text1</name>
+	<can_focus>True</can_focus>
+	<editable>False</editable>
+	<text></text>
+      </widget>
+    </widget>
+
+    <widget>
+      <class>GtkStatusbar</class>
+      <name>statusbar1</name>
+      <child>
+	<padding>0</padding>
+	<expand>False</expand>
+	<fill>False</fill>
+      </child>
+    </widget>
+  </widget>
+</widget>
+
+</GTK-Interface>

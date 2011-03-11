@@ -1,0 +1,151 @@
+           CSCI212 - OPERATING SYSTEMS 2002
+
+Assignment 2                                        4 marks
+
+Due date                                 April 8 at 11:55pm
+-----------------------------------------------------------
+The following questions relate to operating systems.
+Read the text carefully and submit your answers via the
+"Ass2 - Submit Answers" quiz link on WebCT.
+-----------------------------------------------------------
+For questions 1 to 6 indicate if the following statements 
+are true or false (T/F)?
+
+1.  The program that issues a system call can pass parameters 
+    to the system routine only in registers.
+----------------------------------------------------[0.2 marks]
+
+2.  One difficulty with extensive layered OS architectures
+    is that they are harder to debug.
+----------------------------------------------------[0.2 marks]
+
+3.  When each processor is running an identical copy of the
+    operating system, we are doing asymmetric multiprocessing.
+----------------------------------------------------[0.2 marks]
+
+4.  A job is said to be I/O-bound, when it requires long I/O
+    bursts followed by short CPU bursts.
+----------------------------------------------------[0.2 marks]
+
+5.  In a multiprogramming operating system as soon as a 
+    process finishes waiting for I/O, it gets the CPU 
+    back and starts running.
+----------------------------------------------------[0.2 marks]
+
+6.  Direct Memory Access (DMA) is most suited for transferring
+    data to slow I/O devices.
+----------------------------------------------------[0.2 marks]
+For questions 7 to 10 select ONE answer that is MOST correct.
+
+7. The MS DOS operating system was originally designed:
+	
+	A -- with an extensive layered architecture in mind
+	B -- to provide the most functionality in the least space
+	C -- with multi-tasking in mind
+	D -- to provide maximum system protection
+	E -- all of the above
+----------------------------------------------------[0.3 marks]
+
+8. The overlap of CPU an I/O operations requires mechanisms 
+   for:
+	A - direct memory access.
+	B - synchronizing slow speed and high speed 
+	    peripherals.
+	C - a process to give up the CPU to another process 
+	    while the I/O transfer is underway.
+	D - polling the I/O device to see if it has completed 
+	    the operation.
+	E - running 2 CPUs simultaneously.
+
+
+----------------------------------------------------[0.3 marks]
+
+9. What is the reason for providing process cooperation:
+	
+	A -- to make programs modular
+	B -- to process programs faster concurrently
+	C -- to share common data
+	D -- convenience for the user
+	E -- all of the above
+----------------------------------------------------[0.3 marks]
+
+10. In the round-robin CPU scheduling algorithm, using very large
+    time slices degenerates scheduling into:
+	
+	A -- SJF-nonpreemptive
+	B -- SJF-preemptive
+	C -- FCFS
+	D -- non-preemptive priority
+	E -- none of the above
+----------------------------------------------------[0.3 marks]
+For questions 11 to 14 write down the average waiting time 
+for each given scheduling situation.
+
+11. Consider the SJF algorithm where 5 processes arrive 
+    simultaneously at time 0 and have the following burst times. 
+
+	Process    Burst Time
+	-----------------------
+	   P1          8
+	   P2         11
+	   P3          4
+	   P4          2
+	   P5          6
+
+   Calculate the SJF average waiting time for these processes.
+----------------------------------------------------[0.4 marks]
+
+12. Consider the SJF algorithm with preemption. Given 5
+    processes with their arrival times and burst times as follows:
+
+	Process   Arrival Time   Burst Time
+       -----------------------------------------
+	  P1           0            8
+	  P2           3            4
+	  P3           4            2
+	  P4           7            6
+	  P5          10            1
+
+    What is the average waiting time for these processes?
+----------------------------------------------------[0.4 marks]
+
+13. Assume that at time zero, there are 5 processes ordered 
+    according to their arrival time. Let the sequence be:
+
+	Process    Burst time
+       ----------------------------
+	   P1           4
+	   P2           8
+	   P3           2
+	   P4           9
+	   P5           3
+	
+    The scheduler applies the RR algorithm.
+    What is the average waiting time when
+    a time quantum of 3 is used?
+----------------------------------------------------[0.4 marks]
+
+14.Consider the RR algorithm where 4 processes arrive
+   at different times and have burst times as follows:
+
+	Process     Arrival Time     Burst Time
+	-----------------------------------------
+	   P1           0                9
+	   P2           3                7
+	   P3           6                3
+	   P4          10                4
+
+    What is the average waiting time for these processes 
+    if the time quantum is 4 ?
+
+    (Hint: Try tracking which process will be in the CPU
+     and which processes will be in the ready queue for
+     each time quantum.)
+----------------------------------------------------[0.4 marks]
+
+----------------------------------------------------------------------
+Note: Failure to comply with the submission instructions or failure 
+to submit your assignment on time, (without supporting documents, 
+eg a medical certificate), will attract ZERO marks.
+----------------------------------------------------------------------
+

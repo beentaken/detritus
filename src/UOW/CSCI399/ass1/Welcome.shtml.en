@@ -1,0 +1,10 @@
+<head>
+<title>Welcome to my World</title>
+</head>
+<body>
+<h1>Welcome to my world</h1>
+<p>Cheap and nasty page to welcome you to my World, per se.
+<p>Today is <!--#echo var="DATE_LOCAL" -->
+<pre>This page has been accessed <!--#exec cmd="./count.sh .en" --> times.</pre>
+</body>
+</html>

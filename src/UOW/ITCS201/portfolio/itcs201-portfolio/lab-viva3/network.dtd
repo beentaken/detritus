@@ -1,0 +1,19 @@
+<!-- DTD for Pete's network -->
+
+<!ELEMENT network ( computer* )>
+
+<!ELEMENT computer ( name, objective, arch, os, services)>
+
+<!ELEMENT name ( #PCDATA )>
+
+<!ELEMENT objective ( #PCDATA )>
+
+<!ELEMENT arch ( #PCDATA )>
+
+<!ELEMENT os ( name, release, nickname, revision )>
+
+<!ELEMENT release ( #PCDATA )>
+
+<!ELEMENT nickname ( #PCDATA )>
+
+<!ELEMENT revision ( #PCDATA )>

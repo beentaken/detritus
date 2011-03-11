@@ -1,0 +1,55 @@
+$Id: ass2.txt 2 2007-07-19 13:00:48Z pdezwart $
+
+Preamble:
+
+	This security policy is for the UOW IEEE Society which so far, does not
+have one.
+
+	See http://ieee.uow.edu.au/ for information.
+
+	The short and dirty description is that there is a Lab where people can
+use existing terminals, hook up their own mobile terminal or log in remotely
+to do stuff which is academically related.
+
+	I am currently a member of the IEEE society. However, I am not
+currently the SysAdmin or on the Board of Directors.
+
+Policy:
+
+	The IEEE Society of the University of Wollongong exists to provide it's
+members with a stable laboratory environment to perform academic work. Thus, the
+laboratory facilities should be protected to ensure that the above condition is
+met.
+
+	Members are responsible for their own attitudes and work, as to not
+restrict any persons fair use of the laboratory facilities. Members should take
+a zero tolerance approach to any persons who attempt to contravene this policy.
+
+	It is the responsibility of the Laboratory Resident Administrative
+Technician (RAT), to oversee the menial administrative tasks of the
+laboratory. The Lab RATs have the power to temporarily suspend members from
+accessing the lab facilities if the members act inappropriately, as deemed by
+the Lab RAT in accordance to this policy.
+
+	Lab RATs are required to inform their superior, the Unanimously
+Brought-forward Engineering Ragamuffin RAT (UBER-RAT) of any event that may
+compromise the stability and security of the lab facility. It is then up to the
+UBER-RAT to discern an appropriate course of action to allow Club members to
+carry out their academic work without interference.
+
+	The UBER-RAT has the responsibility of formulating guidelines and
+laboratory standards to ensure that the Lab RATs can carry out their duties.
+The UBER-RAT has the authority of inflicting Rapidly Activated Bludgeoning
+of the Iconoclast Egghead Simpleton (RABIES), upon transgressors, granted 
+by the Board of Directors when the UBER-RAT is inducted.
+
+References:
+
+"Practical UNIX & Internet Security, 2nd Edition", Simson Garfinkel & Gene
+	Spafford, 2nd Edition April 1996, O'Reilly & Associates.
+
+"IEEE Network Administration Guide",
+	http://ieee.uow.edu.au/documents/Lab_Admin/Lab_Admin/
+
+"Rules governing the use of University computer facilities",
+	http://www.uow.edu.au/its/userguides/pdf/rules.pdf

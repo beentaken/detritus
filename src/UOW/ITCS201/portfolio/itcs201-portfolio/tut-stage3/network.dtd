@@ -1,0 +1,27 @@
+<!-- DTD for Pete's network -->
+
+<!ELEMENT network ( computer* )>
+
+<!ELEMENT computer ( name, objective, arch, os, services)>
+
+<!ELEMENT name ( #PCDATA )>
+
+<!ELEMENT objective ( #PCDATA )>
+
+<!ELEMENT arch ( #PCDATA )>
+<!ATTLIST arch subarch CDATA #REQUIRED>
+
+<!ELEMENT os ( #PCDATA )>
+<!ATTLIST os release CDATA #REQUIRED>
+<!ATTLIST os nickname CDATA #REQUIRED>
+<!ATTLIST os revision CDATA #REQUIRED>
+
+<!ELEMENT services ( service+ )>
+<!ATTLIST services network CDATA #REQUIRED>
+
+<!ELEMENT service ( transport, application )>
+
+<!ELEMENT transport ( #PCDATA )>
+<!ATTLIST transport port CDATA #REQUIRED>
+
+<!ELEMENT application ( #PCDATA )>

@@ -1,0 +1,90 @@
+$Id: talk.txt 2 2007-07-19 13:00:48Z pdezwart $
+
+-	Goals of the Odyssey:
+
+	-	"erase the memories of the failure of the last two NASA mission
+		to [Mars]".
+
+	-	"The Odyssey's mission is to map the planets geology, paying
+		particular attention to the role of water; both past and
+		present."
+
+-	To carry out it's mission the Odyssey will be equipped with an IR
+	(THEMIS) and a gamma ray (GRS: NS & HEND) spectrometer.
+
+-	THermal EMissions Imaging System (THEMIS):
+
+	-	Infrared spectrometer.
+
+	-	Spatial Resolution of 100m.
+
+	-	Comparison to the Thermal Emission Spectrometer (TES) on-board
+		the Mars Global Surveyor (MGS).
+
+	-	Used to map mineral distribution.
+
+	-	Also capable of imaging in the visible spectrum at a spatial
+		resolution of 20m.
+
+	-	Can judge the suitablilty of landing sites by measuring their
+		Thermal Inertia.
+
+-	Gamma Ray Spectrograph (GRS):
+	
+	-	Neutron Spectrometer (NS):
+
+	-	High Energy Neutron Detector (HEND).
+
+	-	Spatial resolution of 300Km.
+
+	-	Used to map the atomic distribution.
+
+	-	Can detect Hydrogen up to 1m below the surface.
+
+	-	Requires intense cooling to 90K. Approx -184 Degrees Celsius.
+		Used black space.
+
+-	Mars Radiation Environment Experiment (Marie):
+
+	-	Solid state radiation detector.
+
+	-	Used to generate statistics on the radiation levels in Martian
+		orbit.
+
+	-	Necessary for human missions to Mars as radiation level
+		experiments not carried outside Terra's magnetic field.
+
+-	Water on Mars:
+
+	-	Surface Glaciers.
+
+	-	Underground Aquifers.
+
+-	Odyssey originally had a rover:
+
+	-	Moth balled following the failures of the Mars Climate Observer
+		(MCO) and the Mars Polar Lander (MPL) in 2000.
+
+	-	Would have carried out experiments similar to Marie.
+
+-	JPL evaluated the mission parameters:
+
+	-	Out of around 200,000 parameters, 10% were found to be mission
+		critical.
+
+-	NASA assembled a "Red-Team" of 50 industry experts:
+
+	-	Their goal was to independently examine the Odyssey mission.
+
+	-	Around 140 Actions items tabled from their findings.
+
+	-	Major change from the "Red-Teams" findings:
+
+		-	Problem with main propulsion system (hypergolic).
+
+-	NASA's change of attitude:
+
+	-	Better, faster, cheaper.
+
+	-	Mission success oriented.
+

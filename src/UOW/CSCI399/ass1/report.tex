@@ -1,0 +1,89 @@
+\input epsf
+\input verbatim
+
+\parskip 6 pt
+
+\font\titlefont=cmbx18
+
+\newcount\itemnum \itemnum=0
+
+\newcount\subitemnum
+
+\def\items{\parindent 24 pt \advance\itemnum by 1 \subitemnum=0 \item{\bf\the\itemnum)}}
+\def\subitems{\parindent 24 pt \advance\subitemnum by 1 \itemitem{\bf\the\itemnum.\the\subitemnum)}}
+\def\subitemscont{\parindent 24 pt \itemitem{}}
+
+\def\stuff#1{\itemnum=0 {\bf#1:}}
+
+\def\RCS$#1: #2 ${\expandafter\def\csname RCS#1\endcsname{#2}}
+\RCS$Id: report.tex 2 2007-07-19 13:00:48Z pdezwart $
+
+\def\title#1#2#3{\centerline{\titlefont #1} \vskip 12pt \centerline{\rm Author: #2} \vskip 12 pt \centerline{\rm Student ID\#: #3} \vskip 12 pt \centerline{\rm \RCSId} \vskip 24pt}
+
+\def\text#1{{\tt #1}}
+
+\def\listing#1{\par\begingroup\setupverbatim\input#1 \endgroup}
+
+\title{CSCI399: Assignment 1}{Peter Nathaniel Theodore de Zwart}{9840642}
+
+\stuff{Apache section}
+
+\items Setting up the apache server.
+
+This task was simple as the online documentation provided with the source distribution is intuitively set out and has a lot of content and examples.
+
+To get the apache server doing what was required of it accoriding to the assignemtent specification, a few things had to be modifed in the \text{\$PREFIX/conf/httpd.conf} which I shall list:
+
+\subitems \text{ServerName} had to be set, so that the server wouldn't complain about not being able to determine it's hostname, which it shouldn't, stupid thing.
+
+\subitems \text{<Directory ``\$PREFIX/htdocs/mystuff''>} was defined. This section of the config file has all the information related to this directory. Apart from the usual \text{Allow from .uow.edu.au} this section needed to contain authentication mechanisms for using a users file and groups file created by \text{\$PREFIX/bin/htpasswd}.
+
+\subitemscont To accolplish the use of basic authentication, the \text{mystuff} directory needed to have \text{AuthType Basic} set with the \text{.htpasswd} and \text{.htgroup} authentication files listed.
+
+\subitemscont Ensuring that only the members listed in the \text{friends} group could access the directory, \text{Require group friends} was set.
+
+\subitemscont In addition to this, the following options were set for the directory: \text{-Indexes}, to turn of directory indexing and \text{+Includes} to have server side includes. Here is one of the \text{.shtml} files that uses SSIs.
+
+\listing{Welcome.shtml.en}
+
+\subitemscont Here is the small shell script that handles the counters:
+
+\listing{count.sh}
+
+\subitems \text{AddType text/html .shtml} and \text{AddHandler server-parsed .shtml} were uncommented to allow the use of server side includes. Here are two windowshots showing the use of \text{Multiviews} and \text{Includes}:
+
+\subitemscont\epsffile{english.ps}
+
+\subitemscont\epsffile{french.ps}
+
+\subitems For the Server Status page, it's entire \text{<Location ...>} section was uncommented with \text{Allow from .uow.edu.au} appended after the Deny ACL. Here is a windowshot of the Server Information page:
+
+\subitemscont\epsffile{server_info.ps}
+
+\subitems Similarily for the Server Info page, it's entire \text{<Location ...>} section was uncommented with \text{Allow from .uow.edu.au} appended after the Deny ACL. Here is a window shot of the Server Information page:
+
+\subitemscont\epsffile{server_info.ps}
+
+\subitems Here is an excerpt from the logfile showing where {\it Tom\/} can access a file in \text{mystuff} and {\it Charlie\/} can not:
+
+\listing{access_log}
+
+\subitems Now for the the simple spelling checking script, that just searches through the words file looking for a match. Firstly, here is the HTML file for getting the input to the CGI and a windowshot:
+
+\listing{spellcheck.html}
+
+\subitemscont\epsffile{spellcheck.ps}
+
+\subitemscont Here is the \text{perl} script that does the work and a windowshot of the output:
+
+\listing{spellcheck.pl}
+
+\subitemscont\epsffile{spellchecked.ps}
+
+\stuff{Programming Perls}
+
+\items Simple Report Generation.
+
+\listing{country.pl}
+
+\bye

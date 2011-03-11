@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.2//EN">
+<HTML>
+
+<HEAD>
+	<TITLE>Tropism DOM example (IE Specific)</TITLE>
+	<LINK TYPE="text/css" REL='stylesheet' HREF='../style.css'>
+
+	<!-- Hooray for Microsoft, who decided to "extend" XML -->
+	<XML ID="ComputersXML" SRC="computers.xml"></XML>
+
+	<SCRIPT LANGUAGE="JavaScript">
+		function GetData() {
+			xmldoc = document.all("ComputersXML").XMLDocument;
+
+			Computer = xmldoc.documentElement;
+			ComputerNameA = Computer.childNodes(0).childNodes(0).xml;
+			ComputerOSA = Computer.childNodes(0).childNodes(2).xml;
+			ComputerRAMA = Computer.childNodes(0).childNodes(3).xml;
+
+			ComputerNameB = Computer.childNodes(1).childNodes(0).xml;
+			ComputerOSB = Computer.childNodes(1).childNodes(2).xml;
+			ComputerRAMB = Computer.childNodes(1).childNodes(3).xml;
+
+			outputmsg = "The computer <STRONG>" + ComputerNameA + "</STRONG> is running <STRONG>" + ComputerOSA + "</STRONG> with <STRONG>" + ComputerRAMA + "</STRONG> of RAM." + "<BR><BR>" + "The computer <STRONG>" + ComputerNameB + "</STRONG> is running <STRONG>" + ComputerOSB + "</STRONG> with <STRONG>" + ComputerRAMB + "</STRONG> of RAM.";
+
+			computerDisplay.innerHTML = outputmsg;
+		}
+	</SCRIPT>
+</HEAD>
+
+<BODY>
+	<CENTER>
+		<H1>Using DOM and IE XML Islands to display part of an XML document.</H1>
+
+		<DIV ID="computerDisplay"></DIV>
+
+		<P><INPUT TYPE="BUTTON" VALUE="Display Computer" ONCLICK="GetData()"></P>
+	</CENTER>
+</BODY>
+
+</HTML>

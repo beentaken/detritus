@@ -1,0 +1,43 @@
+Week 13 Meeting minutes, CSCI102.
+
+Date:	28/05/03
+Time:	1330 hrs
+Duration:	45 minutes.
+Location:	17.Skylab.
+
+All in attendance.
+
+Articles discussed:
+-	Summarise all reports.
+	-	Planning.
+	-	Desinging.
+	-	Testing.
+-	Draw a conculsion from the reports.
+-	Fabrication of problems.
+-	Final print of the website.
+
+Greg:	-	Fixing website.
+		-	Change colours.
+		-	Fix HTML to be standard.
+		-	Problem with the guestbook, embedded HTML.
+
+Roba:	-	Compliation.
+		-	Intro.
+		-	TOC.
+		-	Stuff.
+		-	Conclusion.
+		-	References.
+		-	Appending minutes.
+
+Ewan:	-	Summarising design doco.
+		-	What model to use?
+		-	Pete's illness.
+
+Jeremy:	-	Summarising planning.
+		-	Problems with e-mail attachments.
+		-	Lack of problem definition, eg: vague assignement guidelines.
+
+Pete:	-	Sumamrise the testing.
+		-	Independant testing not completeing on time.
+		-	Falling behind on schedule on the development of the site, hindering testing.
+		-	Lack of physical resources, eg: printing the report.

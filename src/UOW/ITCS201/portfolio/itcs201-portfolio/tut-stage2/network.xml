@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Network>
+	<!-- This is the beastly computer that runs the show -->
+	<Computer>
+		<Name>Tropism</Name>
+		<Objective>Core server</Objective>
+		<Arch subarch="PentiumPro">i686</Arch>
+		<OS release="stable" nickname="woody" revision="3.0r2">Debian GNU/Linux</OS>
+		<Services network="IP">
+			<Service>
+				<Transport port="80">TCP</Transport>
+				<Application>HTTP</Application>
+			</Service>
+		</Services>
+	</Computer>
+</Network>

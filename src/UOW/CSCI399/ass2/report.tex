@@ -1,0 +1,170 @@
+\input epsf
+\input verbatim
+
+\parskip 6 pt
+
+\font\titlefont=cmbx18
+
+\newcount\itemnum \itemnum=0
+
+\newcount\subitemnum
+
+\def\items{\parindent 24 pt \advance\itemnum by 1 \subitemnum=0 \item{\bf\the\itemnum)}}
+\def\subitems{\parindent 24 pt \advance\subitemnum by 1 \itemitem{\bf\the\itemnum.\the\subitemnum)}}
+\def\subitemscont{\parindent 24 pt \itemitem{}}
+
+\def\stuff#1{\itemnum=0 {\bf#1:}}
+
+\def\RCS$#1: #2 ${\expandafter\def\csname RCS#1\endcsname{#2}}
+\RCS$Id: report.tex 2 2007-07-19 13:00:48Z pdezwart $
+
+\def\title#1#2#3{\centerline{\titlefont #1} \vskip 12pt \centerline{\rm Author: #2} \vskip 12 pt \centerline{\rm Student ID\#: #3} \vskip 12 pt \centerline{\rm \RCSId} \vskip 24pt}
+
+\def\text#1{{\tt #1}}
+
+\def\listing#1{\subitems{Listing of #1:}\par\begingroup\setupverbatim\input#1 \endgroup}
+\def\image#1{\subitemscont\epsffile{#1}}
+
+\title{CSCI399: Assignment 2}{Peter Nathaniel Theodore de Zwart}{9840642}
+
+\stuff{Introduction}
+
+\items	For assignment 2 in CSCI399: Server Technology, we have been challenged to implement a web based version of the {\it classic} game ``Othello''. Given the resources available to us at University and what I have at home, I decided to go with what I had at home, as I already had \text{Apache} with \text{PHP4} and \text{PostgreSQL} set up on a Quad PentiumPro.
+
+\items	The game had a few design goals:
+
+\subitems	Use \text{PHP} for the server side scripting.
+\subitems	Use a relational database for the storage of player information.
+\subitems	Using the above database, have mechanisms in place for player authentication.
+\subitems	Have the players pit themselves against a simple computer player.
+
+\items	The first consideration was to design the database table that would be used.
+
+\items	For the readers perusal, a user has been created for them to play in the Othello league.
+
+\subitems	URI: \text{http://froob.optus.nu:65533/\~{}dezwart/ass2/othello.php}
+\subitems	Username: \text{REDACTED}
+\subitems	Password: \text{REDACTED}
+
+\stuff{SQL considerations}
+
+\items	As I was using \text{PostgreSQL} rather than \text{Oracle} as most other people were using, I aimed to keep the table design as close to the SQL specification as possible.
+
+\subitems For instance, not using the \text{text} field type for columns such as \text{name} or \text{passwd}, as this is non-standard although handy.
+
+\listing{table.sql}
+
+\items	A constraint was placed upon the \text{won} column that it couldn't be greater than the \text{played} column, meaning that no player could win more than they played.
+
+\items	There were some security issues that had to be sorted out with access to the SQL database as the web server was running as user \text{www-data} so their database user had to have rights granted to them to allow INSERT, SELECT and UPDATE privileges.
+
+\stuff{Common Code}
+
+\items	Partway through implemented the skeletons of the various web pages that would comprise the Othello game, it became apparent that a lot of the authentication and HTML markup could be percolated in to their own files that would be required in to the resulting PHP documents.
+
+\items	The common HTML markup preamble and postamble was put in \text{common.php} which all pages would require to load.
+
+\listing{common.php}
+
+\items	From \text{common.php} another document was included, which comprised the page authentication mechanisms which received a user name and a password from the client's web browser and then checked that information with the relevant columns in the database.
+
+\listing{auth.php}
+
+\items	Here is a window capture of the authentication dialog from \text{Mozilla 1.6}:
+
+\image{auth.ps}
+
+\stuff{Main page}
+
+\items	The main page had to have two elements.
+
+\subitems	A link to the page that showed the standings of individual players in the league.
+\subitems	A link to the page that had the game.
+
+\listing{othello.php}
+
+\subitems	Following is a window capture of the Main page, \text{othello.php}:
+
+\image{othello.ps}
+
+\stuff{League listing page}
+
+\items	The league listing page had to query the database and produce a table containing data about all the players. This table had to have:
+
+\subitems	The name of the player.
+\subitems	The number of games played by the player.
+\subitems	The number of games won by the player.
+
+\items	As it can be seen, I've created a \text{computer} player, to record the relative position of the computer player versus the human players. This saves people having to do the addition themselves.
+
+\items	The implementation of this page was straightforward, using the HTML markup preamble function and then defining a table and using a loop to print out table row equivalents from an SQL query.
+
+\listing{league.php}
+
+\subitems	Following is a window capture of the league listing page before playing a game, as you can see, the computer has already managed to win a game against one of the players.
+
+\image{league-pregame.ps}
+
+\subitems	Later on in this report, another window capture of this page will be included depicting the results after a game.
+
+\stuff{Game page}
+
+\items	The game page has some interesting hidden elements, such as that it uses cookies to retain board state between pages. Apart from that, it's just a table of images with form information tied to each table cell.
+
+\items	When the game is started, usually by a simple \text{GET} request to the game page \text{game.php}, the state information is to be set up and the initial board displayed.
+
+\items	The logic behind game creation and continuation checks to see if there is already a cookie available for game play.
+
+\subitems	If no cookie, then start the game.
+
+\subitems	Otherwise, continue using the old cookie..
+
+\subitems	Here is a window shot of the initial board setup:
+
+\image{game-started.ps}
+
+\items	Then a player would simply click on where they wanted to place their next token and a \text{POST} request would be issued to \text{game.php} with the index number of the selected table cell.
+
+\subitems	After a while, the page would look akin to this one:
+
+\image{game-middle.ps}
+
+\subitems	However, if an illegal move was attempted, then you may notice that the table caption changes:
+
+\image{game-illegal-move.ps}
+
+\items	Eventually, depending on your skill playing Othello, mine, if expressed as a probability of winning, is still stuck around the zero probability horizon.
+
+\subitems	When you do finish a game, the screen will change slightly to reflect the state at the end, indicating if you won or lost and where you can go from there.
+
+\subitems	Here is a window capture of where I lost. As per usual:
+
+\image{game-lost.ps}
+
+\items	From the two exit points from a game terminus, the league listing page can be viewed again to see what the previous game has done to your record.
+
+\subitems	As can be seen, I lost, again, surprise, and the computer won. Here is another window shot depicting this:
+
+\image{league-postgame.ps}
+
+\subitems	Thus, both \text{played} columns have been incremented by one for both myself and the computer player.
+
+\subitems	Also, the pesky computer has had it's \text{won} column incremented. ``I'll get you next time gadget, next time...''
+
+\items	From an implementation point of view, the game page was split in to two PHP files, one for the HTML portion and one for the game logic part.
+
+\items	The HTML script does the checking to see if we need to set up a new game or if there is currently a game in session.
+
+\listing{game.php}
+
+\items	The game logic script is an class that has the code to ensure that the player has entered in a valid move and then generates the computers response.
+
+\items	It was based on the JAVA implementation of a text based Othello game by Roxanne Canosa, Dr. Sandeep Mitra, and Dr. Leslie Lander of the SUNY-Brockport Java Interest Group.
+
+\items	I found their implementation somewhat, unclean, in terms of design and implementation, so using their algorithm, created a PHP version which doesn't resemble spaghetti so much.
+
+\items	The algorithms was also altered to only check one player move and generate the computers response, unless the player isn't able to move, where the computer will move until a situation presents itself that the player can, more than likely, the player will just be bludgeoned in to submission.
+
+\listing{computer.php}
+
+\bye

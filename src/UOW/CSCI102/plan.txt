@@ -1,0 +1,44 @@
+$Id: plan.txt 2 2007-07-19 13:00:48Z pdezwart $
+
+CSCI102 Tutorial Group 1: Project Plan.
+
+-	Introduction.
+
+-	Project Orginasation.
+
+-	Risk Analysis.
+
+-	Hardware and Software requirement.
+
+-	Work breakdown:
+
+	-	Rotating minutes.
+
+-	Project schedule:
+
+	Design Documents:
+		-	Proposal.	1 Week.
+
+			Develop the proposal of the SITACS Association website.
+
+		-	Mockups.	1 Week.
+
+			Create a storyboard of the posssible pages that will be available
+			via the website and the various interactions.
+
+	Creation:
+		-	Framework.	1 Week.
+
+			Start to work on the minimal page infrastructure to get things working.
+
+		-	Fleshing out.	1 Week.
+
+			Fill in the content.
+
+	Testing:
+		-	Test plan & Results. 1 Week.
+
+	Final Report:
+		-	Collating and Writing. 2 Weeks.
+
+-	Monitoring and Reporting mechanism.

@@ -1,0 +1,306 @@
+$Id: ass3.txt 2 2007-07-19 13:00:48Z pdezwart $
+
+The /24 has been broken down in to the following subnets:
+
+Network/Mask	Num IPs		Colloquial Name
+x.y.z.0/25	128		Laboratory LAN
+x.y.z.128/28	32		Academic LAN
+x.y.z.160/28	32		Spare subnet
+x.y.z.192/29	16		Computer Security LAN
+x.y.z.208/29	16		Spare subnet
+x.y.z.224/30	8		Admin LAN
+x.y.z.232/31	4		Web service LAN
+x.y.z.236/31	4		Mail service LAN
+x.y.z.240/29	16		Core LAN
+
+Notes:
+------
+
+The two UG Labs and PG Lab have been amalgamated in to one subnet.
+
+Considering that the Academic staff are of greater worth than all UG & PG
+students combined, they get their own LAN whilst the plebeian throng get the
+following jiggery pokery:
+
+	To promote efficiency, traffic for the Lab LAN can be controlled by a
+	three tier switching configuration.
+
+	The router interface and the second tier switches all hang of the first
+	tier switch, which is smart enough to be configured to make sure
+	broadcast frames are sent downstream.
+
+	Each separate LAN has only one second tier switch, any others hang of
+	that, thus creating the third tier.
+
+	The Labs respective servers are located on the second tier switch.
+
+	Thus, any traffic for a Labs workstation to their respective servers or
+	workstations in the same lab will only have to traverse the switches
+	designated for that lab.
+
+	In the event of a student population explosion, the sane thing to do
+	would be to create privately addressable LANs that hang of the
+	Core network.
+
+The Academic LAN is situated before the spare /28. This is, in the event of
+more academics, to ensure that available space can be accommodated. Either that
+or to create another LAN for some other purpose, as yet to be determined.
+
+A similar situation exists for the Computer Security LAN.
+
+Should the need to have more that one web server and one mail server arise.
+The respective Web and Mail LANs can be aggregated to free up some IP address
+space lost in the sub-netting.
+
+The reason for not aggregating them in the first place is to ensure logical
+separation and promote security through said configuration.
+
+All switches are considered as, 32 port, managed, separate up-link port, unless
+specified otherwise.
+
+All names are canonical, common names are not in the scope of this document.
+
+IP Subnet breakdown:
+--------------------
+
+Lab LAN:	CIDR:	/25
+
+	Network:	x.y.z.0
+	Broadcast:	x.y.z.127
+	Netmask:	255.255.255.128
+
+	Name:		lab-a-srv0
+	IP:		x.y.z.1
+	Note:		Lab A's server
+
+	Name:		lab-a-wks0
+	IP:		x.y.z.2
+	Note:		Lab A workstation
+
+	
+	For breveity, the intervening entries have been skipped.
+	The relative information for said entries can be garnered from the
+	entries before and after this note.
+
+	Afterwards, this message will be referenced to by three consecutive
+	lines with only a full stop, '.', as it's contents.
+
+	.
+	.
+	.
+
+	Name:		lab-a-wks39
+	IP:		x.y.z.41
+	Note:		Lab A workstation
+
+	Name:		lab-a-sw0
+	IP:		x.y.z.42
+	Note:		Lab A's primary switch.
+
+	Name:		lab-a-sw1
+	IP:		x.y.z.43
+	Note:		Lab A's secondary switch.
+
+	Name:		lab-b-srv0
+	IP:		x.y.z.43
+	Note:		Lab B's server
+
+	Name:		lab-b-wks0
+	IP:		x.y.z.45
+	Note:		Lab B workstation
+
+	.
+	.
+	.
+
+	Name:		lab-b-wks39
+	IP:		x.y.z.84
+	Note:		Lab B workstation
+
+	Name:		lab-b-sw0
+	IP:		x.y.z.85
+	Note:		Lab B's primary switch.
+
+	Name:		lab-b-sw1
+	IP:		x.y.z.86
+	Note:		Lab B's secondary switch.
+
+	Name:		lab-pg-srv0
+	IP:		x.y.z.87
+	Note:		Post Grad lab server.
+
+	Name:		lab-pg-wks0
+	IP:		x.y.z.88
+	Note:		Post Grad lab workstation
+
+	.
+	.
+	.
+
+	Name:		lab-pg-wks29
+	IP:		x.y.z.117
+	Note:		Post Grad lab workstation.
+
+	Name:		lab-pg-sw0
+	IP:		x.y.z.118
+	Note:		Post Grad lab primary switch.
+
+	Name:		lab-sw0
+	IP:		x.y.z.125
+	Note:		Lab LAN tier one switch.
+
+	Name:		lab-gw0
+	IP:		x.y.z.126
+	Note:		Lab LAN interface of the Lab LAN gateway.
+
+Academic LAN:	CIDR:	/28
+
+	Network:	x.y.z.128
+	Broadcast:	x.y.z.159
+	Netmask:	255.255.255.224
+
+	Name:		aca-wks0
+	IP:		x.y.z.129
+	Note:		Academic LAN workstation.
+
+	.
+	.
+	.
+
+	Name:		aca-wks19
+	IP:		x.y.z.148
+	Note:		Academic LAN workstation.
+
+	Name:		aca-sw0
+	IP:		x.y.z.157
+	Note:		Academic LAN primary switch.
+
+	Name:		aca-gw0
+	IP:		x.y.z.158
+	Note:		Academic LAN interface of the Academic LAN gateway.
+
+Computer security LAN:	CIDR:	/29
+
+	Network:	x.y.z.192
+	Broadcast:	x.y.z.207
+	Netmask:	255.255.255.240
+
+	Name:		cs-wks0
+	IP:		x.y.z.193
+	Note:		Computer Security LAN workstation.
+
+	.
+	.
+	.
+
+	Name:		cs-wks9
+	IP:		x.y.z.202
+	Note:		Computer Security LAN workstation.
+
+	Name:		cs-sw0
+	IP:		x.y.z.205
+	Note:		Computer Security LAN primary switch, managed,
+			16 port.
+
+	Name:		cs-gw0
+	IP:		x.y.z.206
+	Note:		Computer Security LAN interface of the Computer
+			Security LAN gateway.
+
+Admin LAN:	CIDR:	/30
+
+	Network:	x.y.z.224
+	Broadcast:	x.y.z.231
+	Netmask:	255.255.255.248
+
+	Name:		adm-wks0
+	IP:		x.y.z.225
+	Note:		Admin LAN workstation.
+
+	.
+	.
+	.
+
+	Name:		adm-wks2
+	IP:		x.y.z.227
+	Note:		Admin LAN workstation.
+
+	Name:		adm-sw0
+	IP:		x.y.z.229
+	Note:		Admin LAN primary switch, managed, 8 port.
+
+	Name:		adm-gw0
+	IP:		x.y.z.230
+	Note:		Admin LAN interface of the Admin LAN gateway.
+
+Web LAN:	CIDR:	/31
+
+	Network:	x.y.z.232
+	Broadcast:	x.y.z.235
+	Netmask:	255.255.255.252
+
+	Name:		web-srv0
+	IP:		x.y.z.233
+	Note:		Primary Web server.
+
+	NOTE:		This LAN doesn't require a switch, it can use a
+			crossover cable.
+
+	Name:		web-gw0
+	IP:		x.y.z.234
+	Note:		Web LAN internal interface of the Web LAN gateway.
+
+Mail LAN:	CIDR:	/31
+
+	Network:	x.y.z.236
+	Broadcast:	x.y.z.239
+	Netmask:	255.255.255.252
+
+	Name:		mail-srv0
+	IP:		x.y.z.237
+	Note:		Primary Mail server.
+
+	NOTE:		This LAN doesn't require a switch, it can use a
+			crossover cable.
+
+	Name:		mail-gw0
+	IP:		x.y.z.238
+	Note:		Mail LAN internal interface of the Mail LAN gateway.
+
+Core:		CIDR:	/29
+
+	Network:	x.y.z.240
+	Broadcast:	x.y.z.255
+	Netmask:	255.255.255.240
+
+	Name:		lab-core0
+	IP:		x.y.z.241
+	Note:		Core network interface of the Lab LAN gateway.
+
+	Name:		aca-core0
+	IP:		x.y.z.242
+	Note:		Core network interface of the Academic LAN gateway.
+
+	Name:		cs-core0
+	IP:		x.y.z.243
+	Note:		Core network interface of the Comp Sec LAN gateway.
+
+	Name:		adm-core0
+	IP:		x.y.z.244
+	Note:		Core network interface of the Admin LAN gateway.
+
+	Name:		web-core0
+	IP:		x.y.z.245
+	Note:		Core network interface of the Web LAN gateway.
+
+	Name:		mail-core0
+	IP:		x.y.z.246
+	Note:		Core network interface of the Mail LAN gateway.
+
+	Name:		core-sw0
+	IP:		x.y.z.253
+	Note:		Core network primary switch, managed, 16 port.
+
+	Name:		core-gw0
+	IP:		x.y.z.254
+	Note:		Core network interface of the border router.

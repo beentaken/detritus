@@ -1,0 +1,142 @@
+% $Id: report.tex 2 2007-07-19 13:00:48Z pdezwart $
+
+\font\secfont=cmbx10 scaled \magstep1
+
+\def\section#1 {
+	\vskip 12 pt 
+	\leftline {
+		\secfont #1
+	} 
+	\nobreak 
+}
+
+\parskip 12 pt
+
+\centerline {
+	Report on the Evaluation Questionnaires for the Login subsystem.
+}
+
+\section {
+	Introduction:
+}
+
+This document will outline the findings from the \bf User\rm, \bf Observer
+\rm\& \bf Expert \rm Evaluation Questionnaires along with some observations
+about the walk-through.
+
+\section {
+	Walk-through:
+}
+
+Unfortunately, the walk-through was missing a crucial new image representing the
+dialog box requesting the User to enter their password with the stylus. The
+new image had a \it restart \rm button to go back to the beginning of the Login
+process.
+
+Apart from this oversight, the walk-through seemed to be brief and clear in its intent.
+
+In future walk-throughs it would be prudent to ensure that they are proof read
+before being delivered to the evaluators.
+
+\section {
+	User Evaluation Questionnaire:
+}
+
+The user evaluation questionnaire was completed in full, with the evaluator
+selecting a \it yes \rm for all questions with a ``yes'' or ``no'' answer. This
+was contrary to what was originally planned with each question having a scale
+between 1 to 5, with 1 representing ``very poor'' and 5 representing ``very
+good''. Because of this, there is not as much information to be gleaned from
+this questionnaire as could have been garnered from one with a finer granularity
+in how the questions could have been answered.
+
+Bear in mind that this questionnaire is intended to retrieve feedback from a
+\it novice \rm user, therefore the questions posed and their restricted
+set of answers did reduce the complexity of the questionnaire.
+
+There was one question that used the 5 point scale. However, it was a catch all
+question, rating the system as a whole, in which it was rated as \it good \rm.
+
+The finding of this report in regards to the user evaluation is to ensure that
+all future user evaluation questionnaires allow a greater freedom of answers,
+allowing the user evaluator to give us more feedback. Perhaps a simple area
+for written feedback would have been appropriate given the scale of the Login
+sub-system. As the user evaluation of the Login sub-system was positive all
+round, there was no visible improvements that could be drawn from this
+questionnaire.
+
+\section {
+	Observer Evaluation Questionnaire:
+}
+
+The observer evaluation questionnaire, completed in full, gave some more
+information compared to the user evaluation questionnaire, in respect to how
+the user evaluator interacted with the walk-through of the Login sub-system.
+
+Being a questionnaire for the observer of the user evaluator, the questions
+posed were directed more towards the apparent responses of the user to various
+user interface stimuli. We did gain a useful insight in how not to deliver
+a walk-through, as the observer evaluator reported that the aforementioned
+``restart'' button was not apparent.
+
+Once again, we received an outstanding evaluation. Leading to the thought that
+perhaps the questions were either too simple or misleading. It would have been
+good to have had a small free form comment field to get feedback on areas not
+thought of or covered by this questionnaire.
+
+There is an improvement in this questionnaire in comparison to the previous one.
+The observer evaluator was able to respond on the areas the user may have
+been having trouble with by writing the section(s) in a small text field, as the
+user encountered them.
+
+From the above, there were no direct improvements that could be constructed from
+the observer evaluation questionnaire.
+
+\section {
+	Expert Evaluation Questionnaire:
+}
+
+In the expert evaluation questionnaire, the evaluator gave the interface a good
+rap, however, the available answers to the questions posed were limited in
+scope similar to that of the user evaluation questionnaire.
+
+Because of the oversimplification of the expert evaluation questionnaire, very
+little constructive information was able to be found and the evaluators
+themselves may have been underutilised and perhaps offended at the
+questionnaires apparent lack of probing questions.
+
+For similar reasons outlined in the report of the user evaluation questionnaire
+in regards to the large percentage of questions having only ``yes'' or ``no''
+answers, this questionnaire could only deliver limited information.
+
+There was one article of fresh insight in to how the design of the Login
+sub-system could be improved, in where the user is having their thumb print
+scanned, the user is not informed on how long the process will take and the user
+has no course for ceasing the process.
+
+In respect to this one boon from the expert evaluator, it would be ideal if
+the phase in which the users thumb print is being scanned have the following
+elements:
+
+\item{$\bullet$}	A 60 second timeout if no input is received by the
+			biometric device.
+\item{$\bullet$}	A error dialog indicating that an incomplete biometric
+			scan was obtained, requiring the user to repeat this
+			process.
+
+\section {
+	Conclusion:
+}
+
+It is the findings of this report that in the future, the \bf user \rm
+evaluation questionnaire is to be kept in a similar simple form with the
+inclusion of a small text field for comments. That the \bf observer \rm
+evaluation questionnaire contain more areas for written feedback as this was
+the medium in which we received the most useful information. Lastly, the
+\bf expert \rm evaluation questionnaire must contain pertinent questions about
+the interface of a system, commensurate with the level of prowess of an expert
+evaluator. In light of the failings of the questionnaires, the Login sub-system
+itself appeared to need very few changes, with those changes required being a
+logical extension of the original design.
+
+\bye

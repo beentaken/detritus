@@ -1,0 +1,226 @@
+Interaction framework:
+-	Donald Norman's Interaction Framework:
+	-	User establishes the goal.
+	-	Formulates intention.
+	-	Specifies actions at interface.
+	-	Executes action.
+	-	Perceives system state.
+	-	Interprets system state.
+	-	Evaluates system state with respect to goal.
+-	Extended by Abowd and Beale:
+	-	User.
+	-	Input.
+	-	System.
+	-	Output.
+-	WIMP:
+	-	Windows.
+	-	Icons.
+	-	Menus.
+	-	Pointers.
+
+	or
+
+	-	Windows
+	-	Icons.
+	-	Mice.
+	-	Pull-down menus.
+-	Knowledge based analysis:
+	-	Objects, used in the task.
+	-	Actions, performed.
+	-	Taxonomies represent levels of abstraction.
+-	Task Description hierarchy:
+	-	Three branch types:
+		-	XOR.
+		-	AND.
+		-	OR.
+	-	Very vague taxonomy, created as you wish.
+	-	Knowledge representation grammar:
+		-	`beating in a mixing bowl` becomes:
+			-	kitchen job(preparation)
+					using a kitchen item/function {preparation}/.
+		-	Go figure.
+-	Entity-relationship based techniques:
+	-	Start off with a list of objects and classify them:
+		-	Concrete objects: simple inanimate objects, tools etc...
+		-	Actors:	objects that manipulate other objects.
+		-	Composite objects: A set of objects, eg: foo = { bar, sball, manchu }.
+		-	Tuples: n-way associative set, eg: computer = < machine, box, large piece of metallic shite >.
+	-	To the objects, add attributes:
+		-	EG:	Object Pete simple - computer user
+				
+				Attributes:
+				-	Status: On/Off/Defective.
+				-	Capacity: 100 Mega factoids per second.
+	-	List actions and associate with each:
+		-	Agent,	who performs the actions.
+		-	Patient, who is changed by the actions.
+		-	Instrument, used to perform an action.
+	-	Events are performed when something happens (duh):
+		-	Performance of an action.
+		-	Spontaneous events:
+			-	Pete open fire with his gauss cannon due to exam stupidities.
+		-	Timed events.
+	-	Relationships:
+		-	object - object:
+			-	Social.
+			-	Spatial.
+		-	action - object:
+			-	agent, listed with the object.
+			-	patient and instrument.
+		-	action and events:
+			-	Temporal.
+			-	Causal.
+-	Evaluation techniques, question types:
+	-	Dichotomous.
+	-	Multiple choice.
+	-	Multiple response.
+	-	Open ended.
+	-	Rank/match.
+	-	Likert.
+		-	Strongly agree to strongly disagree.
+	-	Semantic differential.
+	-	Rating.
+-	Paradigms for usability:
+	-	The metaphor.
+	-	Direct manipulation.
+	-	Language vs. Action.
+	-	Hypertext.
+	-	Multimodality.
+-	Principles to support usability:
+	-	Structured presentation.
+	-	Learn-ability:
+		-	Predictability.
+		-	Synthesizability.
+		-	Familiarity.
+		-	Generalisability.
+		-	Consistency.
+	-	Flexibility:
+		-	Dialogue initiative.
+		-	Multi-threading.
+		-	Task migratability.
+		-	Substitutivity.
+		-	Customizability.
+	-	Robustness:
+		-	Observability.
+		-	Recoverability.
+		-	Responsiveness.
+		-	Task conformance.
+	-	Bullshit-ability.
+	-	Buzzword compliant.
+-	Software life cycle (waterfall model, oh the pain):
+	-	Requirements specification.
+	-	Architectural design.
+	-	Detailed design.
+	-	Coding and unit testing.
+	-	Integration and testing.
+	-	Operation and maintenance.
+-	Iterative design and prototyping:
+	-	Types of prototyping:
+		-	Throw-away.
+		-	Incremental.
+		-	Evolutionary.
+	-	Management issues:
+		-	Time.
+		-	Planning.
+		-	Non-functional items.
+		-	Contracts.
+	-	Techniques for prototyping:
+		-	Storyboards.
+		-	Limited functionality simulations.
+-	Design rationale:
+	-	Issue-based information system (IBIS):
+		-	Process-oriented.
+		-	Hierarchical structure of issues, with one root issue.
+		-	Positions are potential resolutions of an issue.
+		-	Arguments modify the relationship between positions and issues.
+	-	Design space analysis:
+		-	Structure oriented.
+		-	QOC - hierarchical structure:
+			-	Questions, represent major issues of a design.
+			-	Options, provide alternative solutions to the question.
+			-	Criteria, the means of assessing the various options in order to make a choice.
+		-	DRL, similar to QOC with a larger language and more formal semantics.
+	-	Psychological design rationale:
+		-	POS.
+-	Model aspects of a user:
+	-	Understanding.
+	-	Knowledge.
+	-	Intentions.
+	-	Processing.
+-	Issues for goal hierarchies:
+	-	Granularity.
+	-	Conflict.
+	-	Error.
+-	GOMS:
+	-	Goals, what the user wants to achieve.
+	-	Operators, basic actions a user performs.
+	-	Methods, decomposition of a goal in to subgoals/operators.
+	-	Selection, means of choosing between competing methods.
+-	CCT:
+	-	User production rules. Ych.
+	-	Device generalised transition networks.
+		-	Backus-Naur form.
+		-	Task Action Grammar, like BNF++.
+		-	Keystroke Level Model:
+			-	K key-stroking.
+			-	P pointing.
+			-	H homing.
+			-	D drawing.
+			-	M mental preparation.
+			-	R system response.
+-	Dialog notations:
+	-	Diagrammatic.
+	-	State transition networks.
+	-	JSD diagrams.
+		-	Tree diagram.
+	-	Flow charts.
+	-	Textual.
+	-	Formal Grammars.
+	-	Production rules.
+		-	If condition, then action.
+	-	CSP.
+-	Windowing systems:
+	-	Device independence.
+	-	Multiple tasks.
+-	Goals of evaluation:
+	-	Assess extent of system functionality.
+	-	Assess effect of interface on user,
+	-	Identify specific problems.
+-	Styles of evaluation:
+	-	Laboratory studies.
+	-	Field studies.
+	-	Participatory design.
+-	Evaluation designs:
+	-	Cognitive walk-through.
+	-	Heuristic evaluation.
+	-	Review-based evaluation.
+	-	Model-based evaluation.
+-	Observational methods:
+	-	Think aloud.
+	-	Cooperative evaluation.
+	-	Protocol analysis methods.
+	-	Post task walk-through.
+-	Multimodal vs Multimedia:
+	-	Multimodal, more than one mode of communication, eg, sight, sound.
+	-	Multimedia, different types of a mode, eg, picture, video.
+-	Structure of speech:
+	-	Phonemes.
+	-	Allophones.
+	-	Morphemes.
+	-	Other terminology:
+		-	Prosody.
+		-	Co-articulation.
+		-	Syntax.
+		-	Semantics.
+-	Types of user support:
+	-	Quick reference.
+	-	Task specific help.
+	-	Full explanation.
+	-	Tutorial.
+-	Requirements of user support:
+	-	Availability.
+	-	Accuracy and completeness.
+	-	Consistency.
+	-	Robustness.
+	-	Flexibility.
+	-	Unobtrusiveness.

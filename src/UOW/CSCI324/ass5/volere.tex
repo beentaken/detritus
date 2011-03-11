@@ -1,0 +1,483 @@
+\font\mainfont=cmr8
+\font\mi=cmti8
+\font\subsectionfont=cmbx8
+\font\sectionfont=cmbx10
+\font\headingfont=cmbx12
+\font\titlefont=cmbx14
+
+\def\RCS$#1: #2 ${\expandafter\def\csname RCS#1\endcsname{#2}}
+
+\RCS$Id: volere.tex 2 2007-07-19 13:00:48Z pdezwart $
+
+\def\heading#1{\vskip 12 pt \leftline{\headingfont #1}}
+
+\newcount\footnotes \footnotes=0
+
+\def\footnoter#1{\advance\footnotes by 1 \footnote{$^{\the\footnotes}$}{\rm #1}}
+
+\newcount\sectionnum \sectionnum=0
+\newcount\subsectionnum \subsectionnum=0
+
+\def\section#1{\vskip 12 pt \advance\sectionnum by 1 \subsectionnum=0 \leftline{\sectionfont \the\sectionnum. #1}}
+
+\def\subsection#1{\vskip 12 pt \advance\subsectionnum by 1 \leftline{\subsectionfont \the\sectionnum.\the\subsectionnum. #1}}
+
+\def\title#1{\centerline{\titlefont #1} \centerline{\sevenrm \RCSId} \vskip 24pt}
+
+\newcount\itemnum
+
+\def\items{\advance\itemnum by 1 \itemitem {\the\itemnum)}}
+
+\def\iDesk{{\mi iDesk}}
+\def\iDesks{{\mi iDesks}}
+
+\def\NA{{\mi Not Applicable}}
+
+\def\userline#1{\leftline{\hskip 24 pt #1}}
+
+\def\user#1#2#3#4#5{\vskip 12 pt \userline{User name: #1}\userline{User role: #2}\userline{Subject matter experience: #3}\userline{Technological experience: #4}\userline{Other user characteristics: #5}}
+
+\def\userpriority#1#2#3{\vskip 12 pt \userline{User category: #1}\userline{Priority: #2}\userline{Estimated percentage: #3}}
+
+\def\name#1#2{\leftline{\hskip 24 pt {\mi #1}: #2}}
+
+\def\funcrec#1#2{\vskip 12 pt \leftline{\hskip 24 pt{Functional Requirement: #1}}\leftline{\hskip 24 pt{Fit Criterion: #2}}}
+
+\parskip 12 pt
+\parindent 24 pt
+
+\title{Volere Requirements Specification Template.}
+
+\mainfont
+
+\heading{Project Drivers.}
+
+\section{The Purpose of the Product.}
+
+\subsection{The user problem or background to the project effort.}
+
+To develop the interface for an interactive desk, the \iDesk, to be used in lecture theatres to allow students to take notes and have access to the multi-media presentation given in that lecture.
+
+\subsection{Goals of the project.}
+
+We want the students to be able to use the \iDesk\ as a replacement for the traditional note taking apparatus used in lecture theatres.
+
+Fit Criterion:
+
+\itemnum=0
+\parskip 0 pt
+
+\items Allow users to log in.
+\items Download a set of lecture notes for a particular subject.
+\items Move through this set of lecture notes at their own pace.
+\items Write notes on a touch sensitive screen using a stylus.
+\items Provide and audio feed of the lecturers speech.
+\items Have a live video feed of the lecturers presentation.
+\items Display subtitles for the audio feed, below the main display.
+\items Display scanned images of white boards and blackboards.
+\items Toggle between displays in the two display windows. E.g. have any of the three input displays (lecture notes, scanned boards and live video) available in either the right or left display window.
+\items Users should be able to customise their input options. E.g. hide any or all of the five input styles listed.
+\items Users should be able to save their chosen ``images'' of the lecture, including their notes.
+\items Print some of the inputs to local printers.
+\items Retrieve data from a central storage server.
+
+\parskip 12 pt
+
+\section{Client, Customer and other Stake holders.}
+
+\subsection{The client is the person/s paying for the development and owner of the delivered system.}
+
+The University of Wollongong.
+
+\subsection{The customer is the person/s who will buy the product from the client.}
+
+The University of Wollongong.
+
+\subsection{Other stake holders.}
+
+\itemnum=0
+
+\items Peter Hyland, senior lecturer.
+\parskip 0 pt
+\items Sally Schreiber, CSCI324 student.
+\items Simon Bland, CSCI324 student.
+\items Phillip Street, CSCI324 student.
+\items Peter de Zwart, CSCI324 student.
+
+\parskip 12 pt
+
+\section{Users of the Product.}
+
+\subsection{The users of the product.}
+
+Note about the various students, they may be coming from a very diverse background of technical expertise, some students will have had very little exposure to computers before whilst some may be technophiles, whose entire life experience is from a computer. This can usually be reflected in which University faculty the students originates from. It could be reasonably assumed that a student from the Arts faculty would have less technical
+savvy than a student from the Informatics faculty. This is a generalisation, nothing more.
+
+\user{Undergraduate Students.}{Use of the \iDesk\ for lecture notes.}{Novice.}{Novice to Journeyman.}{Intelligent enough to attend University.}
+
+\user{Honours Students.}{Use of the \iDesk\ for lecture notes.}{Novice.}{Novice to Journeyman.}{Completing the honours component of their bachelors degree.}
+
+\user{Pass Masters Students.}{Use of the \iDesk\ for lecture notes.}{Novice.}{Novice.}{Completing either a pass Masters.}
+
+\user{Research Masters Students.}{Use of the \iDesk\ for lecture/seminar notes.}{Journeyman.}{Journeyman.}{Completing a research Masters.}
+
+\user{Doctoral Students.}{Use of the \iDesk\ for lecture/seminar notes.}{Journeyman to Master.}{Journeyman to Master.}{Completing a Doctoral research paper.}
+
+\user{Post Doctoral Student.}{Use of the \iDesk\ for lecture/seminar notes.}{Master.}{Master.}{Completed at least one Doctorate.}
+
+\user{Lecturer.}{Use of the \iDesk\ to create the various multi-media presentation used in a lecture/seminar.}{Journeyman to Master.}{Journeyman to Master.}{Attained enough experience and knowledge to teach students in the field of the lecture.}
+
+\user{Administration.}{Maintenance of the \iDesk.}{Journeyman.}{Master.}{Specialist user attuned to the care and feeding of an \iDesk.}
+
+\subsection{The priorities assigned to users.}
+
+\userpriority{Undergraduate Students.}{Key User.}{\%80.}
+\userpriority{Honours Students.}{Secondary User.}{\%4.}
+\userpriority{Pass Masters Students.}{Unimportant User.}{\%5.}
+\userpriority{Research Masters Students.}{Secondary User.}{\%3.}
+\userpriority{Doctoral Students.}{Secondary User.}{\%2.}
+\userpriority{Post Doctoral Students.}{Secondary User.}{\%1.}
+\userpriority{Lecturer.}{Key User.}{\%5.}
+\userpriority{Administration.}{Unimportant User.}{\%1.}
+
+\subsection{User participation}
+
+	Of all the user categories that are comprised of students, it is expected that they will provide adequate feedback and user testing through the prototyping stage. It is assumed that on of the larger lecture theatres will be outfitted with prototype \iDesks\ where evaluation sheets will be collected after each lecture. The lecturer will also be required to submit their own evaluation of how the lecture went with the \iDesks\ in comparison to how it may have gone with out them.
+
+	Lecturers will be required to provide the ``business knowledge'' to help with the delivery of content to the users \iDesk. They will also be instrumental in the prototyping of the interface.
+
+\heading{Project Constraints.}
+
+\section{Mandated Constraints.}
+
+\subsection{Solution constraints.}
+
+The interface must use a non-proprietary operating system to reduce the total cost of ownership per \iDesk.
+
+The interface must fit in a display that measures 360mm by 260mm, with a resolution of 1024 by 768 pixels.
+
+\subsection{Implementation environment of the current system.}
+
+The \iDesk\ will be deployed in a lecture theatre environment, subject to the rigours of student abuse. The \iDesk\ will be situated in a networked environment where each \iDesk\ will have access to central resources for the purpose of storage and printing.
+
+\subsection{Partner applications.}
+
+The \iDesk\ will have to be capable of understanding contemporary document formats that are used by lecturers to convey the content of their lectures. Most notably, the following formats will be used:
+
+\itemnum=0
+\parskip 0 pt
+\items Microsoft Office\footnoter{http://office.microsoft.com/} documents.
+\items Adobe\footnoter{http://www.adobe.com/} Portable Document Format (PDF) and PostScript (PS) documents.
+\items Motion Picture Experts Group\footnoter{http://mpeg.telecomitalialab.com/} (MPEG) layers. 
+\items Joint Picture Experts Group\footnoter{http://www.jpeg.org/} (JPEG) image format.
+\parskip 12 pt
+
+\subsection{Commercial off the shelf packages.}
+
+To aid in reducing the total cost of ownership per \iDesk, the office productivity software package Open Office\footnoter{http://www.openoffice.org/} should be used in place of the Microsoft Office suite of software.
+
+\subsection{Anticipated workplace environment.}
+
+The \iDesk\ will be deployed in an environment where noise is not acceptable, therefore, a standard mini-stereo jack should be used for audio output. It can be assumed that the students will provide their own earphones, or suitable earphones available on loan.
+
+As the users are supposed to be placing the majority of their cognitive effort on the assimilation of the lecture content, the theme of the interface should be as unobtrusive as possible, except in case of errors, where a suitable dialog should appear.
+
+\subsection{How long do the developers have to build the system?}
+
+\NA
+
+\subsection{What is the financial budget for the system?}
+
+\NA
+
+\section{Naming Conventions and Definitions.}
+
+\vskip 12 pt
+\parskip 0 pt
+\name{iDesk}{An interactive desk used for taking notes using a stylus and viewing lecture multi-media content obtained from a storage server.}
+\name{lecture}{A formal method of disclosure, intended for instruction.}
+\name{multi-media}{transmission that combines multiple media of communication, e.g. text and graphics, etc...}
+\name{media}{A substance of transmission, e.g. sound through air.}
+\name{storage server}{A special purpose electronic device for the mass storage of information.}
+\name{mass storage}{A term signifying the storage of a large magnitude of information, generally one terabyte of higher.}
+\name{window}{A componentised interface of some sort that does not take up the entirety of a computer screen.}
+\name{stylus}{A input device that consists of a rigid plastic instrument, analogous to a pencil, to write on a touch sensitive computer screen.}
+\name{lecture theatre}{A room where a lecture is delivered, consisting of seating apparati designed for maximum discomfort.}
+\name{authentication}{Where a user is determined to be who they claim they are.}
+\name{authorisation}{Where a user is allowed to use the determined resources, usually after their identity has been confirmed.}
+
+\parskip 12 pt
+
+\section{Relevant Facts and Assumptions.}
+
+\subsection{External factors that have an effect on the product, but are not mandated constraints.}
+
+As most lectures are delivered with minimal lighting, the intensity of the interfaces colours should not be overwhelming as to throw a glow upon a user, so as not to bathe them in a pool of light, otherwise creating a ghostly countenance to the students in a lecture hampering the delivery of the lectures content.
+
+\subsection{Assumptions that the team are making about the project.}
+
+All students behave in a rational manner. As this is a utopian assumption, it is realistic to change the assumption to, students act in a rational manner relative to the norms of the society they live in. Similar to relative primes as used in cryptography.
+
+\heading{Functional Requirements.}
+
+\section{The Scope of the Work.}
+
+\subsection{The context of the work.}
+
+\NA
+
+\subsection{Work partitioning.}
+
+\NA
+
+\section{The Scope of the Product.}
+
+\subsection{Product Boundary.}
+
+\NA
+
+\subsection{Use case list.}
+
+\NA
+
+\section{Functional and Data Requirements.}
+
+\subsection{Functional requirements.}
+
+\funcrec{Allow only authenticated and authorised users to log in to the \iDesk.}{No unauthenticated or unauthorised users must not be able to use the \iDesk.}
+
+\funcrec{Download the set of lecture notes for the current subject.}{Only allow the set of lecture notes for the current subject to be down loaded.}
+
+\funcrec{Move through this set of lecture notes at their own pace.}{Ensure that the lecture notes do not advance nor retard the user assimilation of the lecture note content.}
+
+\funcrec{Write notes on a touch sensitive screen using a stylus.}{A hand mashing the screen will not be considered as input.}
+
+\funcrec{Provide and audio feed of the lecturers speech.}{The audio feed will consist of only the lecturers speech and filter out background noise.}
+
+\funcrec{Have a live video feed of the lecturers presentation.}{The video feed will track the lecturer as they maneouver around the lecture theatre.}
+
+\funcrec{Display subtitles for the audio feed, below the main display.}{The automatic transcription software is accurate to \%95 of words transcribed.}
+
+\funcrec{Display scanned images of white boards and blackboards.}{These images will be kept in JPEG format.}
+
+\funcrec{Toggle between displays in the two display windows.}{A user can not have two of the same inputs displayed in two windows.}
+
+\funcrec{Users should be able to customise their input options.}{Any input switched off must be able to be switched back on.}
+
+\funcrec{Users should be able to save their chosen ``images'' of the lecture, including their notes.}{The ability to save must be able to be done to a central storage server or to a local peripheral.}
+
+\funcrec{Print some of the inputs to local printers.}{Input is printed to local printer.}
+
+\funcrec{Retrieve data from a central storage server.}{Only the authenticated user can access their stored data.}
+
+\subsection{Data requirements.}
+
+See dictionary.
+
+\heading{Non-Functional Requirements.}
+
+\section{Look and Feel Requirements.}
+
+\subsection{The interface.}
+
+The interface will use a simple colour scheme with understated colours as to discourage distraction from the content of the lecture content.
+
+Usage of text in the interface will be minimalised, with the visible text of a sufficiently sized font to ensure practical readability for the average student, with the ability to zoom in for those with defective eyesight.
+
+All screens of the interface will adhere to the same look and feel to aid flow through the various screens.
+
+The interface needs to have an intuitive iconoclastic flow to reduce the cognitive burden of the user.
+
+\subsection{The style of the product.}
+
+The product is to have a boring appearance, to suit the rest of the University of Wollongong.
+
+\section{Usability Requirements.}
+
+\subsection{Ease of use.}
+
+The product shall be easy to use for any student that can attend the University of Wollongong.
+
+The product must be usable for people with little grasp of the English language, as the majority of the student corpus are incapable of forming a rudimentary sentence to elucidate clue.
+
+\subsection{Ease of learning.}
+
+The product needs to be easy to learn from a students perspective to aid it's adoption in lectures.
+
+The product needs to provide a simple on-line help facility that covers the basic usage of the \iDesk.
+
+\section{Performance Requirements.}
+
+\subsection{Speed requirements.}
+
+The \iDesk\ will need to be able to fulfill the need for streaming video, natural writing input via a stylus and presentation slides. Yet not so powerful as to turn a lecture theatre in to a sauna.
+
+\subsection{Safety critical requirements.}
+
+\NA
+
+\subsection{Precision requirements.}
+
+\NA
+
+\subsection{Reliability and Availability requirements.}
+
+The \iDesk\ will require to be operational during University operating hours and be robust enough to recover from errors with little down time.
+
+\subsection{Capacity requirements.}
+
+\NA
+
+\subsection{Scalability requirements.}
+
+\NA
+
+\section{Operational Requirements.}
+
+\subsection{Expected physical environment.}
+
+The \iDesk\ will have to be rugged enough to withstand the abuses of students who have little regards for property. As we are designing software, the problems of physical damage will have to be address by the hardware manufacturers.
+
+\subsection{Expected technological environment.}
+
+The \iDesk\ will have to be able to interface with a TCP/IP network to access the centralised storage server and authentication server.
+
+\subsection{Partner applications.}
+
+\NA
+
+\subsection{Supportability.}
+
+\NA
+
+\section{Maintainability and Portability Requirements.}
+
+\subsection{How easy must it be to maintain this product?}
+
+\NA
+
+\subsection{Are there special conditions that apply to the maintenance of this product?}
+
+\NA
+
+\subsection{Portability requirements.}
+
+\NA
+
+\section{Security Requirements.}
+
+\subsection{Is the system confidential?}
+
+In the sense of users personal files for the lecture notes, only they should be able to access their files, this can be done by correlating a users session with their authentication information. As only an authenticated user may use an \iDesk, the storage server can use the same mechanism of authentication for access to a users files.
+
+\subsection{File integrity requirements.}
+
+\NA
+
+\subsection{Audit requirements.}
+
+\NA
+
+\section{Cultural and Political Requirements.}
+
+\subsection{Are there any special factors about the product that would make it unacceptable for some political reason?}
+
+Yes, you communist pig.
+
+\section{Legal Requirements.}
+
+\subsection{Does the system fall under the jurisdiction of any law?}
+
+\NA
+
+\subsection{Are there any standards with which we must comply?}
+
+\NA
+
+\heading{Project Issues.}
+
+\section{Open Issues.}
+
+\subsection{Issues that have been raised and do not yet have a conclusion.}
+
+Who will be manufacturing the hardware.
+
+\section{Off-the-Shelf Solutions.}
+
+\subsection{Is there a ready-made system that could be bought?}
+
+No.
+
+\subsection{Can ready-made components be used for this product?}
+
+Yes. There exists a large portion of Open Source\footnoter{http://www.opensource.org/} software that can function as the media viewers.
+
+\subsection{Is there something that we could copy?}
+
+See above.
+
+\section{New Problems.}
+
+\subsection{What problems could the new system cause in the current environment?}
+
+\subsection{Will the new development affect any of the installed system?}
+
+There is currently no installed system.
+
+\subsection{Will any of our existing users be adversely affected by the new development?}
+
+We have no existing users.
+
+\subsection{What limitations exist in the anticipated implementation environment that may inhibit the new system?}
+
+The physical size of the \iDesk\ is limited by the current seating arrangements of lecture theatres. Furthermore, the seating arrangements of lecture theatres differ so it may be difficult coming up with a standard size for the \iDesk\ without changing the existing lecture theatre seating layouts.
+
+\subsection{Will the new system create other problems?}
+
+A large amount of networking infrastructure would have to be created to facilitate the networked environment that the \iDesk\ will reside in for centralised storage and authentication.
+
+\section{Tasks.}
+
+\subsection{What steps have to be taken to deliver the system?}
+
+\NA
+
+\subsection{Development phases.}
+
+\NA
+
+\section{Cutover.}
+
+\subsection{What special requirements do we have to get the existing data and procedures to work for the new system?}
+
+\NA
+
+\subsection{What data has to be modified/translated for the new system?}
+
+\NA
+
+\section{Risks.}
+
+The major risk is that the interface will be rejected by the main corpus of students, rendering it distasteful and our key user base will not use the product.
+
+There is also the risk that the cost of hand held computing devices is becoming sufficiently small that the majority of students may own a powerful hand held computer that can function like an \iDesk.
+
+\section{Costs.}
+
+\NA
+
+\section{User Documentation and Training.}
+
+\subsection{The plan for building the user documentation.}
+
+\NA
+
+\section{Waiting Room.}
+
+\NA
+
+\section{Ideas for Solutions.}
+
+\NA
+
+\bye

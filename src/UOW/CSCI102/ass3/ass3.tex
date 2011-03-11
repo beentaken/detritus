@@ -1,0 +1,58 @@
+\def\mbox#1{\leavevmode\hbox{#1}}
+\input btxmac
+
+\font\footnotefont=cmr7
+\font\mainfont=cmr12
+\font\mi=cmti12
+\font\subsectionfont=cmbx12
+\font\sectionfont=cmbx14
+\font\headingfont=cmbx16
+\font\titlefont=cmbx18
+
+\def\RCS$#1: #2 ${\expandafter\def\csname RCS#1\endcsname{#2}}
+
+\RCS$Id: ass3.tex 2 2007-07-19 13:00:48Z pdezwart $
+
+\def\heading#1{\vskip 12 pt \leftline{\headingfont #1}}
+
+\def\quotation#1#2{{\mi ``#1''}~\cite{#2}}
+
+\def\title#1#2#3{\centerline{\titlefont #1} \vskip 12pt \centerline{\mainfont Author: #2} \vskip 12 pt \centerline{\mainfont Student ID\#: #3} \vskip 12 pt \centerline{\footnotefont \RCSId} \vskip 24pt}
+
+\def\XYZ{XYZ brand}
+\def\DFT{NSW Department of Fair Trading}
+\def\ACCC{Australian Competition and Consumer Commission}
+\def\TPA{Trade Practices Act of 1974}
+\def\FTA{Fair Trading Act 1987 No 68}
+\def\CCA{Consumer Claims Act 1998 No 162}
+\def\CCR{Consumer Claims Regulation 1999}
+\def\CTTTA{Consumer, Trader and Tenancy Tribunal Act 2001 No 82}
+
+\parskip 12 pt
+\parindent 24 pt
+
+\title{CSCI102: Assignment 3}{Peter Nathaniel Theodore de Zwart}{9840642}
+
+\mainfont
+
+It is unreasonable that I be required to pay for any further service and repairs on the \XYZ\ laptop due to the history of repeated debilitating technical issues that required warranty claims for repairs. To give the supplier of the \XYZ\ (henceforth known as ``the supplier'') the benefit of the doubt and to establish goodwill I would attempt to get a refund, failing that seek legal advice on reparations due to lost business, lastly if the previous measure fails, to instigate a media campaign to inform the public of the unwillingness of the supplier to participate in a reasonable manner in regards to warranty claims.
+
+Since a complete replacement was delivered with faults which I could not have known about before hand, the \DFT\ advises that it is reasonable to expect a refund in a situation where the supplier \quotation{[does] not do the job that you were led to believe they would do}{dftrefund}, where they would provide a complete replacement of the defective laptop. Instead, an utter mockery was delivered 4 weeks after being informed of the intended replacement. Although, considering the history of the supplier where they are unwilling to react in a decent manner, the probability of having to resort to stronger measures to alleviate this situation is not trivial.
+
+In the case where the supplier is not willing to provide a refund for the laptop, it is time to seek advice from a legal professional. After attempting to decipher the convoluted morass of rulings of the \TPA\ from the \ACCC, Consumer Protection Part V, Conditions and warranties in consumer transactions Division 2, Section 68A, it is obvious that attaining the aid of a person of greater legal clout than I, who is capable of interpreting such a document, is necessary. However without severe dissemination of the \TPA, I believe that the supplier is in breach of the stated act and that persuing this matter with a legal representative would prove to be prudent.
+
+As 6 weeks has transpired during which the laptop was inoperable in addition to all the time that was spent investigating the causes of the symptomatic problems, there has been a loss of business productivity proportional to the time spent on the faulty laptop. Granted that the hours spent on self-diagnosis of the possible cause of the symptoms was not necessary, there was a significant period of time where the laptop in question was incapable of fulfilling its intended use, the role for which it was purchased: conducting web consulting during extensive travelling and field work.
+
+According to the \CCA, \quotation{Any consumer may apply to the Tribunal, in accordance with the [\CCR], for determination of a consumer claim.}{cca98}, where the tribunal is the one detailed in the \CTTTA, \quotation{Tribunal means the Consumer, Trader and Tenancy Tribunal of New South Wales established by this Act.}{cttta01}, which should aid the reparation process. The main aim of the legal proceedings is to coerce the supplier in to a voluntary settlement to avoid being placed on the \quotation{list of unsatisfactory suppliers}{cca98}\ severely hindering their public goodwill.
+
+Failing the previous attempts at vindication, it is time to instigate a media campaign aimed at other professionals in similar fields to web development to ensure that they are aware of the failure of the supplier to provide a product that is reliable in a business environment. This maneuver is aimed at forcing the supplier to rethink its stance on warranty repairs if they are to retain a market share with other web developers, with that particular laptop.
+
+In the end, some form of reparation will be achieved, either that of a suitable monetary sum or the personal satisfaction that the supplier will no longer inflict its abhorrent warranty policy on other professionals in the Information Technology fields. However, as this is an issue of professional productivity leading to the income of a business, a monetary settlement is desirable. Whereas personal satisfaction falls under the realm of revenge.
+
+\heading{References}
+
+\nocite{*}   % put all database entries into the reference list
+\bibliography{ass3}   % specify the database files
+\bibliographystyle{plain}   % specify plain.bst as the style file
+
+\bye

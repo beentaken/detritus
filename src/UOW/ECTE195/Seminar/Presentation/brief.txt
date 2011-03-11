@@ -1,0 +1,104 @@
+$Id: brief.txt 2 2007-07-19 13:00:48Z pdezwart $
+
+	"2001: A Mars Odyssey" written by Stephen Cass, is an interesting
+article to read. It attempts to show how NASA is preparing to launch another
+mission to Mars. This time it is called "the Odyssey". Cass hopes to show that
+the mission will [1] "erase the memories of the failure of the last two NASA
+mission to [Mars]" and [1] "map the planet's geology, paying particular
+attention to the role of water".
+
+	The Odyssey will be mapping the mineral and atomic composition of the
+surface of Mars to see where water may have flowed in the past. As liquid water
+is not stable on the surface of Mars it would readily evaporate, leaving behind
+all the minerals that had been absorbed.
+
+	To carry out its mission the Odyssey will have a payload of two
+experiments: the THermal EMission Imaging System (THEMIS) and the Gamma Ray
+Spectrometer (GRS).
+
+	THEMIS will use infrared spectrography to map the Martian surface of
+its mineral content. The data collected will then be used to look for minerals
+associated with water. It is also capable of imaging in the visible wavelengths
+and will be used to aid the Global Surveyor (GS), another Mars orbiter, to
+create visual maps of Mars. Another task of THEMIS is to determine the
+suitability of possible future landing sites by measuring their Thermal Inertia.
+
+	The GRS experiment is comprised of three instruments: [2] "a Gamma
+subsystem, the Neutron spectrometer (NS), built by the Los Alamos National
+Laboratory (LANL), and the High-Energy Neutron Detector (HEND), built by
+Russia's Space Research Institute (IKI). GRS will be used to measure the atomic
+composition of the Martian surface. In particular, it is capable of detecting
+the presence of Hydrogen up to 1m below the surface. This may lead to the
+discovery of underground flows of water.
+
+	Evidence suggests that liquid water may exist in underground Aquifers,
+covered with a layer of [1] "permafrost and kept liquid by the internal heat of
+the planet". Life may exist in such bodies of water, thus the outflow of water
+from these Aquifers need to be located, so they can be further studied.
+
+	There is a third experiment on the Odyssey, the Mars Radiation
+Environment Experiment (Marie), which is not directly related to the search for
+water on Mars. It will map the radiation levels during the Odyssey mission. This
+data will be used to make plans against the effects of radiation for human based
+missions to Mars.
+
+	The Odyssey orbiter was to be accompanied by a rover that was going to
+carry out experiments similar to Marie on the plants surface for the human
+exploration of Mars. After the previous two Mars mission failures: the Mars
+Climate Observer (MCO) in 1999 and the Mars Polar Lander (MPL) in 2000, in an
+effort to save resources, it was shelved for possible future use.
+
+	In lieu of the above failures, NASA's Jet Propulsion Laboratories (JPL)
+carried out an extensive analysis of the Odyssey mission parameters to find out
+which were mission critical, as to devote more resources to them. This would 
+help to avoid catastrophes like the one that befell the MCO and MPL. Due to a
+mismatch between SI and Imperial units of measurement, a navagational error
+ensued aboard the MCO orbiter and it burned up in the Martian atmosphere.
+
+	Around the same time of JPL's analysis of the mission NASA assembled a
+"Red-Team" comprising of 50 aerospace industry experts to perform an
+independent evaluation of the mission. This led to many design changes to
+ensure a greater margin for error and continuing the effort towards the missions
+success.
+
+	NASA also changed its monetary stance in regards to the Odyssey
+mission. It went from a frugal, cost conserving attitude towards one that better
+suited achieving the mission objectives and minimising the potential for human
+error.
+
+	Cass shows an efficient command of the English language. [1] "Although
+the shadow of the recent failed NASA missions to Mars looms over the Odyssey,
+the scientists and engineers have faith in it the spacecraft and its mission."
+Enabling him to deliver the purpose of the article to its intended audience.
+
+	He also shows a detailed grasp of the technology and scientific
+concepts used. They were explained in a concise and brief manner to ensure that
+readers will understand enough about them for the purpose of the article. For
+example, Cass explains how THEMIS works to map the Martian surface mineralogy,
+also comparing it to the older Thermal Emissions Spectrometer (TES) currently
+aboard the Mars Global Surveyor (MGS).
+
+	The graphics in the article were used effectively to increase the
+clarity of complex concepts. Especially when explaining the differing
+geological compositions of the northern and southern hemispheres. Which had an
+implication on how the surface of Mars may have been affected by water bodies
+in the past.
+
+	Quotations from the people who worked on the mission were used to
+explain decisions and actions taken by NASA to ensure success. [1] "A headache
+for Pace ... "in all our documentation where we have an interface between
+systems, we've put both sets of units on there, so there's no mistake.""
+
+	Stephen Cass has demonstrated that NASA is intently focused upon the
+operational success of the Odyssey mission and the achievement of its
+objectives.  Such that memories about the previous failures have a good chance
+of being erased. Rather memories will be full of the exciting forays of JPL's
+Odyssey in to the Martian geological territory and the quest for life through
+the signs of water.
+
+Bibliography:
+
+[1]	Stephen Cass, '2001: A Mars Odyssey', IEEE Spectrum, Vol.38, No.4, April
+	2001, pp 58-65.
+
+[2]	GRS Instrumentation, http://grs.lpl.arizona.edu/instruments/

@@ -1,0 +1,3000 @@
+TVM341
+MREPP9705262794
+FCJTL4578462180
+Ford
+Falcon
+Sedan
+1989
+Orange
+Ian Freeman
+136 Strata Ave
+Nowra
+
+TUE434
+WIEEK9615021442
+LAVXA2928125990
+Mazda
+323
+Sedan
+1998
+Yellow
+Ian Wilson
+69 Regent St
+Blacktown
+
+VRJ450
+PPFNJ1418979013
+YKGFT2004992960
+Ford
+Falcon
+Sedan
+1994
+Red
+Ian Freeman
+10 Swan St
+Nowra
+
+GWU238
+TMOIV8244371089
+BFRIH2543037853
+Ford
+Falcon
+Coupe
+1990
+Yellow
+Karen Freeman
+64 Taylor Rd
+Nowra
+
+TUJ998
+FJOFW3659565234
+VTKCF6074001734
+Susuki
+Baleno
+Sedan
+1989
+Green
+Fred Lamont
+95 Gibbs Rd
+Corrimal
+
+NXJ941
+VZVMM2645459300
+MQHQU1392367659
+Mazda
+323
+Sedan
+1991
+Black
+Bill Finny
+5 Strata Ave
+Mitagong
+
+HXM296
+ETODR7945441565
+ENKJX3498226564
+Nissan
+Skyline
+Coupe
+1993
+Black
+Jim Lamont
+56 Regent St
+Corrimal
+
+FTM141
+MBVUL0107056106
+NCXVM9856589809
+Nissan
+Skyline
+Coupe
+1993
+White
+Jim Smith
+130 Squires Cr
+Corrimal
+
+TFI481
+BZTHX2918647262
+TNRTV6311493962
+Ford
+Escort
+Coupe
+1998
+Blue
+Jack Lamont
+142 River Rd
+Wollongong
+
+GKF151
+HRGTB1964294471
+AXHZP0314436638
+Toyota
+Celica
+Sedan
+1992
+Black
+Jack Wilson
+144 River Rd
+Port Kembla
+
+WDD801
+ONTZZ5976038810
+ENRTK1976785979
+Mitsubishi
+Magna
+Coupe
+1993
+Red
+Jill Finny
+108 Gibbs Rd
+Wollongong
+
+QKE826
+CRDYC1583046781
+RHYGC8250282033
+Susuki
+Swift
+Coupe
+1998
+White
+Fred Wilson
+44 Strata Ave
+Mitagong
+
+KAJ832
+SSUQT7344537155
+DSXNM3369893273
+Ford
+Falcon
+Coupe
+1995
+Red
+Jim Smith
+52 Gibbs Rd
+Wagga
+
+DSA142
+EFTZT1346249614
+LUSXU9247776535
+Holden
+Commodore
+Sedan
+1992
+Yellow
+Jenifer Jones
+5 Gibbs Rd
+Wagga
+
+XDG172
+HHYKH3641057484
+MRHUW5442489186
+Mitsubishi
+Magna
+Coupe
+1992
+Black
+Fred Finny
+26 Gibbs Rd
+Port Kembla
+
+OPV256
+RYAQO6658999494
+VNKVS0257298715
+Nissan
+Skyline
+Sedan
+1990
+Orange
+Karen Baker
+37 Iris Ave
+Corrimal
+
+ADL089
+ACBJW7061650623
+EKGXF1676124421
+Mitsubishi
+Lancer
+Sedan
+1988
+Blue
+Ian Jones
+12 Swan St
+Corrimal
+
+BQA992
+TQHAX7476780045
+WPSPP7886031471
+Nissan
+Bluebird
+Sedan
+1990
+Green
+Fred Wilson
+12 River Rd
+Corrimal
+
+LDQ447
+EZQQJ5106232664
+EILIV3782366811
+Mazda
+626
+Coupe
+1989
+White
+Bill Freeman
+23 Regent St
+Wagga
+
+RGP611
+BUTDD9081398201
+GXDFD6602025678
+Ford
+Escort
+Sedan
+1992
+Blue
+Fred Smith
+107 Iris Ave
+Blacktown
+
+XLO848
+FFPKZ2233139985
+JFHAP5065920763
+Susuki
+Baleno
+Sedan
+1992
+Blue
+Jim Morgan
+5 Swan St
+Port Kembla
+
+DSR544
+OSJFJ5205629694
+ZLUKW6732207458
+Mazda
+626
+Coupe
+1992
+Blue
+Fred Morgan
+38 Iris Ave
+Nowra
+
+VCZ965
+JDEVF4322606060
+XVQXX4388242190
+Holden
+Barina
+Coupe
+1990
+Green
+Bill Freeman
+97 River Rd
+Corrimal
+
+UMS834
+QQEAU5048920905
+EFQSQ0454060760
+Holden
+Gemini
+Sedan
+1992
+Blue
+Jenifer Baker
+16 Taylor Rd
+Newcastle
+
+CZK087
+EMFQQ2419142973
+FAOOJ2977949175
+Nissan
+Skyline
+Coupe
+1990
+Orange
+Jenifer Baker
+138 River Rd
+Wollongong
+
+KKN786
+LHJPS6240142961
+HJOEA9069106860
+Holden
+Barina
+Coupe
+1996
+Orange
+Jill Wilson
+135 River Rd
+Blacktown
+
+TYG536
+LWEGG3776247907
+TYDAL5666870887
+Ford
+Laser
+Sedan
+1993
+Blue
+Jill Morgan
+124 Regent St
+Nowra
+
+LTM564
+GMJLL0627961500
+GVPBP6027614799
+Holden
+Commodore
+Coupe
+1989
+Blue
+Bill Morgan
+27 Swan St
+Newcastle
+
+ZRJ160
+NZFXO2235081615
+DYJGN5746715886
+Toyota
+Corola
+Coupe
+1988
+White
+Karen Baker
+75 Iris Ave
+Port Kembla
+
+NGV961
+WXXNJ1318228475
+ZRMQF3529809556
+Susuki
+Baleno
+Coupe
+1990
+Green
+Jill Jones
+11 River Rd
+Newcastle
+
+DQB606
+JQOJT9509677236
+IKBIH8827892651
+Nissan
+Skyline
+Sedan
+1991
+Blue
+Jill Baker
+115 Swan St
+Corrimal
+
+ZFX292
+UOQFO4147376909
+BHFXO4159644325
+Susuki
+Swift
+Coupe
+1996
+Black
+Jack Finny
+103 Swan St
+Corrimal
+
+WCE792
+CWAER1666647784
+PSBPC6960262859
+Mitsubishi
+Nimbus
+Coupe
+1991
+Green
+Jenifer Lamont
+74 Gibbs Rd
+Corrimal
+
+SFV275
+ZICEQ7992921505
+GEMBX3221217633
+Susuki
+Swift
+Coupe
+1996
+Blue
+Ian Lamont
+141 Regent St
+Port Kembla
+
+SFH654
+GBBZV9204413588
+MIEOO2126472308
+Toyota
+Corola
+Sedan
+1988
+Green
+Jenifer Freeman
+44 River Rd
+Wollongong
+
+KZN312
+XBZKU6889083119
+KQXBK8522439563
+Susuki
+Baleno
+Coupe
+1993
+Green
+Jim Baker
+111 Taylor Rd
+Port Kembla
+
+QSM507
+TAURN0254473291
+HVUIV2543507704
+Nissan
+Bluebird
+Sedan
+1998
+Yellow
+Jack Jones
+40 Swan St
+Mitagong
+
+NDK394
+MLJJB0149084293
+LBEXS4591125611
+Holden
+Commodore
+Coupe
+1998
+Red
+Jenifer Wilson
+133 Squires Cr
+Newcastle
+
+YDX852
+BBKLM5237714012
+PRDGH0078507898
+Ford
+Laser
+Coupe
+1992
+Blue
+Ian Finny
+115 Iris Ave
+Wagga
+
+YNW376
+SUOKH8036823469
+SMQVC8781025859
+Toyota
+Corola
+Coupe
+1993
+Yellow
+Jill Finny
+135 Regent St
+Blacktown
+
+PKB005
+YZHRH0844163628
+SREWU9471522195
+Mazda
+626
+Sedan
+1996
+Blue
+Fred Baker
+91 River Rd
+Blacktown
+
+NNI454
+AUHEC0821461854
+EUJJM4831981208
+Holden
+Commodore
+Sedan
+1994
+Red
+Jack Morgan
+114 Gibbs Rd
+Nowra
+
+CIU834
+JDLLR6208537331
+CRBAF7039625681
+Susuki
+Swift
+Coupe
+1998
+White
+Bill Wilson
+104 Gibbs Rd
+Newcastle
+
+TCF537
+TAPXZ6955365649
+DYKXY6861729016
+Nissan
+Skyline
+Coupe
+1992
+Orange
+Jim Wilson
+108 Squires Cr
+Corrimal
+
+OCE965
+STTTN2600714223
+GJJWG8237238740
+Holden
+Barina
+Sedan
+1996
+White
+Karen Baker
+65 Gibbs Rd
+Port Kembla
+
+CSQ593
+RBXXK0268135064
+OEQZZ6415962687
+Holden
+Barina
+Coupe
+1993
+Blue
+Jill Lamont
+26 Taylor Rd
+Mitagong
+
+IXU069
+TGHBL2897144328
+FVDHV5188734207
+Susuki
+Baleno
+Coupe
+1993
+White
+Jim Finny
+129 Taylor Rd
+Wagga
+
+CLL588
+CNCKO0249284228
+GEUVA1537392961
+Mitsubishi
+Lancer
+Sedan
+1989
+Black
+Jim Finny
+137 Taylor Rd
+Wagga
+
+JMQ975
+DJMDC2111771893
+OHZES6331422047
+Holden
+Barina
+Sedan
+1998
+White
+Jill Morgan
+17 Regent St
+Nowra
+
+HZN404
+QQCKZ8403586561
+SYBMR8392520997
+Mazda
+323
+Coupe
+1988
+Yellow
+Bill Freeman
+146 Iris Ave
+Wagga
+
+EJZ562
+LTYQQ2755798881
+WLZKZ2436368522
+Susuki
+Baleno
+Sedan
+1992
+Red
+Jenifer Freeman
+50 Strata Ave
+Mitagong
+
+SCD501
+TVICB9667612131
+FUMZM8107518735
+Holden
+Commodore
+Sedan
+1988
+Black
+Jill Freeman
+92 Iris Ave
+Port Kembla
+
+WLA320
+KBCHZ1751360498
+CUMWO2531894708
+Holden
+Barina
+Sedan
+1989
+Red
+Jill Wilson
+115 Strata Ave
+Newcastle
+
+DKG334
+WRRCQ8645274560
+FZNLZ2652935031
+Nissan
+Skyline
+Coupe
+1996
+Orange
+Jack Finny
+9 Strata Ave
+Wagga
+
+UFL161
+IRRQU1072758854
+ICUPL5910452319
+Susuki
+Swift
+Coupe
+1991
+Red
+Ian Jones
+16 Squires Cr
+Nowra
+
+BRV291
+OWOJS4961841537
+IRDFB5909165671
+Toyota
+Corola
+Coupe
+1989
+Blue
+Jack Wilson
+82 Iris Ave
+Wollongong
+
+UXI978
+IAMEZ5719565043
+UPSSY0915554770
+Mazda
+626
+Sedan
+1995
+Blue
+Fred Jones
+104 River Rd
+Newcastle
+
+KKU596
+KZNTR0877747958
+ZVFVO6536630206
+Susuki
+Swift
+Coupe
+1997
+Green
+Karen Finny
+141 Squires Cr
+Blacktown
+
+YXS187
+QBCJR9915009875
+QXMUQ9179231822
+Nissan
+Skyline
+Coupe
+1997
+White
+Ian Finny
+124 Taylor Rd
+Blacktown
+
+CNW987
+FVGOK4162520465
+RGYGQ0296563000
+Mazda
+121
+Coupe
+1995
+Orange
+Jack Lamont
+95 Strata Ave
+Wollongong
+
+DRW695
+SIYGI2834029247
+VMAXR1939604990
+Toyota
+Celica
+Sedan
+1991
+Red
+Karen Smith
+145 Regent St
+Nowra
+
+OUT943
+MDGVV4470871801
+MLRLZ2899342237
+Nissan
+Bluebird
+Sedan
+1991
+Red
+Karen Baker
+122 Gibbs Rd
+Blacktown
+
+UYW312
+VBWWJ7410503558
+ISFRW1318445789
+Holden
+Barina
+Coupe
+1991
+Orange
+Jack Jones
+41 Squires Cr
+Mitagong
+
+OAV104
+DXICY7225438809
+DQKEZ1166483655
+Ford
+Laser
+Sedan
+1994
+White
+Karen Finny
+149 River Rd
+Nowra
+
+ISJ935
+WIZWO7475550086
+RKACJ1003342557
+Nissan
+Skyline
+Sedan
+1990
+White
+Fred Wilson
+22 Swan St
+Corrimal
+
+XGV213
+WPUOQ6112315053
+BXJBA3953316220
+Holden
+Gemini
+Coupe
+1988
+Green
+Jenifer Finny
+21 Strata Ave
+Blacktown
+
+EZW594
+PCRNR4400311728
+VGLLR7179850259
+Holden
+Barina
+Coupe
+1996
+Blue
+Bill Lamont
+16 Iris Ave
+Port Kembla
+
+WKI024
+JPUCE3283678877
+EGCEJ2886481961
+Mazda
+323
+Coupe
+1998
+Red
+Jim Jones
+77 Squires Cr
+Blacktown
+
+LYD855
+LIFXG0518521813
+ODAWE4130515498
+Mazda
+121
+Coupe
+1988
+White
+Bill Morgan
+56 Swan St
+Newcastle
+
+SXQ794
+XJJDA0369108924
+TJWDH6268292108
+Toyota
+Corola
+Coupe
+1994
+Green
+Jill Finny
+143 Squires Cr
+Mitagong
+
+JJU498
+XPNLI9722610922
+XUARG6885329745
+Ford
+Escort
+Sedan
+1991
+Green
+Bill Wilson
+19 Iris Ave
+Mitagong
+
+MHV540
+IMKDB3248452510
+FFREN2269115608
+Susuki
+Baleno
+Sedan
+1990
+Black
+Jill Baker
+73 Gibbs Rd
+Nowra
+
+MAZ891
+BJSRD7369187770
+HKJHJ8075420704
+Susuki
+Swift
+Coupe
+1989
+Blue
+Karen Baker
+149 River Rd
+Wollongong
+
+EKP071
+LHSDD2533159285
+CSKEE0576032840
+Toyota
+Camry
+Coupe
+1997
+Blue
+Jenifer Morgan
+131 Iris Ave
+Port Kembla
+
+LYD268
+YIJWM2344035873
+XLZHA5080410216
+Toyota
+Celica
+Coupe
+1994
+Orange
+Bill Baker
+73 Squires Cr
+Mitagong
+
+FNQ601
+QOATJ0170990870
+AGFXQ8868491623
+Nissan
+Skyline
+Coupe
+1994
+Green
+Jenifer Wilson
+42 Gibbs Rd
+Corrimal
+
+HBG694
+LMPDK8568500028
+CGSRB4615662424
+Toyota
+Corola
+Sedan
+1997
+Red
+Jim Morgan
+130 Gibbs Rd
+Newcastle
+
+AUV079
+CLQSM1908758407
+XYDVM2952636842
+Toyota
+Camry
+Sedan
+1989
+Green
+Jim Smith
+127 Squires Cr
+Wollongong
+
+ZAU714
+VBQQH5667425167
+STQQE7327240303
+Mitsubishi
+Nimbus
+Sedan
+1998
+Blue
+Ian Smith
+17 Strata Ave
+Port Kembla
+
+GDJ369
+UEZVK6051978127
+IVKLU5438220277
+Holden
+Gemini
+Coupe
+1993
+White
+Jim Morgan
+144 Swan St
+Newcastle
+
+FUF378
+USUFU2205741293
+LUMEI5516295856
+Holden
+Commodore
+Coupe
+1991
+Black
+Fred Lamont
+45 Squires Cr
+Wollongong
+
+XXR447
+JCAMV7932746804
+RMJJF8960634087
+Susuki
+Swift
+Sedan
+1997
+Black
+Bill Jones
+51 Iris Ave
+Corrimal
+
+YDL906
+ZGXLH1173874933
+ZDZFY1314297042
+Mazda
+121
+Sedan
+1994
+Orange
+Jack Wilson
+97 Taylor Rd
+Port Kembla
+
+WMA441
+SDPGF7906620378
+CCHKN4950405399
+Mitsubishi
+Nimbus
+Sedan
+1993
+White
+Jill Freeman
+74 Squires Cr
+Wollongong
+
+FKU720
+EUIDF4034430572
+VDUCR1076497264
+Toyota
+Corola
+Coupe
+1993
+White
+Ian Smith
+36 River Rd
+Mitagong
+
+UIG464
+FYELN0770596888
+NHNQC5130539488
+Ford
+Falcon
+Coupe
+1989
+Green
+Jim Jones
+28 Iris Ave
+Newcastle
+
+BBE660
+YUWBV5123416399
+QEVCY6969530746
+Mitsubishi
+Nimbus
+Sedan
+1997
+Red
+Karen Baker
+142 River Rd
+Newcastle
+
+BRP396
+BJLQA2749806801
+APDYU5340653438
+Nissan
+Skyline
+Sedan
+1996
+Blue
+Karen Lamont
+148 Strata Ave
+Nowra
+
+YVL450
+EWBOV3518842353
+KHFOO9914852677
+Ford
+Laser
+Sedan
+1993
+White
+Ian Baker
+70 River Rd
+Wagga
+
+SIL103
+JMVTW3728724321
+QIUNQ8923921271
+Holden
+Commodore
+Coupe
+1993
+Blue
+Karen Wilson
+82 Gibbs Rd
+Corrimal
+
+MFK215
+DECDH4618863138
+ZOKPS6041631403
+Holden
+Gemini
+Coupe
+1992
+Blue
+Jill Smith
+57 Regent St
+Newcastle
+
+SRK620
+NJHGE2846342679
+WULCX4593039665
+Holden
+Barina
+Coupe
+1990
+Black
+Fred Smith
+121 Swan St
+Mitagong
+
+GOU699
+MIWKU5795449348
+LOZQR6607172556
+Holden
+Commodore
+Coupe
+1988
+Orange
+Jim Jones
+36 Iris Ave
+Nowra
+
+NCU632
+VEITN6220003084
+TREAO4987993548
+Mazda
+323
+Coupe
+1997
+Orange
+Karen Wilson
+89 Gibbs Rd
+Wagga
+
+DJB121
+UOBEE2094107613
+ATFKW3653162681
+Ford
+Escort
+Coupe
+1997
+Blue
+Jill Freeman
+7 Regent St
+Corrimal
+
+VIZ510
+FQIOG0818694544
+YJYZV4286288160
+Nissan
+Bluebird
+Coupe
+1990
+Yellow
+Jack Smith
+42 Swan St
+Wollongong
+
+BEX236
+RRTKR1502863336
+IRWWL7987642834
+Susuki
+Swift
+Sedan
+1995
+Orange
+Ian Lamont
+7 Regent St
+Newcastle
+
+UDR924
+NTEBC3103403438
+USNQE4746423395
+Susuki
+Swift
+Coupe
+1991
+Orange
+Jill Baker
+4 River Rd
+Corrimal
+
+RFP636
+NYQWL8537259283
+EFRLK2197939458
+Ford
+Escort
+Coupe
+1994
+Black
+Jim Morgan
+79 Gibbs Rd
+Wagga
+
+BOF426
+MZIER5602488939
+ZSQBW8383225121
+Susuki
+Swift
+Sedan
+1991
+Green
+Karen Morgan
+51 Gibbs Rd
+Mitagong
+
+NTA916
+ZQPHN1054815676
+RWGPC8575724383
+Nissan
+Skyline
+Sedan
+1994
+White
+Jim Jones
+46 Swan St
+Blacktown
+
+OZC259
+PNVYH8988119097
+SBOVT7010934110
+Toyota
+Celica
+Sedan
+1997
+Yellow
+Jim Wilson
+119 Strata Ave
+Blacktown
+
+UZG335
+YJUMW3449955950
+HQUPL6830725100
+Ford
+Escort
+Sedan
+1988
+Green
+Jill Wilson
+112 Regent St
+Port Kembla
+
+XHP051
+FBRMN7075255661
+UZABY9842480350
+Ford
+Falcon
+Sedan
+1995
+Yellow
+Jill Wilson
+96 River Rd
+Nowra
+
+UXG893
+MBHSY6997587780
+YZOVR1130097343
+Ford
+Laser
+Sedan
+1991
+Red
+Karen Lamont
+16 Swan St
+Mitagong
+
+DRG857
+QIXQS1444700486
+ETPTY7795636201
+Susuki
+Swift
+Coupe
+1995
+White
+Jack Lamont
+122 Iris Ave
+Newcastle
+
+XAS237
+RZQOU2256892404
+TTBPH0958259328
+Mitsubishi
+Nimbus
+Sedan
+1998
+Red
+Jill Smith
+5 Regent St
+Port Kembla
+
+PQP314
+WFYMR1058500957
+WMZCP0066519723
+Nissan
+Bluebird
+Sedan
+1996
+Red
+Jack Baker
+76 Swan St
+Port Kembla
+
+CUB396
+CVDVR0699876375
+LUQYJ9465765659
+Nissan
+Bluebird
+Coupe
+1995
+Blue
+Fred Smith
+73 Gibbs Rd
+Mitagong
+
+XKU145
+KWJNR6123683715
+OQIUX7512582860
+Nissan
+Bluebird
+Coupe
+1992
+Blue
+Jill Freeman
+146 Squires Cr
+Mitagong
+
+GGE643
+YJREE5758340700
+NEEQZ9667557344
+Nissan
+Skyline
+Sedan
+1993
+Blue
+Bill Baker
+39 Regent St
+Nowra
+
+GEW929
+NTJQR7448365255
+CAKHG6913270914
+Nissan
+Bluebird
+Coupe
+1992
+Red
+Karen Smith
+144 Regent St
+Nowra
+
+JXA331
+MQIII5007619033
+NGOXK4511099084
+Holden
+Gemini
+Coupe
+1988
+White
+Fred Baker
+97 Strata Ave
+Nowra
+
+ZZP785
+WKRLZ0881640489
+MLLHH8540468299
+Holden
+Commodore
+Sedan
+1993
+Blue
+Karen Morgan
+78 Gibbs Rd
+Port Kembla
+
+TFD471
+WFLQW5423757355
+ZVAEZ9852479815
+Ford
+Escort
+Coupe
+1995
+Black
+Ian Jones
+144 Iris Ave
+Port Kembla
+
+NZL597
+NFHNU9327129442
+DAXEY2764225019
+Toyota
+Corola
+Coupe
+1992
+White
+Jim Jones
+65 Iris Ave
+Nowra
+
+XVD086
+VATYT3105081623
+OJWMR3269955960
+Mazda
+323
+Coupe
+1997
+Green
+Karen Lamont
+70 Strata Ave
+Wollongong
+
+PIA990
+ZSKBO8612944018
+ZJQTP3578418130
+Holden
+Barina
+Sedan
+1989
+Yellow
+Jim Lamont
+139 River Rd
+Blacktown
+
+LAI687
+UUVGE6535179705
+EBDBH7919227162
+Toyota
+Celica
+Coupe
+1993
+Black
+Karen Jones
+44 Regent St
+Mitagong
+
+XOC144
+AILNU8895431549
+RJWGE2776774867
+Holden
+Barina
+Sedan
+1998
+Orange
+Jill Jones
+3 Regent St
+Nowra
+
+LOV873
+KEKLA0360803398
+BIXRP1518592828
+Holden
+Barina
+Sedan
+1993
+Yellow
+Jim Morgan
+10 Swan St
+Port Kembla
+
+TLQ648
+SNPYR6787770229
+PKBTK3500919310
+Mitsubishi
+Magna
+Coupe
+1990
+Black
+Jill Finny
+80 Taylor Rd
+Nowra
+
+MWL954
+JPLBT2061444749
+GJZKY2337026024
+Mitsubishi
+Magna
+Sedan
+1997
+Blue
+Bill Wilson
+52 Squires Cr
+Wollongong
+
+QMF840
+SOKAS9400065538
+XGZUB0159760944
+Ford
+Falcon
+Coupe
+1988
+Black
+Bill Wilson
+7 Swan St
+Mitagong
+
+BCO495
+GPSRE7971320445
+ACUYT9142980790
+Toyota
+Corola
+Coupe
+1992
+Orange
+Fred Jones
+133 Regent St
+Mitagong
+
+HKR206
+TUMKL1153944956
+YDUEA8308808282
+Holden
+Commodore
+Coupe
+1998
+Blue
+Fred Morgan
+26 Swan St
+Corrimal
+
+TNU127
+MZTUK7941041971
+MDKOX2499524325
+Mazda
+323
+Sedan
+1997
+Yellow
+Bill Lamont
+22 Taylor Rd
+Wagga
+
+XKG625
+ZWNHH4939354639
+MIZLO9671347703
+Susuki
+Swift
+Coupe
+1993
+White
+Bill Freeman
+144 Strata Ave
+Port Kembla
+
+PAI639
+IYHMQ1117184806
+MWIVA2740961093
+Mitsubishi
+Nimbus
+Coupe
+1990
+Orange
+Jim Smith
+61 Squires Cr
+Wagga
+
+RDP897
+KUHXF4194711915
+RGQWO6791734609
+Holden
+Commodore
+Coupe
+1998
+Blue
+Jill Smith
+50 Gibbs Rd
+Wagga
+
+GMS300
+BZDVM6402177365
+PWITI4667944822
+Susuki
+Baleno
+Coupe
+1997
+White
+Jim Baker
+51 Squires Cr
+Blacktown
+
+HXQ719
+EKNKO8009826588
+RAQXM4342938949
+Toyota
+Corola
+Coupe
+1990
+White
+Bill Lamont
+8 Swan St
+Wollongong
+
+DFJ384
+ENPSH4670363433
+HMSXM9388780049
+Mazda
+626
+Sedan
+1994
+Green
+Jack Lamont
+3 Swan St
+Mitagong
+
+UBY047
+ZHFWH7554113848
+JAJAD1603289320
+Mazda
+121
+Coupe
+1994
+Red
+Fred Finny
+85 River Rd
+Wagga
+
+GAB861
+JGPSM9274616018
+CGTIL8764342756
+Susuki
+Baleno
+Coupe
+1993
+Blue
+Ian Finny
+8 River Rd
+Blacktown
+
+GLE491
+ERTVQ6820413921
+DCCDC0341505596
+Nissan
+Skyline
+Sedan
+1996
+Yellow
+Jim Wilson
+103 River Rd
+Corrimal
+
+NCK252
+DJKRO0799421017
+FNSSI3932279188
+Susuki
+Swift
+Coupe
+1996
+Black
+Karen Smith
+107 Swan St
+Mitagong
+
+DWB842
+WOSFC2870667530
+IZJUC4424521689
+Mitsubishi
+Nimbus
+Sedan
+1997
+Orange
+Jack Wilson
+104 River Rd
+Wagga
+
+XPO792
+CMLJJ5828351909
+QZZXK3589526923
+Nissan
+Skyline
+Sedan
+1988
+Yellow
+Jack Baker
+5 Iris Ave
+Port Kembla
+
+YHH329
+MSFWT1596176515
+CPENY9872147973
+Nissan
+Skyline
+Sedan
+1990
+White
+Jenifer Finny
+34 Swan St
+Wollongong
+
+BIY901
+RRPAE9308834416
+CITUR8742979422
+Mitsubishi
+Lancer
+Coupe
+1994
+Orange
+Jill Morgan
+21 Gibbs Rd
+Nowra
+
+HGV307
+UAKSZ3303603706
+DAQRE3386261965
+Toyota
+Corola
+Sedan
+1990
+White
+Jenifer Finny
+25 Strata Ave
+Wagga
+
+YMU623
+JKETK2224803663
+GMHAA2589177648
+Mitsubishi
+Magna
+Sedan
+1993
+Black
+Jill Lamont
+96 Regent St
+Newcastle
+
+FMV625
+TROXN7397408425
+FXQCS5961840254
+Holden
+Commodore
+Coupe
+1988
+Orange
+Bill Jones
+24 River Rd
+Mitagong
+
+BVN795
+QVQIE3094250480
+JAIHN9978730857
+Mazda
+121
+Coupe
+1988
+Orange
+Fred Baker
+46 Iris Ave
+Blacktown
+
+BBL348
+WPHKZ7974322678
+DRJLR6067968907
+Susuki
+Swift
+Sedan
+1993
+Green
+Jack Smith
+110 Regent St
+Port Kembla
+
+YLF230
+VJOQO1827640151
+EBUNH8151190178
+Susuki
+Swift
+Coupe
+1991
+Yellow
+Jack Freeman
+79 Strata Ave
+Port Kembla
+
+DKD491
+JFBIZ6260335476
+SVABN7721432414
+Holden
+Barina
+Sedan
+1996
+Green
+Bill Lamont
+96 Gibbs Rd
+Wollongong
+
+BRG272
+LXDNM4906700095
+XWQPT2381830353
+Mazda
+323
+Coupe
+1993
+Blue
+Jack Lamont
+144 Swan St
+Wollongong
+
+EOP367
+VQXFS4475473878
+JADBN4176407365
+Toyota
+Corola
+Coupe
+1991
+Black
+Jack Morgan
+55 Iris Ave
+Wagga
+
+APT671
+GCMIX5904296853
+IBLXZ6943927718
+Mazda
+323
+Coupe
+1998
+Green
+Jack Freeman
+9 Gibbs Rd
+Mitagong
+
+VNH177
+DUTRF7679148906
+DNRSQ1147593367
+Holden
+Commodore
+Sedan
+1991
+Red
+Jack Jones
+122 Strata Ave
+Port Kembla
+
+ICY538
+DYVRU9947274932
+OETJE4014168011
+Nissan
+Bluebird
+Coupe
+1989
+White
+Ian Morgan
+31 Gibbs Rd
+Wagga
+
+QLR480
+GBHKZ4488023994
+TMSNS8757284660
+Nissan
+Bluebird
+Sedan
+1989
+Yellow
+Karen Baker
+4 Taylor Rd
+Port Kembla
+
+MCM004
+IOAGL4825078458
+HHPNU4061787274
+Mitsubishi
+Magna
+Coupe
+1992
+White
+Bill Jones
+124 River Rd
+Newcastle
+
+ZQU259
+GCZAE5840288106
+MFQOE7133956415
+Toyota
+Camry
+Coupe
+1997
+Blue
+Karen Jones
+19 Iris Ave
+Wagga
+
+EMC929
+PWZME6423810750
+ZEIRU4027744453
+Holden
+Gemini
+Sedan
+1988
+Yellow
+Ian Smith
+39 Iris Ave
+Newcastle
+
+AQP477
+JEGQA7418356992
+VCKAQ0048260953
+Ford
+Escort
+Sedan
+1996
+Orange
+Karen Morgan
+99 Squires Cr
+Port Kembla
+
+LQD793
+NDALW7657786757
+QMWUI2326856830
+Mazda
+323
+Sedan
+1997
+White
+Bill Finny
+128 Squires Cr
+Mitagong
+
+FNT558
+PWVMK8504801134
+WMEQJ6896567649
+Susuki
+Swift
+Sedan
+1989
+Red
+Karen Lamont
+19 Gibbs Rd
+Blacktown
+
+DCI152
+NSQCE0947099555
+HLTVD4035358671
+Susuki
+Swift
+Coupe
+1997
+Blue
+Bill Lamont
+45 Taylor Rd
+Mitagong
+
+KFL293
+EXUBL6966567585
+FUATI8540989739
+Holden
+Barina
+Coupe
+1994
+Green
+Ian Smith
+17 Gibbs Rd
+Blacktown
+
+SJR603
+NUKLJ1089560031
+GZHQE3229317375
+Mitsubishi
+Lancer
+Sedan
+1994
+Blue
+Bill Finny
+84 Squires Cr
+Wagga
+
+GCW624
+IMQFW9586225501
+VBVVH7968129241
+Ford
+Falcon
+Sedan
+1989
+Orange
+Fred Freeman
+134 Swan St
+Nowra
+
+RWN695
+TTAIT1557340518
+EDUYN1367361759
+Susuki
+Swift
+Sedan
+1989
+Red
+Jim Lamont
+49 Gibbs Rd
+Port Kembla
+
+QZW887
+RHUIA7639855660
+DCFFB5929914499
+Nissan
+Bluebird
+Coupe
+1994
+Red
+Bill Baker
+123 Gibbs Rd
+Blacktown
+
+TQW837
+TIJCD8031174840
+OTYOX4659954512
+Susuki
+Swift
+Sedan
+1996
+White
+Jack Lamont
+133 Taylor Rd
+Blacktown
+
+ZGL157
+DFOQG3098879736
+QKYTN7541516978
+Holden
+Barina
+Coupe
+1996
+Black
+Ian Wilson
+43 Gibbs Rd
+Wagga
+
+IUQ685
+BVPZB6377517996
+XKOKU3487845468
+Holden
+Barina
+Sedan
+1997
+Blue
+Jim Lamont
+110 Iris Ave
+Corrimal
+
+VPW032
+ZENMX1271786666
+KDYPY3954515348
+Mazda
+121
+Coupe
+1996
+White
+Jenifer Smith
+73 Strata Ave
+Wagga
+
+VLG130
+MHYFF4849566520
+JIAYB8676993432
+Toyota
+Camry
+Coupe
+1992
+White
+Fred Wilson
+79 Strata Ave
+Mitagong
+
+WKO805
+QIFPZ7095155744
+RGBZU4001678251
+Holden
+Commodore
+Coupe
+1988
+Blue
+Jim Morgan
+77 Strata Ave
+Wollongong
+
+YVS337
+XKVUD5178044415
+OBBOM4522841451
+Mazda
+323
+Coupe
+1992
+Red
+Bill Wilson
+19 Iris Ave
+Nowra
+
+UAZ711
+YJVJS1544298467
+GXXUE6711903704
+Ford
+Laser
+Coupe
+1992
+Black
+Ian Smith
+138 River Rd
+Nowra
+
+MFV883
+ETKZO5771280604
+AAAQY5424766308
+Ford
+Escort
+Coupe
+1996
+Red
+Ian Wilson
+69 Iris Ave
+Mitagong
+
+CMG672
+FVEZC2895827326
+BZHMI2856193294
+Susuki
+Swift
+Coupe
+1990
+Black
+Jill Lamont
+21 Iris Ave
+Mitagong
+
+JJF086
+CSAOR7044279567
+AUGQL3104909517
+Ford
+Falcon
+Sedan
+1994
+Green
+Jill Lamont
+98 Gibbs Rd
+Blacktown
+
+WZW795
+YLTAS8785215689
+GYXFZ8854757318
+Nissan
+Skyline
+Sedan
+1996
+White
+Jack Finny
+118 Gibbs Rd
+Port Kembla
+
+WYJ465
+QEDKW3807705763
+AVVZM0229242948
+Toyota
+Camry
+Coupe
+1996
+Yellow
+Jenifer Lamont
+99 Gibbs Rd
+Mitagong
+
+TGR608
+TXRRB3242322860
+ZTNKP8451316027
+Ford
+Falcon
+Sedan
+1990
+Yellow
+Fred Wilson
+99 Strata Ave
+Newcastle
+
+YUB649
+HSCXN1210451290
+EKAOZ8858254137
+Toyota
+Corola
+Sedan
+1995
+White
+Jim Jones
+126 Taylor Rd
+Newcastle
+
+HVH065
+XRTYO2088062035
+PRFJH0021748334
+Mazda
+626
+Sedan
+1991
+White
+Jim Smith
+68 Taylor Rd
+Corrimal
+
+EXW028
+NJGFD1344539710
+CQEZJ0845262589
+Ford
+Escort
+Sedan
+1997
+Red
+Bill Lamont
+125 Swan St
+Newcastle
+
+PSQ229
+WHILS8908564623
+BKVJO3364519549
+Susuki
+Swift
+Sedan
+1994
+Green
+Jack Freeman
+48 Iris Ave
+Corrimal
+
+SFU368
+KGUOI1715546579
+RXQEA7623388786
+Holden
+Barina
+Coupe
+1989
+Green
+Jill Baker
+108 Iris Ave
+Newcastle
+
+NYR203
+TWMZP8742537273
+UMNQO9756083344
+Nissan
+Skyline
+Coupe
+1998
+Green
+Jim Morgan
+128 Strata Ave
+Wagga
+
+VWJ368
+KZDGH9033188391
+WNZVU5400650707
+Mitsubishi
+Lancer
+Coupe
+1998
+Yellow
+Fred Jones
+20 Regent St
+Blacktown
+
+LQC709
+NMXCM2566273581
+NFGNO4475189878
+Ford
+Laser
+Sedan
+1988
+Black
+Fred Morgan
+63 Regent St
+Mitagong
+
+RXV715
+PCTNQ5625208612
+KBFHT9381592690
+Mazda
+121
+Sedan
+1990
+Blue
+Jenifer Wilson
+140 River Rd
+Mitagong
+
+OOQ922
+GLIWZ1349498570
+UBYTO2727518435
+Ford
+Falcon
+Sedan
+1995
+Blue
+Karen Lamont
+107 Swan St
+Port Kembla
+
+NRH390
+UYSRY6169361614
+WTPWD9503323091
+Mitsubishi
+Nimbus
+Sedan
+1998
+White
+Fred Baker
+46 Strata Ave
+Port Kembla
+
+PRR293
+ZVUWV3156698512
+LBLSB9792465328
+Susuki
+Swift
+Coupe
+1989
+Yellow
+Karen Wilson
+43 Gibbs Rd
+Port Kembla
+
+YUR885
+QLUPH8267077368
+BMWJN3731923204
+Toyota
+Camry
+Sedan
+1997
+Blue
+Jill Baker
+7 Strata Ave
+Wagga
+
+OPS284
+ANBVG7851463527
+BHKQI0791935274
+Mazda
+323
+Coupe
+1992
+White
+Fred Lamont
+96 River Rd
+Newcastle
+
+WVS610
+PDHPU5810590726
+OWJAE6233120990
+Susuki
+Baleno
+Sedan
+1998
+Green
+Karen Freeman
+77 Gibbs Rd
+Mitagong
+
+WIK732
+ZQRKI1786025519
+QZZBM6773868818
+Mitsubishi
+Nimbus
+Coupe
+1997
+Blue
+Bill Finny
+20 Strata Ave
+Corrimal
+
+HTB402
+OWGQF0787509836
+PYETD0894849793
+Mitsubishi
+Lancer
+Sedan
+1988
+Blue
+Bill Freeman
+108 Iris Ave
+Nowra
+
+LBZ036
+YLTBW1377448060
+KDLNV8469742275
+Ford
+Escort
+Sedan
+1994
+Green
+Ian Smith
+38 Iris Ave
+Mitagong
+
+HAE648
+PDNVG5897531158
+QPREL3335057536
+Nissan
+Skyline
+Coupe
+1992
+White
+Karen Freeman
+114 Squires Cr
+Port Kembla
+
+BJB874
+MUOGH9512261452
+YNJIP5764379450
+Holden
+Commodore
+Coupe
+1998
+Orange
+Jim Lamont
+115 Regent St
+Newcastle
+
+YTE104
+XFFEF0703461283
+YQTTG7738633508
+Ford
+Escort
+Coupe
+1994
+Blue
+Jill Wilson
+71 Strata Ave
+Port Kembla
+
+QSC187
+XNVQJ2261748964
+YYAVJ8200315359
+Mazda
+323
+Coupe
+1990
+Green
+Ian Freeman
+141 Squires Cr
+Mitagong
+
+AMW253
+UDZNO9838712982
+HPOCW6993870950
+Mazda
+626
+Coupe
+1997
+Orange
+Ian Baker
+31 Swan St
+Wagga
+
+ZUG442
+GDSCE2169495260
+JODFA1062826881
+Mazda
+121
+Sedan
+1996
+Red
+Fred Freeman
+17 Gibbs Rd
+Blacktown
+
+DQD522
+WLIRZ8564031205
+BBLSI4938623457
+Nissan
+Skyline
+Sedan
+1997
+Blue
+Jim Morgan
+127 Strata Ave
+Mitagong
+
+HTZ193
+JWYUN9908526210
+BSFGO6571324492
+Mitsubishi
+Lancer
+Coupe
+1997
+Green
+Jenifer Finny
+57 Gibbs Rd
+Nowra
+
+SYU201
+RZOHR0289438989
+NYGMO0518113079
+Susuki
+Baleno
+Coupe
+1995
+Black
+Jack Morgan
+107 Iris Ave
+Port Kembla
+
+RDP552
+UHEPP7562384770
+OBOVM8465616193
+Toyota
+Corola
+Sedan
+1991
+Green
+Bill Finny
+105 River Rd
+Wagga
+
+VOF161
+XBPGI2767014704
+KDTNS6678447313
+Ford
+Falcon
+Sedan
+1990
+White
+Ian Smith
+139 Gibbs Rd
+Nowra
+
+ZFL071
+WXBSR1411170895
+UITVV4495666737
+Nissan
+Bluebird
+Sedan
+1996
+White
+Bill Smith
+63 Strata Ave
+Corrimal
+
+FYK698
+GHVSU9955969676
+KJUNS6475685347
+Toyota
+Corola
+Sedan
+1994
+Red
+Jenifer Morgan
+12 Taylor Rd
+Wagga
+
+ESL300
+WSTYQ4465441518
+MAXBQ7311839618
+Susuki
+Swift
+Sedan
+1997
+Black
+Ian Finny
+104 River Rd
+Mitagong
+
+UMK756
+DYQYS8009250800
+GXXRN4198887128
+Toyota
+Corola
+Sedan
+1994
+White
+Jenifer Morgan
+146 Gibbs Rd
+Nowra
+
+XIU861
+EGTPU2247849084
+ZUWXH9973114417
+Nissan
+Bluebird
+Coupe
+1992
+White
+Fred Baker
+39 Taylor Rd
+Blacktown
+
+PMY453
+ATKOX4919646320
+DILAS7017033992
+Toyota
+Celica
+Coupe
+1988
+Red
+Jack Finny
+10 Strata Ave
+Wagga
+
+SOT092
+XCUNV9150431028
+LPKDQ4147795706
+Mitsubishi
+Nimbus
+Sedan
+1994
+Red
+Jill Jones
+122 Taylor Rd
+Blacktown
+
+TMR591
+BBOFN8542118550
+MIEQR9710416950
+Toyota
+Camry
+Sedan
+1997
+Orange
+Jim Freeman
+103 Strata Ave
+Corrimal
+
+BQR705
+IERUL4860529980
+OTVDI1108920855
+Susuki
+Swift
+Coupe
+1995
+Green
+Jack Finny
+6 Swan St
+Wollongong
+
+DTA763
+ZIPTA9403410835
+ZJWRT9203330830
+Mazda
+121
+Sedan
+1994
+Blue
+Jill Baker
+138 Iris Ave
+Wollongong
+
+RPS979
+NRPQB4501684228
+YJEYZ1072737181
+Holden
+Gemini
+Sedan
+1991
+Black
+Fred Baker
+21 Taylor Rd
+Port Kembla
+
+DHJ232
+CBMEX5405613836
+JXXWW9330942423
+Mitsubishi
+Nimbus
+Sedan
+1991
+Orange
+Jill Morgan
+38 Taylor Rd
+Nowra
+
+HYQ582
+OVVZU0314991081
+OAOVQ9616938484
+Mitsubishi
+Nimbus
+Sedan
+1992
+Orange
+Jill Lamont
+81 Gibbs Rd
+Port Kembla
+
+LNP906
+OMOES6277436898
+BQASI5637482324
+Toyota
+Corola
+Sedan
+1996
+White
+Jack Baker
+120 Regent St
+Port Kembla
+
+DJE992
+YSXJO4510309557
+TZCIW5955529900
+Mitsubishi
+Nimbus
+Sedan
+1990
+Red
+Bill Morgan
+147 Strata Ave
+Wagga
+
+YCS657
+QRLBZ4401098186
+FSBTI2006315870
+Nissan
+Bluebird
+Coupe
+1992
+Green
+Fred Baker
+107 Iris Ave
+Newcastle
+
+IPP061
+GOIVJ1873744078
+AJKQZ1256439511
+Nissan
+Skyline
+Coupe
+1990
+Blue
+Jim Lamont
+133 Taylor Rd
+Nowra
+
+JZQ015
+EEAWZ9962822788
+IYVUA5070296488
+Mitsubishi
+Magna
+Coupe
+1998
+Blue
+Bill Finny
+115 Gibbs Rd
+Blacktown
+
+HHO415
+SOETL6098460820
+KYMJE1623415708
+Toyota
+Celica
+Coupe
+1998
+Blue
+Karen Wilson
+140 Swan St
+Wagga
+
+SVI898
+HFJUN1508305190
+KSGWD6134208857
+Mitsubishi
+Magna
+Coupe
+1994
+Yellow
+Jack Baker
+69 Strata Ave
+Nowra
+
+KUI404
+MACPT4278578374
+EYAZR8122153774
+Ford
+Escort
+Coupe
+1992
+Green
+Jenifer Morgan
+132 Gibbs Rd
+Newcastle
+
+CTC698
+GIFXD0787388725
+YWINJ8693613247
+Holden
+Commodore
+Coupe
+1996
+Red
+Jim Jones
+50 Iris Ave
+Newcastle
+
+ZHQ630
+UAHNF4503347833
+UOIYG4152191843
+Holden
+Gemini
+Coupe
+1998
+Black
+Jill Wilson
+37 Taylor Rd
+Wollongong
+
+SVL513
+JZVAQ4420798466
+JGWNX2722532504
+Mitsubishi
+Nimbus
+Coupe
+1995
+White
+Ian Lamont
+58 Taylor Rd
+Corrimal
+
+EKQ432
+AMBRI2889578498
+TWUDS2550804768
+Mazda
+626
+Coupe
+1994
+Yellow
+Ian Finny
+71 Squires Cr
+Corrimal
+
+PVQ312
+IFIAI8131220303
+YAMSB2330500191
+Mazda
+323
+Coupe
+1988
+Green
+Ian Freeman
+84 Iris Ave
+Wollongong
+
+OTE280
+NSJCL4114911274
+TQADV0671951032
+Nissan
+Skyline
+Sedan
+1990
+Blue
+Fred Jones
+28 Swan St
+Nowra
+
+BJZ151
+YNHIJ2189062549
+GTIGR5975314369
+Mazda
+323
+Sedan
+1994
+White
+Ian Freeman
+7 Taylor Rd
+Newcastle
+
+BMX745
+KTCNK9271977342
+KRAKG3588704707
+Mazda
+121
+Sedan
+1994
+Black
+Jill Smith
+141 Gibbs Rd
+Wagga
+
+SFR003
+GUGIU5430855853
+WEBJY2703798385
+Ford
+Laser
+Sedan
+1997
+Black
+Karen Baker
+9 River Rd
+Port Kembla
+
+GPN663
+GPGDX1490484975
+BTHBQ8093273923
+Toyota
+Camry
+Coupe
+1988
+Black
+Karen Smith
+48 Regent St
+Port Kembla
+
+MOT938
+QQUSN4913779279
+FFJZJ6989618158
+Toyota
+Celica
+Coupe
+1990
+Yellow
+Karen Lamont
+6 Swan St
+Corrimal
+
+MJW048
+WVIEE7627520407
+VNDZL9582205890
+Mitsubishi
+Nimbus
+Coupe
+1995
+White
+Jill Finny
+136 Strata Ave
+Wagga
+
+YNB239
+OOGUK4970414992
+FQGVP8968463638
+Susuki
+Swift
+Sedan
+1997
+Red
+Jack Baker
+27 Iris Ave
+Wollongong
+
+MQR052
+GEKTX3623633373
+HNSHI4358283804
+Ford
+Falcon
+Sedan
+1993
+White
+Bill Smith
+109 Squires Cr
+Wagga
+
+DEX579
+GXAXF9969539002
+VHQRU1664857667
+Ford
+Laser
+Sedan
+1994
+Yellow
+Ian Jones
+3 Regent St
+Wagga
+
+VFJ602
+TBKWG2671326691
+UTGLP1705366014
+Mazda
+121
+Coupe
+1992
+Orange
+Ian Finny
+15 Iris Ave
+Port Kembla
+
+NSK146
+HWKBT4860428063
+WGAUD6394694535
+Toyota
+Corola
+Coupe
+1997
+Green
+Jenifer Wilson
+119 Iris Ave
+Wollongong
+
+ZYB229
+JEJPP0799932952
+FUYAG4915552799
+Ford
+Laser
+Coupe
+1994
+Red
+Jim Jones
+101 Swan St
+Wagga
+
+FCF220
+KNYHH5286062082
+RPWDU8825227435
+Susuki
+Swift
+Coupe
+1989
+Blue
+Jenifer Lamont
+72 Squires Cr
+Blacktown
+
+ESL760
+UKMKP0832906738
+KYSER5349728208
+Nissan
+Skyline
+Sedan
+1997
+Red
+Jim Freeman
+74 Taylor Rd
+Corrimal
+

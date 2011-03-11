@@ -1,0 +1,9 @@
+qsort([],[]).
+qsort([H|T],S):-partition(H,T,L,R),qsort(L,L1),qsort(R,R1),append(L1,[H|R1],S).
+
+partition(P,[A|X],[A|Y],Z):-A=<P,partition(P,X,Y,Z).
+partition(P,[A|X],Y,[A|Z]):-A>P,partition(P,X,Y,Z).
+partition(P,[],[],[]).
+
+append([],X,X).
+append([A|B],Y,[A|W]):-append(B,Y,W).

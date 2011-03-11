@@ -1,0 +1,40 @@
+	The excerpt from the book, "Computer Confluence: Exploring Tomorrow's
+Technology" written by George Beekman and Eugene J. Rathswohl, is a brief
+description of the evolution of Computers from the Mainframe, through the
+Personal Computer to thin clients and Internet appliances.
+
+	The authors discuss the evolution from the Mainframe, with it's plethora
+of terminals, after which computers scaled down to Minicomputers, where the
+Client/Server model came in to play. High performance minicomputers, called
+Workstations, also arrived to provide desktop power to the professional. Later
+on, Portable Computers emerged, eschewing computing power for portability at
+an increased cost compared to PCs. This miniaturisation led to the development
+of Embedded Computers for Special Purposes in commodities, such as the ECU in
+cars.
+
+	These developments led to the rise of intra-personal computing through
+the medium of Computer Networks during the transition from timeshare Mainframes.
+In the beginning, networks consisted of individual LANs and WANs with no
+connectivity between organisations. During this time, computers were still
+seen as a workhorse, 'People saw computers as tools for doing calculations, ...
+not as communication tools.' (Beekman & Rathswohl, 2003, p. 37), not as a
+communications network.
+
+	Then the Internet (ARPA net) was created, originally as a tool for
+Academics and the US Government. Then, many years later, the WWW and e-mail
+became popular forms of communication, which led to an explosion in the rate
+of growth of people and organisations "on-line".
+
+	This became such a powerful medium that the business world started to
+model their information management systems around it, forming private
+intranets to facilitate their usage.
+
+	Major hardware vendors saw a market in creating "Thin Clients",
+computers scaled down to utilise the advancing network topologies at a reduced
+cost compared to that of a PC. Internet Appliances sprung in to the market to
+service computing needs that don't need the power of a PC.
+
+Bilbliography:
+
+Beekman, G. & Rathswohl, E. J. 2003, Computer Confluence: Exploring Tomorrow's
+Technology; IT Edition, Prentice Hall, New Jersey.

@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.2//EN">
+<HTML>
+
+<HEAD>
+	<TITLE>Tropism DOM example (IE Specific)</TITLE>
+	<LINK TYPE="text/css" REL='stylesheet' HREF='../style.css'>
+
+	<!-- Hooray for Microsoft, who decided to "extend" XML -->
+	<XML ID="ComputerXML" SRC="tropism.xml"></XML>
+
+	<SCRIPT LANGUAGE="JavaScript">
+		function GetData() {
+			xmldoc = document.all("ComputerXML").XMLDocument;
+
+			Computer = xmldoc.documentElement;
+			ComputerName = Computer.childNodes(0).xml;
+			ComputerOS = Computer.childNodes(2).xml;
+			ComputerRAM = Computer.childNodes(3).xml;
+
+			outputmsg = "The computer <STRONG>" + ComputerName + "</STRONG> is running <STRONG>" + ComputerOS + "</STRONG> with <STRONG>" + ComputerRAM + "</STRONG> of RAM.";
+
+			computerDisplay.innerHTML = outputmsg;
+		}
+	</SCRIPT>
+</HEAD>
+
+<BODY>
+	<CENTER>
+		<H1>Using DOM and IE XML Islands to display part of an XML document.</H1>
+
+		<DIV ID="computerDisplay"></DIV>
+
+		<P><INPUT TYPE="BUTTON" VALUE="Display Computer" ONCLICK="GetData()"></P>
+	</CENTER>
+</BODY>
+
+</HTML>

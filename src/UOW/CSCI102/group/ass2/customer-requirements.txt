@@ -1,0 +1,28 @@
+-	Build a set of webpages related to the SITACS Alumni association:
+	-	News Page, for what is happening in relation to the association.
+	-	Events Page, a page that will list the various events that the
+		association is planning with contact details and information
+		on the events, optionally with a link to the specific forum
+		for this event.
+	-	Web Forums, so that registered association members can
+		communicate.
+	-	Contacts, ways to get in touch with various official members of
+		the association.
+	-	An About Us page, to inform people who are curious of the
+		Association to what we do.
+	-	A site map, to allow easy navigation to any part of the web site.
+	-	User management facility, a set of pages that allows registered
+		association members to modify their details. This should use SSL.
+-	Have each page use CSS so that the look and feel of the entire
+	site can be easily modified.
+-	Have a secure service. Allow the use of SSL for those who require it.
+-	Allow the webpage to be platform independant. Don't rely on web
+	technologies like embedded VB Script, aim for the platform independant
+	JavaScript instead, or server side PHP.
+-	Adhere to W3C standards to ensure browser interoperability.
+	See: http://validator.w3.org/
+-	Allow people with disabilities to be able to use the web site.
+-	Have the site so it is easy to view and navigate.
+-	Have the website designed so that the period of time from when a person
+	requests to view the page and to when it is downloaded is minimised.
+	For example, no huge graphics where html code could be used.

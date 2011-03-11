@@ -1,0 +1,49 @@
+This document will summarise the outcomes of the testing phase of the
+"Website" project for CSCI102:
+
+There were some important issues raised from the findings of the test plan and
+results report. Most notably that the independant testing of the website found
+that the guest book was vunerable to malicious embedded HTML and that the
+majority of the webpages did not comform to any of the W3C's HTML 4.01
+standards.
+
+Advice was given to the development team in how to rectify this nonconformance
+as it is importand that the client expects that their website will look simliar
+across the myriad of popular Internet browsers available. The major contenders
+being Microsoft's Internet Explorer and Netscape Mozilla (Gecko renderer).
+
+Also, there was a general consensus that there was a poor choice of colour
+scheme for the website. Considering that the success of a website is primarly
+judged on it's asthetic value first then technical savvy second, this was an
+issue that was delt with swiftly and efficiently due to the use of Cascading
+Style Sheets.
+
+The dev team decided to have a brainstorm and have all the members attempt at
+concocting their own CSS file to display the website in what they perceived a
+"pleasing" manner, which produced a varied response as each member of the
+development team is extreamly individualistis, with some renditions of the web
+page resembling cubistic art and other analogous to what could only be termed
+refuse. At the end of the brainstorm, elements were taken from a number of
+submissions to produce what was considered to be an asthetically pleasing
+compromise. However, the jury is still out on that one.
+
+The compiler of the Test Plan and Results report had their own difficulities
+when it was discovered that they did not have any ready access to a printing
+device to transfer the report from a digital form to an acceptable paper
+medium. Luckily, this problem was brought up in a weekly meeting before the
+deadline for the report allowing the team to improvise. In the end, a pleasing
+result was attained.
+
+Due to the development of the website running behind schedule, the execution
+of the test plan was delayed a not insignificant amount of time as the test
+cases were dependant on the completion of the website. This did not cause as
+much pain as it could have, given that if the development finished after the
+deadline for the Test Plan and Results report, then the entire report would
+have been void. However, the independant testing was completed on time and the
+individual summaries of the "user" testing can be seen attached to the report.
+
+In summary, the Test Plan and Report phase of the project helped the team to
+isolate problems in the development process of the "website", which, once
+brought to the team's attention, were delt with in an efficient manner,
+producing, what we hope, one of the industries greatest creations with a meld
+of both artistic genius and technical savvy.

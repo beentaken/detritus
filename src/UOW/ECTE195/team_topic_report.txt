@@ -1,0 +1,63 @@
+$Id: team_topic_report.txt 2 2007-07-19 13:00:48Z pdezwart $
+
+	Groups, either formed naturally or produced, will develop their own
+behavioural regulators. This is usually achieved in the "storming" to "norming"
+stages of a group and must be redeveloped if the groups composition changes.
+The regulators that are developed can be generalised with the following titles: Roles, Norms and Status.
+
+	Roles are the generalised expectations that the group has of any
+particular member. That is, that each member is expected to perform a unique
+task within the group. This is not to say that there may be duplicity in the
+allocation of roles but that each member is expected to behave differently to
+the rest of the group.
+
+	There are many roles but there are two which are critical to the groups
+existence: the Task leader and the Social leader. The Task leaders role is to
+guide the groups efforts to achieve the groups goals. Where as the Social
+leaders roles is to maintain the groups harmonics, keeping it at a state where
+internal friction is kept to a level where it will not negatively influence the
+groups productivity.
+
+	Where Roles dictated the differences between the group members, Norms
+are the set of behaviours that are expected from the entire group. For example,
+in a gunpowder manufacturing plant, the workers and the foreman have distinct
+roles that differ but they are all expected not to smoke on the job, for obvious
+reasons.
+
+	Once a member of the group displays behaviour "too far" from the norm,
+the group will self-censor them. In the context of the previous example, if one
+of the workers lit up a cigarette, a safety conscious member of the group may,
+if equipment permits, decide to invoke the power of the fire extinguisher upon
+the fumigating member.
+
+	Status is the position or rank a member has in the group. The position
+of the Task Leader will have a status attached to it. Status has two main
+components, responsibility and renumeration. The higher the status, the higher
+the responsibility and renumeration. For example, the Project Manager has the
+hefty responsibility that the Project reaches completion with the deliverables
+completed within the limitations stipulated in the design specification.
+
+	Status also reflects the clout an individual has in the group, the
+higher the status, the more force said member can exert to move the group in a
+desired direction. This is a feedback mechanism, where individuals who are
+singled out for their desirable characteristics are given a greater status.
+Which, in turn, increases their influence on the rest of the group.
+
+	Status also has the benefits of working conditions, generally, someone
+with a high status will have associated symbols, a corner office with a plush
+chair, a secretary, etc... Making their work more, pleasurable.
+
+	These three regulators of group behaviour combine to form a powerful
+guiding force to keep the direction of the group in a beneficial direction. It
+also assists to keep the group together or maintain group cohesiveness.
+
+	A state of group cohesion is met when all members exhibit a tendency to
+adhere closely to the norms of the group. This has the effect of amplifying the
+groups principal traits. For example, a tightly knit group of professional
+programmers (oxymoron? alliteration Ed.) will be able to tackle difficult
+programming projects, as opposed to a loosely formed group of undergrads
+attempting to write out a debris like in appearance management report.
+
+	In summary, the regulators of group behaviour aid the group to maintain
+direction and cohesion. It then follows, with positive norms, that this group
+will go far in achieving the tasks that it is appointed to.

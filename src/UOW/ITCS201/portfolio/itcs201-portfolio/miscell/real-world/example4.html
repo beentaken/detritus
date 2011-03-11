@@ -1,0 +1,35 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Finding Element Values in an XML Document</TITLE>
+  <XML ID="firstXML" SRC="greeting.xml"></XML>
+
+  <SCRIPT LANGUAGE="JavaScript">
+    function getData()
+    {
+       xmldoc= document.all("firstXML").XMLDocument;
+       nodeDoc = xmldoc.documentElement;
+       nodeGreeting = nodeDoc.firstChild;
+       outputMessage = "Greeting: " +
+       nodeGreeting.firstChild.nodeValue;
+       message.innerHTML=outputMessage;
+    }
+  </SCRIPT>
+</HEAD>
+
+<BODY>
+
+<CENTER>
+
+<H1>Finding Element Values in an XML Document</H1>
+
+<DIV ID="message"></DIV>
+
+<P>
+
+<INPUT TYPE="BUTTON" VALUE="Get The Greeting" ONCLICK="getData()">
+
+</CENTER>
+
+</BODY>
+</HTML>

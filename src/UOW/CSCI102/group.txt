@@ -1,0 +1,6 @@
+$Id: group.txt 2 2007-07-19 13:00:48Z pdezwart $
+
+Greg	gbe96@uow.edu.au
+Ewan	ezw04@uow.edu.au
+Roba	ra75@uow.edu.au
+Jeremy	hjw99@uow.edu.au

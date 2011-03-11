@@ -1,0 +1,55 @@
+\parskip=6 pt
+\nopagenumbers
+
+\font\mainfont=cmr10
+\font\secfont=cmbx12
+\font\tf=cmr14
+\font\ti=cmti14
+
+\def\RCS$#1:#2${\expandafter\def\csname RCS#1\endcsname{#2}}
+\RCS$Id: Week2s2.tex 2 2007-07-19 13:00:48Z pdezwart $
+
+\newcount\itemnum \itemnum=0
+
+\newcount\subitemnum
+\newcount\hours \hours=0
+
+\def\items{\parindent 24 pt \advance\itemnum by 1 \subitemnum=0 \item{\secfont\the\itemnum)}}
+\def\subitems{\parindent 24 pt \advance\subitemnum by 1 \itemitem{\secfont\the\itemnum.\the\subitemnum)}}
+\def\addhours#1{\advance\hours by #1 {#1 hours}}
+
+\centerline{\tf CSCI321: Project, \ti Source of the Nile\tf.}
+\centerline{Week 2, Spring Session, Pete de Zwart's project journal.}
+\centerline{\sevenrm \RCSId}
+
+\vskip 24 pt
+
+\mainfont
+
+\items Meeting Preparation, \addhours{2}:
+\subitems Review of the previous weeks meeting.
+\subitems Review of the previous supervisor meeting.
+\subitems Creation of the meeting agendas.
+
+\items Group Coding Plan, \addhours{7}:
+\subitems Running the group coding plan meeting that was held on 30/07/03.
+\subitems Moving codebase to iteration 4.
+
+\items Release Planning, \addhours{4}:
+\subitems Meeting with the group to discuss the relase plan, held 31/07/03.
+\subitems Compiling plan in to a document to be handed in to Dr. Ian Piper.
+
+\items Pair programming, \addhours{4}:
+\subitems Discussing issues with SDL Net and SDL Threads with Mike Fuller.
+\subitems Testing current code base with SDL Threads.
+
+\items Administration, \addhours{3}:
+\subitems \TeX ifying meeting minutes to be given to Dr. Ian Piper.
+\subitems Revising project plan.
+
+\items Code Review, \addhours{2}:
+\subitems Verifying code added by Nic for the GUI.
+
+\items Total hours: \the\hours
+
+\bye

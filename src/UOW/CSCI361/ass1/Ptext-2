@@ -1,0 +1,40 @@
+$Id: Ptext-2 2 2007-07-19 13:00:48Z pdezwart $
+
+I wrote a program to automatically solve Vigenere ciphers.
+
+It relied on the fact that the character 'e' is usually the most frequent
+character in the English language.
+
+Unfortunatly, in the ciphertext I was given, period 4 didn't have 'e' as
+the most frequent character.
+
+So I introduced a fudge ability as you can see that it got the first 3
+elements of the key correct.
+
+I made a estimate of the key given that it is usually a word from the language
+that of the plaintext.
+
+Here is a run of the program:
+
+dezwart@esoteric:~/cvs/dezwart/study/UOW/CSCI361/ass1/Vigenere:1:$ ./deVigenere ../Ctext-2 
+Key = thib
+the znveetioe and lse ow cabces aed wiielejs pei cenk of hlmanzty
+tyougyt oncy in khe tvrms ff thvir onn lotal tvrrazn dejpitv our
+ieceetly uevecopeu comdunitatifns ietimrcy aed pogulai awaienejs of kotac
+earkh we koo ie are rs yek polzticrlly frgaeizeu entzrelp in tye
+teims ow exccusime anu uttvrly fbsocete joveieige seprratvnesj 
+thij sovvreixn merninx top neapfns eeforted nrtioeal ccaim lpon
+yumaes boin in marifus lrnds ceadj to emer mfre svvervly sgecirlizvd
+seivitlde aed hixhly gersfnalzzed zdenkity tlasjifitatifn as r
+Enter fudged key:
+this
+the invention and use of cables and wireless per cent of humanity
+thought only in the terms of their own local terrain despite our
+recently developed communications intimacy and popular awareness of total
+earth we too in are as yet politically organized entirely in the
+terms of exclusive and utterly obsolete sovereign separateness 
+this sovereign meaning top weapons enforced national claim upon
+humans born in various lands leads to ever more severely specialized
+servitude and highly personalized identity classification as a
+Enter fudged key:
+

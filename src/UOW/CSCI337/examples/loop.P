@@ -1,0 +1,1 @@
+go:- fmt_read("%s",X,_),not X=stop,write(X),nl,go.

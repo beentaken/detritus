@@ -1,0 +1,66 @@
+
+        CSCI203           ASSIGNMENT 1	    Due 17:00 29/3/2002
+
+1.	You are required to multiply two numbers given in Roman figures.
+	For instance, XIX times XXIV is DCXLVI. You may NOT use a method 
+	that involves translating the numbers into arabic notation, or any 
+	other non-roman notation ,multiplying them and translating back. 
+	Devise an algorithm for this problem.
+
+
+2.	A function f(x) such that f(a) and f(b) have different signs must
+	have at least one root (value where the function is zero) between 
+	a and b. Devise an algoritm based on examining the sign of the 
+	function at the mid-point (a+b)/2 and repeatedly selecting one of 
+	the two half intervals.
+
+3.	Use the bisection method of question 2 to perform three iterations
+	with f(x) = x^3 - 6, a = 1 and b = 3.
+
+4.	An alternative proof that there are an infinite number of 
+	primes begins as follows. Assume that the set of prime numbers
+	is finite. Let P be the largest prime. Consider X=P! and Y=X+1.
+	Complete the proof and construct an agorithm bigprime(p) based 
+	on the proof. It should be clear from the algorithm that it 
+	terminates with a new prime larger than p.
+
+5.	The Fibonnaci series 1, 1, 2, 3, 5, 8, 13... fib(n) is bounded 
+	above by the function 2^n. Prove (or at least give a convincing 
+	argument) that this is the case.
+
+6.	Give two functions f(n) and g(n) such that neither f(n) nor 
+	g(n) tends to a finite limit as n tends to infinity, but both 
+	f(n)+g(n) and f(n)/g(n) do tend to a limit.
+
+7.	Two algorithms take n^2 days and n^3 seconds to solve an 
+	instance of size n. Which is the better algorithm? What is the 
+	break-even value for n? How long will the algorithms take at
+	this value of n?
+
+8.	A certain algorithm takes 0.0001 x 2^n seconds to solve an 
+	instance of size n. Show that it just solve an instance of 
+	size 38 in a year. What size problem could be solved in a 
+	year on a machine 100 times as fast? A second algorithm takes 
+	0.01 x n^3 seconds to solve an instance of size n. What size 
+	problem could it solve in a year? With a machine 100 times as 
+	fast? For what range of n is the first algorithm better?
+
+9.	Let g(n) be the number of ways to write a string of n zeros
+	and ones so that there are never two successive zeros. Show 
+	that g(n) = fib(n+2).
+
+10.	Which of the following statements are true? Prove your answers.
+
+	a.	n^2 is in big Oh of n^3
+	b.	n^2 is in Omega of n^3
+	c.	2^n is in Theta of 2^(n+1)
+	d.	n! is in Theta of (n+1)!
+	
+NOTE: the notation x^y is to be interpreted as "x raised to the power y"
+
+Assignments should be typed into a text file called ass1.txt and submitted 
+via the submit program in Unix.
+
+	submit -u ian -c csci203 -a 1 ass1.txt
+
+where your unix userid should appear instead of ian.

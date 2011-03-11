@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!-- $Id: web.xml 2 2007-07-19 13:00:48Z pdezwart $ -->
+
+<!DOCTYPE web-app
+	PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+	"http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+	<servlet>
+		<servlet-name>
+			Admin
+		</servlet-name>
+
+		<servlet-class>
+			AdminServlet
+		</servlet-class>
+
+		<init-param>
+			<param-name>
+				dbuser
+			</param-name>
+
+			<param-value>
+				pntdz31
+			</param-value>
+		</init-param>
+
+		<init-param>
+			<param-name>
+				dbpass
+			</param-name>
+
+			<param-value>
+				REDACTED
+			</param-value>
+		</init-param>
+	</servlet>
+
+	<servlet>
+		<servlet-name>
+			NewPatient
+		</servlet-name>
+
+		<servlet-class>
+			NewPatientServlet
+		</servlet-class>
+
+		<init-param>
+			<param-name>
+				dbuser
+			</param-name>
+
+			<param-value>
+				pntdz31
+			</param-value>
+		</init-param>
+
+		<init-param>
+			<param-name>
+				dbpass
+			</param-name>
+
+			<param-value>
+				REDACTED
+			</param-value>
+		</init-param>
+	</servlet>
+
+	<servlet>
+		<servlet-name>
+			NewConsultation
+		</servlet-name>
+
+		<servlet-class>
+			NewConsultationServlet
+		</servlet-class>
+
+		<init-param>
+			<param-name>
+				dbuser
+			</param-name>
+
+			<param-value>
+				pntdz31
+			</param-value>
+		</init-param>
+
+		<init-param>
+			<param-name>
+				dbpass
+			</param-name>
+
+			<param-value>
+				REDACTED
+			</param-value>
+		</init-param>
+	</servlet>
+
+	<servlet>
+		<servlet-name>
+			Review
+		</servlet-name>
+
+		<servlet-class>
+			ReviewServlet
+		</servlet-class>
+
+		<init-param>
+			<param-name>
+				dbuser
+			</param-name>
+
+			<param-value>
+				pntdz31
+			</param-value>
+		</init-param>
+
+		<init-param>
+			<param-name>
+				dbpass
+			</param-name>
+
+			<param-value>
+				REDACTED
+			</param-value>
+		</init-param>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>
+			NewPatient
+		</servlet-name>
+
+		<url-pattern>
+			/newpatient
+		</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>
+			NewConsultation
+		</servlet-name>
+
+		<url-pattern>
+			/newconsultation
+		</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>
+			Review
+		</servlet-name>
+
+		<url-pattern>
+			/review
+		</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>
+			Admin
+		</servlet-name>
+
+		<url-pattern>
+			/admin
+		</url-pattern>
+	</servlet-mapping>
+
+	<security-constraint>
+		<web-resource-collection>
+			<web-resource-name>
+				Nuts About Nutrition
+			</web-resource-name>
+
+			<url-pattern>
+				/admin
+			</url-pattern>
+
+			<http-method>
+				GET
+			</http-method>
+
+			<http-method>
+				POST
+			</http-method>
+		</web-resource-collection>
+		<auth-constraint>
+			<role-name>
+				administrator
+			</role-name>
+			<role-name>
+				nutritionist
+			</role-name>
+		</auth-constraint>
+	</security-constraint>
+
+	<security-constraint>
+		<web-resource-collection>
+			<web-resource-name>
+				Nuts About Nutrition
+			</web-resource-name>
+
+			<url-pattern>
+				/newconsultation
+			</url-pattern>
+
+			<http-method>
+				GET
+			</http-method>
+
+			<http-method>
+				POST
+			</http-method>
+		</web-resource-collection>
+		<auth-constraint>
+			<role-name>
+				clerk
+			</role-name>
+		</auth-constraint>
+	</security-constraint>
+	
+	<security-constraint>
+		<web-resource-collection>
+			<web-resource-name>
+				Nuts About Nutrition
+			</web-resource-name>
+
+			<url-pattern>
+				/newpatient
+			</url-pattern>
+
+			<http-method>
+				GET
+			</http-method>
+
+			<http-method>
+				POST
+			</http-method>
+		</web-resource-collection>
+		<auth-constraint>
+			<role-name>
+				nutritionist
+			</role-name>
+		</auth-constraint>
+	</security-constraint>
+
+	<security-constraint>
+		<web-resource-collection>
+			<web-resource-name>
+				Nuts About Nutrition
+			</web-resource-name>
+
+			<url-pattern>
+				/review
+			</url-pattern>
+
+			<http-method>
+				GET
+			</http-method>
+
+			<http-method>
+				POST
+			</http-method>
+		</web-resource-collection>
+		<auth-constraint>
+			<role-name>
+				nutritionist
+			</role-name>
+		</auth-constraint>
+	</security-constraint>
+
+	<security-role>
+		<role-name>
+			admin
+		</role-name>
+	</security-role>
+
+	<security-role>
+		<role-name>
+			nutritionist
+		</role-name>
+	</security-role>
+
+	<security-role>
+		<role-name>
+			clerk
+		</role-name>
+	</security-role>
+
+	<login-config>
+		<auth-method>
+			FORM
+		</auth-method>
+		<form-login-config>
+			<form-login-page>
+				/login.html
+			</form-login-page>
+
+			<form-error-page>
+				/error.html
+			</form-error-page>
+		</form-login-config>
+	</login-config>
+
+</web-app>

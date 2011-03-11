@@ -1,0 +1,63 @@
+\input epsf
+\input verbatim
+
+\parskip 6 pt
+
+\font\footnotefont=cmr7
+\font\mainfont=cmr12
+\font\mi=cmti12
+\font\mb=cmbx12
+\font\headingfont=cmbx16
+\font\titlefont=cmbx18
+
+\newcount\itemnum \itemnum=0
+
+\newcount\subitemnum
+
+\def\items{\parindent 24 pt \advance\itemnum by 1 \subitemnum=0 \item{\mb\the\itemnum)}}
+\def\subitems{\parindent 24 pt \advance\subitemnum by 1 \itemitem{\mb\the\itemnum.\the\subitemnum)}}
+\def\subitemscont{\parindent 24 pt \itemitem{}}
+
+\def\stuff#1{\itemnum=0 {\bf#1:}}
+
+\def\RCS$#1: #2 ${\expandafter\def\csname RCS#1\endcsname{#2}}
+\RCS$Id: report.tex 2 2007-07-19 13:00:48Z pdezwart $
+
+\def\title#1#2#3{\centerline{\titlefont #1} \vskip 12pt \centerline{\rm Author: #2} \vskip 12 pt \centerline{\rm Student ID\#: #3} \vskip 12 pt \centerline{\rm \RCSId} \vskip 24pt}
+
+\def\text#1{{\tt #1}}
+
+\def\listing#1#2{\subitems{#1}\par\begingroup\setupverbatim\baselineskip 0pt \input#2 \endgroup}
+\def\image#1#2{\subitems{#1}\subitemscont\epsffile{#2}}
+
+\title{ITCS201: Group Report}{Peter Nathaniel Theodore de Zwart}{9840642}
+
+\leftskip=0.75cm
+\baselineskip 24pt
+
+\mainfont
+
+\stuff{Glade XSLT}
+
+\items The Glade user interface to building a GUI is well suited to visualising the layout. When it comes to tying all the widgets together, there can be a problem of knowing the heirachy in order to move information from one widget to another. For example:
+\subitems In pressing a button and wanting to send a message to a display widget to change what it is viewing.
+\subitems Typically this is done through callbacks but the programmer still needs to know where in the heirachy the information is supposed to be sent.
+
+\items One way of being able to view this information would be to transform the Glade XML document in to a visual representation of the heirachy, either in tabular form or in nested form.
+\subitems For simplicity, tabular form works best so that deeply nested widgets can be easly looked up.
+
+\items A prototype Glade project was made to show an example of the Glade XSLT described above in action.
+\subitems The small project describes a small window with a text entry field and a menu.
+\image{The following is a graphical representation of the projects interface:}{window.ps}
+\listing{Here is the XML document that describes this interface:}{glade.xml}
+
+\items The XSLT document simply loops through each ``widget'' node and creates a HTML table entry describing:
+\subitems The name of the widget.
+\subitems The class of the widget, such as: GtkWindow, GtkScrolledWindow, GtkMenuBar, etc $ldots$
+\subitems The label of the widget, if any.
+\subitems The name of the parent node for the current widget.
+\listing{The following is a listing of the XSLT document that achieves the above:}{glade.xsl}
+\listing{Here is a listing of the HTML output generated:}{glade.html}
+\image{Here is a graphical representation of the HTML output:}{glade.ps}
+
+\bye

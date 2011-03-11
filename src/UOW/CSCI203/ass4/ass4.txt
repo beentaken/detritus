@@ -1,0 +1,31 @@
+
+        CSCI203           ASSIGNMENT 4	    Due 17:00 7/6/2002
+
+You should write a program to read in an undirected graph and determine 
+its articulation points. The algorithm for this task is the one detailed
+in class. The choice of appropriate data structure(s) is left up to you.
+
+
+Input to the program will consist of
+
+The number of nodes 
+A sequence of sets of two integers which are the pairs of nodes connected
+by an edge.
+
+Input of edges is terminated by the sequence 0 0.
+
+Output should be:
+
+A list of nodes in node number order where for each node a single line 
+of output should be produced giving, in order:
+
+The Node number, the Prenum number, The Highest number, an asterisk if 
+the node is an articulation point.
+
+The submit program should be used to submit your answer as follows
+
+	submit -u ian -c csci203 -a 4 ass4.cc ass4.h
+
+where your unix userid should appear instead of ian.
+
+Marks will not be given to assignments which fail to compile!

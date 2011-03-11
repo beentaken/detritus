@@ -1,0 +1,210 @@
+\font\sixrm=cmr6
+\font\mainfont=cmr12
+\font\mi=cmti12
+\font\mb=cmbx12
+\font\sectionfont=cmbx12
+\font\headingfont=cmbx12
+\font\titlefont=cmbx12
+
+\def\RCS$#1: #2 ${\expandafter\def\csname RCS#1\endcsname{#2}}
+
+\RCS$Id: cv.tex 15 2008-08-24 15:21:37Z pdezwart $
+
+\def\heading#1{\vskip 12 pt \leftline{\headingfont #1}}
+
+\newcount\footnotes \footnotes=0
+
+\def\footnoter#1{\advance\footnotes by 1 \footnote{$^{\the\footnotes}$}{\mainfont #1}}
+
+\def\section#1{\vskip 12 pt \leftline{\sectionfont #1}}
+
+\def\title#1{\centerline{\titlefont{#1}} \footline{\hss\tenrm{#1:} Page \folio\hss}}
+
+\newcount\itemnum
+
+\def\items{\advance\itemnum by 1 \itemitem {\the\itemnum)}}
+\def\topic#1{\itemitem {\mb #1:}}
+\def\dashtopic{\itemitem {\mb -}}
+\def\pskip{\parskip 12 pt}
+\def\lskip{\parskip 3pt}
+\def\sskip{\parskip 6pt}
+
+\def\ATL{Atlassian Pty Ltd}
+\def\DOT{Dot Communications Pty Ltd}
+\def\UOW{University of Wollongong}
+\def\FST{Fluffy Spider Technologies Pty Ltd}
+\def\dZN{de Zwart Networks}
+
+\pskip
+\parindent 24 pt
+
+\title{Peter de Zwart's Curriculum Vit\ae}
+
+\mainfont
+
+\heading{Personal Details}
+
+\topic{Name} Peter de Zwart {\mi BCompSci(SDS)}
+\lskip
+\topic{Mobile} +61 4 1164 8655
+\topic{e-mail} curriculum.vitae@dezwart.net.au
+\pskip
+
+\heading{Key Strengths}
+
+\dashtopic High proficiency with {\mb Linux/Unix} environments, obtained through over 12 years of experience.
+\lskip
+\dashtopic Enjoy designing solutions to problems and following them through to completion, from an inherent desire to improve the status quo.
+\dashtopic Ability to take complex topics and explain them in simple terms, learnt through academic tutoring.
+\dashtopic Enjoy researching topics so that new knowledge can be applied to current projects.
+\dashtopic Good technical documentation skills, from writing change control requests, installation documentation and procedures.
+\dashtopic Excellent verbal communications skills, from liaising with customers and suppliers in regards to costing and issue mitigation.
+\pskip
+
+\heading{Overview}
+
+A {\mb systems administrator} and {\mb programmer}, with over 12 years experience in the IT\&T industry; involving work in both the private and academic sectors. Having worked on high-availability Internet service platforms, software development infrastructure, systems \& application programming, and teaching students in an academic environment.
+
+The roles that I have chosen have allowed me to enjoy a variety of perspectives, as it has exposed me to many levels of a corporation.
+
+My goal is to leverage my expertise as both systems administrator and programmer by assisting organisations in improving their Systems Development Life Cycle.
+
+\heading{Skills}
+
+$$\vbox{\settabs 2 \columns
+\+Bash \& Shell Scripting&C \& C++ Programming\cr
+\+Java Programming&Python, PHP, Perl \& Ruby Scripting\cr
+\+TCP/IP Networking&CISCO Routers \& PIX\cr
+\+SVN \& CVS Source Control&SQL99\cr
+\+XML Markup&Maven 2\cr
+\+\TeX Programming&Vi Editor\cr
+}$$
+
+\eject
+
+\heading{Professional History}
+
+\section{\ATL}
+
+\lskip
+\topic{Role} Systems Engineer
+\topic{Dates} 06/2010 - Present
+\topic{Reported to} Systems Engineering Lead
+\topic{Duties} Recursive yak shaving.
+\pskip
+
+\topic{Role} QA Engineer
+\lskip
+\topic{Dates} 08/2008 - 06/2010
+\topic{Reported to} QA Lead
+\topic{Achieved} Designed and implemented an infrastructure to support continuous integration testing of Atlassian's software products and supported platforms based on modularised environment components, with heavy leveraging of virtualisation technologies.
+\topic{Duties} Stability and penetration testing of Atlassian's software, on an as-needed basis.
+\dashtopic SME for automated testing and virtualised environments.
+\topic{Reason left} Determined I had greater value to the company as a Systems Engineer.
+
+\section{\DOT}
+
+\lskip
+\topic{Role} Solutions Engineer
+\topic{Dates} 11/2006 - 08/2008
+\topic{Reported to} Product Manager
+\topic{Achieved} Co-development of a Virtual Server Provisioning System\footnoter{http://ultimoroad.com/bonbon/} based on Xen using J2EE technology, to assist the Development \& QA Departments to perform automated testing.
+\dashtopic Co-development of a MySQL InnoDB snapshot system to significantly reduce load-times associated with loading production datasets.
+\dashtopic Regular developer blog entries regarding the above, helping to promote the internal product.
+\dashtopic Establishment of Demonstration Systems for use by Sales \& Marketing staff, leveraging virtualisation technologies.
+\topic{Duties} Assisting both the Operations and Development Departments by integrating the Wholesale Service Delivery Platform Software with the Service Management Platforms.
+\dashtopic Gathering internal requirements from the Project Manager for customer solutions; designing, documenting, implementing and delivering the final solution to the Operations Department, then assisting with the integration testing.
+\dashtopic Subversion and Maven repository management.
+\topic{Reason left} Opportunity at \ATL.
+\pskip
+
+\topic{Role} Operations Manager
+\lskip
+\topic{Dates} 08/2005 - 11/2006
+\topic{Reported to} Product Manager
+\topic{No. of Staff} 5
+\topic{Achieved} Provided a capacity management plan to the Board of Directors that allowed growth of the largest Service Management Platform from 40,000 Services in Operation to 120,000 within twelve months.
+\dashtopic Design, costing, hardware acquisition and project management of the hardware roll-out for a new Service Management Platform, able to sustain up to 250,000 services in operation.
+\dashtopic Establishment of a Standard Operating Environment across all new server roll outs.
+\dashtopic Change from a reactive approach to platforms management, to a communal pro-active approach by encouraging all Operations Team members to take part in the design, planning and implementation phases.
+\dashtopic Creation of departmental policies for Backup Systems, On-call duties, Off-site networks, SLA management and issue mitigation.
+\topic{Duties} Day-to-day management of the Operations Department, covering all Service Delivery Platforms supporting in excess of 200,000 Services in Operation, Australia Wide.
+\dashtopic Leading a team of 5 Systems Operators, by providing project management, conflict resolution and regular reports to upper management on a weekly basis.
+\dashtopic Ensuring operational capability for meeting contracted Service Level Agreements with customers.
+\dashtopic Engaging with our suppliers to ensure continuity and quality of service to reach SLA KPIs.
+\dashtopic Chairing weekly meetings of the Operations Department.
+\dashtopic Writing Standard Operating Procedures for regular tasks that were conducted by team members.
+\topic{Reason left} Solutions Team Established.
+\pskip
+
+\topic{Role} Systems Administrator
+\lskip
+\topic{Dates} 10/1998 - 12/2000 \& 12/2002 - 02/2003
+\topic{Reported to} General Manager
+\topic{Achieved} Consolidation of an aging ad-hoc network comprising of Slackware 1, Windows NT and Windows 95 based servers on to two managed Red Hat Linux 5.2 servers.
+\dashtopic Migration from static routing to BGP \& OSPF via multiple up-stream providers to allow for greater route redundancy and fault tolerance.
+\topic{Duties} Management and maintenance of a collection of Linux servers and Cisco routers providing dial-up access and associated Internet based services to 2,000 end-users.
+\dashtopic Area Fire Warden.
+\topic{Reason left} Continue University Studies.
+\pskip
+
+\section{\UOW}
+
+\lskip
+\topic{Role} Part-Time Teaching Academic
+\topic{Dates} 08/2002 - 06/2004
+\topic{Reported to} Subject Co-ordinators
+\topic{Achieved} The establishment of an improved marking scheme for the 2$^{nd}$ year Computer Science core subject ``The C Family \& Unix'' with the other tutors.
+\topic{Duties} Tutoring for 1$^{st}$, 2$^{nd}$ and 3$^{rd}$ year Computer Science and Information Technology subjects performing the following: Computer Laboratory Demonstration, Tutorials, marking of papers, assistance in assignment and assessment creation.
+\dashtopic Duty of care for classes of 35 students in regards to OH\&S.
+\topic{Reason left} Finished Bachelors Degree.
+\pskip
+
+\section{\FST}
+
+\lskip
+\topic{Role} Software Engineer
+\topic{Dates} 05/2001 - 01/2002
+\topic{Reported to} CEO
+\topic{Achieved} Creation of a cross-architecture build environment, from i386 to ARM, and live-cd build system emulating the functionality of a hand held device.
+\dashtopic Establishment of a Standard Desktop Linux Image based on Debian {\mi Potato}.
+\dashtopic Customer network deployment and management based on the Standard Desktop Image to facilitate Voice Transcription of non-English languages.
+\dashtopic Wrote a theme editor for IceWM in C/GTK for a hand held device.
+\dashtopic Added city/point selection support to CDE Sunclock.
+\topic{Duties} CVS Repository Management, Office Network Administration, Project based programming tasks.
+\dashtopic Office Desktop Linux Support.
+\topic{Reason left} Continue University studies.
+\pskip
+
+\section{\dZN}
+
+\lskip
+\topic{Role} Owner/Sole Proprietor
+\topic{Dates} 01/2001 - Present
+\topic{Reported to} Customers \& Self
+\topic{Achieved} Based on the requirements of the customer, development of a database system for storage of Australian located lightning strikes, written in C. Needing to support a continuous live data feed, with a PHP web front-end for data queries. This allowed the customer to start the transition from a proprietary data distribution system to an XML based web-service.
+\dashtopic Development of a CD-ROM firewall based on Debian {\mi Potato} used by clients before Linux based routing appliances were available and economical.
+\topic{Duties} Administration of a small business.
+\dashtopic Requirements gathering for customer projects.
+\pskip
+
+\heading{Education}
+
+\section{\UOW}
+
+\lskip
+\topic{2004} Bachelor of Computer Science, Secure Distributed Systems specialisation.
+\topic{1998} University Entrance Diploma.
+\pskip
+
+\heading{Interests}
+
+I have a keen interest in general science with a focus on renewable and nuclear energy, medicine, pharmacology and astrophysics.
+
+Other interests involve automobile mechanics, tropical aquaculture, science fiction and human languages.
+
+\heading{References}
+
+References can be provided upon request.
+
+\bye

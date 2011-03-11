@@ -1,0 +1,90 @@
+$Id: Q2.txt 2 2007-07-19 13:00:48Z pdezwart $
+
+Question 2, part 1:
+
+This monoalphabetic cipher substitution table was divined by looking at the
+frequency analysis of the ciphertext and deducing which ciphertext characters
+mapped to the cleartext characters according to the well know alphabetic
+frequency analysis of the English language.
+
+P   C
+
+a = t
+b = h
+c = i
+d = s
+e = a
+f = b
+g = c
+h = d
+i = e
+j = f
+k = g
+l = j
+m = k
+n = l
+o = m
+p = n
+q = o
+r = p
+s = q
+t = r
+u = u
+v = v
+w = w
+y = y
+z = z
+
+Here is the plaintext after transposition:
+
+world became incalculably rich and powerful 
+to understand the development of intellectual specialization which is
+our first objective we must study further the comprehensive intellectual
+capabilities of the sea leaders in contradistinction to the myriad of
+physical muscle and craft skill specializations which their intellect
+and their skillful swordplay commanded the great sea venturers thought
+always in terms of the world because the worlds waters are continuous
+and cover three quarters of the earth planet this meant that before
+
+Question 2, part 2:
+
+I wrote a program to automatically solve Vigenere ciphers.
+
+It has not comments and is written in C.
+
+It relied on the fact that the character 'e' is usually the most frequent
+character in the English language.
+
+Unfortunatly, in the ciphertext I was given, period 4 didn't have 'e' as
+the most frequent character.
+
+So I introduced a fudge ability as you can see that it got the first 3
+elements of the key correct.
+
+I made a estimate of the key given that it is usually a word from the language
+that of the plaintext.
+
+Here is a run of the program:
+
+dezwart@esoteric:~/cvs/dezwart/study/UOW/CSCI361/ass1/Vigenere:1:$ ./deVigenere ../Ctext-2 
+Key = thib
+the znveetioe and lse ow cabces aed wiielejs pei cenk of hlmanzty
+tyougyt oncy in khe tvrms ff thvir onn lotal tvrrazn dejpitv our
+ieceetly uevecopeu comdunitatifns ietimrcy aed pogulai awaienejs of kotac
+earkh we koo ie are rs yek polzticrlly frgaeizeu entzrelp in tye
+teims ow exccusime anu uttvrly fbsocete joveieige seprratvnesj 
+thij sovvreixn merninx top neapfns eeforted nrtioeal ccaim lpon
+yumaes boin in marifus lrnds ceadj to emer mfre svvervly sgecirlizvd
+seivitlde aed hixhly gersfnalzzed zdenkity tlasjifitatifn as r
+Enter fudged key:
+this
+the invention and use of cables and wireless per cent of humanity
+thought only in the terms of their own local terrain despite our
+recently developed communications intimacy and popular awareness of total
+earth we too in are as yet politically organized entirely in the
+terms of exclusive and utterly obsolete sovereign separateness 
+this sovereign meaning top weapons enforced national claim upon
+humans born in various lands leads to ever more severely specialized
+servitude and highly personalized identity classification as a
+Enter fudged key:
+

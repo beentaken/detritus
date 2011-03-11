@@ -1,0 +1,34 @@
+$Id: SA-1 2 2007-07-19 13:00:48Z pdezwart $
+
+This monoalphabetic cipher substitution table was divined by looking at the
+frequency analysis of the ciphertext and deducing which ciphertext characters
+mapped to the cleartext characters according to the well know alphabetic
+frequency analysis of the English language.
+
+P   C
+
+a = t
+b = h
+c = i
+d = s
+e = a
+f = b
+g = c
+h = d
+i = e
+j = f
+k = g
+l = j
+m = k
+n = l
+o = m
+p = n
+q = o
+r = p
+s = q
+t = r
+u = u
+v = v
+w = w
+y = y
+z = z

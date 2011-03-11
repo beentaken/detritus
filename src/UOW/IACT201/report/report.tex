@@ -1,0 +1,88 @@
+\def\mbox#1{\leavevmode\hbox{#1}}
+\input btxmac
+
+\font\footnotefont=cmr7
+\font\mainfont=cmr12
+\font\mi=cmti12
+\font\sectionfont=cmbx16
+\font\subsectionfont=cmbx14
+\font\titlefont=cmbx18
+
+\newcount\sectionnum
+\newcount\subsectionnum
+\newcount\itemnum
+\newcount\subitemnum
+
+\sectionnum=0
+\subsectionnum=0
+
+\def\items{\parindent 24 pt \advance\itemnum by 1 \subitemnum=0 \item{\bf\the\sectionnum.\the\subsectionnum.\the\itemnum:}}
+\def\subitems{\parindent 24 pt \advance\subitemnum by 1 \itemitem{\bf\the\sectionnum.\the\subsectionnum.\the\itemnum.\the\subitemnum:}}
+\def\subitemscont{\parindent 24 pt \itemitem{}}
+
+\def\RCS$#1: #2 ${\expandafter\def\csname RCS#1\endcsname{#2}}
+
+\RCS$Id: report.tex 2 2007-07-19 13:00:48Z pdezwart $
+
+\def\area#1#2{\vskip 24pt \leftline{#1 #2}}
+\def\section#1{\advance\sectionnum by 1 \subsectionnum=0 \area{\sectionfont}{\the\sectionnum: #1}}
+\def\subsection#1{\advance\subsectionnum by 1 \area{\subsectionfont}{\the\sectionnum.\the\subsectionnum: #1}}
+
+\def\quotation#1#2{{\mi ``#1''}~\cite{#2}}
+
+\def\student#1#2{\vskip 12pt \centerline{\mainfont #1, #2}}
+
+\def\title#1{\centerline{\titlefont #1} \vskip 12 pt \centerline{\footnotefont \RCSId}} 
+
+\leftskip=0.75cm
+\baselineskip 24pt
+
+\title{IACT201: Group Report}
+\student{Luke Silvello}{2618060}
+\student{Geoff Coves}{2611119}
+\student{Dion Edwards}{2611752}
+\student{Peter Nathaniel Theodore de Zwart}{9840642}
+\vskip 24pt
+
+\begingroup
+\countdef\counter=255
+\def\diamondleaders{\global\advance\counter by 1
+  \ifodd\counter \kern-10pt \fi
+    \leaders\hbox to 20pt{\ifodd\counter \kern13pt \else\kern3pt \fi
+	.\hss}}
+\baselineskip 15pt plus 5pt
+\def\\#1. #2. #3.{\line{\strut
+    \hbox to\parindent{\bf\hbox to 1em{\hss#1}\hss}%
+	\rm#2\diamondleaders\hfil\hbox to 2em{\hss#3}}}
+\\1. Abstract. 2.
+\\2. Feasibility study. 2.
+\\3. Implications of stored-value card implementation. 5.
+\\4. Advantages versus Disadvantages. 7.
+\\5. Future expansion and Security considerations. 10.
+\\6. Conclusion. 13.
+\\7. References. 13.
+\\8. Appendicies. 14.
+\endgroup
+
+\eject
+
+\mainfont
+
+\input abstract.tex
+\input luke.tex
+\input geoff.tex
+\input dion.tex
+\input pete.tex
+\input conclusion.tex
+
+\section{References}
+
+\nocite{*}   % put all database entries into the reference list
+\bibliography{report}   % specify the database files
+\bibliographystyle{plain}   % specify plain.bst as the style file
+
+\section{Appendicies}
+
+\input minutes.tex
+
+\bye

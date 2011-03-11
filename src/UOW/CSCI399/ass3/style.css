@@ -1,0 +1,25 @@
+/* $Id: style.css 2 2007-07-19 13:00:48Z pdezwart $ */
+
+body {
+	font-family: sans-serif;
+	background: #AAAAAA;
+}
+
+:link {	
+	color: #00F000;
+}
+
+:visited {
+	color: #008000;
+}
+
+:active {
+	color: #00FF00;
+}
+
+:hover {
+}
+
+.error {
+	color: #FF0000;
+}

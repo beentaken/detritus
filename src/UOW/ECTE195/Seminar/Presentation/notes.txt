@@ -1,0 +1,278 @@
+$Id: notes.txt 2 2007-07-19 13:00:48Z pdezwart $
+
+-	07/04/01: A probe was sent out to Mars that could be pivotal in the
+	search for water.
+
+-	Odyssey's mission is to map the Martian geology, with attention placed
+	the role of water.
+
+-	Pictures from the Mars Global Surveyor (MGS) indicate that "brief flows
+	of liquid water could have been present on the planet as recently as ...
+	two million years ago."
+
+-	Articles argument: "The 2001 Mars Odyssey orbiter will be attempting to
+	erase memories of the failure of the last two NASA missions to that
+	destination.
+
+-	Dried up river channels and flood plains are clearly visible in the
+	photographs from the Viking missions in the 1970's.
+
+-	"The Odyssey will carry an infrared and a gamma ray spectrometer, plus a
+	radiation detector."
+
+-	The orbiter can be placed in "safe mode", which is a physical
+	configuration that can be attained once inserted in to orbit around Mars
+	to increase the success of troubleshooting.
+
+-	THermal EMission Imaging System (THEMIS):
+	-	Successor of Thermal Emission Spectrometer (TES) which is
+		on-board the MGS.
+
+	-	THEMIS is a infrared spectrometer but it can also image in the
+		visible wavelengths.
+
+-	THEMIS will be used to look for deposits of minerals associated with
+	water.
+
+-	Water related mineral deposits may be an indication of where bodies of
+	water used to reside as the minerals are left after the water has
+	evaporated.
+
+-	Minerals are detected by a deviation from the "black body curve"?
+
+-	Mineral identification is accomplished by decomposing the observed
+	spectra and comparing it to a library of laboratory spectra.
+
+-	Infrared spectrography differs to X-ray spectrography by which spectra
+	is used as the basis of measurement.
+
+	X-ray spectrographs are used to find the elemental composition of a
+	substance, whereas infrared is used for the molecular composition.
+
+-	The Sojourner rover of the 1996 Pathfinder lander had an X-ray
+	spectrometer.
+
+-	THEMIS is constructed differently to TES which was originally a night
+	scope from a Colt M-16 Assault Rifle.
+
+-	THEMIS has a spatial resolution of 100 m whereas TES has a resolution of
+	3Km. Giving THEMIS a finer visual granularity for an increased
+	geological definition of an area.
+
+-	Since TES has already identified the "most fruitful region of the
+	infrared spectrum", THEMIS will be focusing on those areas of the IR
+	spectrum.
+
+-	THEMIS is also capable of imaging in the visible wavelength, to a
+	spatial resolution of 20 m. This aids the Global Surveyor orbiter
+	1.4 m resolution camera to produce finely scaled maps of the Martian
+	surface.
+
+-	These abilities of THEMIS to detect water are important to it's
+	principal investigator, Phillip Christensen of Arizona State University,
+	Tempe.
+
+-	TES identified three regions of the Martian equator which have an iron
+	based mineral called Hematite.
+
+-	The two hemispheres have a differing geological composition, with an
+	implication that the northern hemisphere is younger than the south.
+
+-	Data indicates that if bodies of water were to have been in existence
+	on the surface of Mars, it would be similar to the glacial vistas of the
+	Arctic regions on Earth. As opposed to the palm lined beaches of the
+	tropics.
+
+-	THEMIS will also be used to determine the suitability of future landing
+	sites by judging their "Thermal Inertia".
+
+-	Thermal Inertia is determined by observing an areas heat dissipation
+	over time, usually one Sol (one Martian day).
+
+	Since dust dissipates heat rapidly and denser rocks tend to hold heat,
+	the ratio of dust to rocks shows an areas Thermal Inertia.
+
+-	The Gamma Ray Spectrometer (GRS) is another on board experiment
+	consisting of:
+		-	A Neutron Spectrometer		(NS)
+		-	A High-Energy Neutron Detector	(HEND)
+
+-	The GRS is capable of constructing a map of the distribution of the
+	atomic elements of the Martian surface.
+
+-	To some extent GRS can also measure the contents below the surface.
+
+-	GRS measures gamma rays emitted from the Martian surface as a result of
+	cosmic radiation exciting the atomic nuclei of the various elements
+	present.
+
+-	GRS can detect the elemental composition of the upper 10 - 20 cm of the
+	surface with a spatial resolution of 300 Km.
+
+-	Element nuclei emit gamma radiation after returning from a state of
+	excitation. The radiated energy is characteristic of the element that
+	the nucleus belongs to. Thus, elements can be identified by what type
+	of gamma radiation they emit.
+
+-	Using phenomenon related to the one above, the GRS can also detect the
+	presence of hydrogen, up to 1 m below Martian surface.
+
+-	The incoming cosmic radiation has the capacity to create fast moving
+	neutrons when impacting with a atomic nucleus.
+
+	These fast neutrons can strike other nuclei, slowing it down. When such
+	a neutron collides with the nucleus of a hydrogen atom, it's kinetic
+	energy is considerably reduced, due to the similar atomic weight of the
+	hydrogen nucleus to a neutron.
+
+	Hence they become a slow moving thermal neutron.
+
+-	The ratio of slow moving thermal neutrons to fast neutrons is an
+	indication of the relative presence of hydrogen. Which is measured by
+	the GRS.
+
+-	Since the Odyssey will also be subjected to cosmic radiation the GRS
+	will be deployed on a 7m boom. This prevents the GRS from getting
+	readings from the orbiters elemental composition.
+
+-	To reduce noise in the readings of the GRS, it will be cooled down to
+	90K by a process that dissipates heat to Black Space.
+
+-	Space is considered "Black" if it doesn't contain a radiation celestial
+	body, like our Sun.
+
+-	The GRS may become damaged by radiation on the voyage to Mars. If so,
+	there are methods that can be remotely employed to attempt repairs.
+
+	However, there is a risk of rendering the GRS useless with the repair.
+	Thus it will only by carried out if it is necessary to return the
+	instrument to working order.
+
+-	GRS has the important ability to detect chlorine. As chlorine is
+	readily leached from rocks in to water. Surface Chlorine deposits may
+	indicate a recent water flow.
+
+-	An experiment similar to GRS was flown on the unsuccessful "Mars
+	Observer" which disappeared in transit to Mars in 1993.
+
+-	Evidence of recent water flows on the surface of Mars is startling due
+	to the instability of liquid water. Generally, liquid water would
+	simply evaporate due to the Martian atmosphere.
+
+-	There is also evidence that liquid water may exist in Aquifers under
+	"permafrost", below the surface. The water may be kept liquid from the
+	internal heat of the planet.
+
+-	Life may exist in such Aquifers, so the areas where possible flows from
+	them need to be examined directly to determine existence of such life.
+
+-	An experiment not directly related to the search for water on Mars is
+	the Mars Radiation Environment Experiment, or Marie.
+
+-	Marie consists of a solid state ionising device (like a Geiger counter)
+	that will measure the radiation levels on the way to Mars, in deep
+	space and once in orbit.
+
+-	Such information is necessary to ascertain how much radiation shielding
+	to equip astronauts travelling to Mars.
+
+-	Information on deep space radiation levels hasn't been adequately
+	measured for human exposure as all of the human missions have been
+	carried out within the Earth's magnetic field which protects us from
+	the majority of cosmic radiation.
+
+-	The Odyssey mission was originally equipped with a Sojourner-style
+	rover. The rover was removed from the mission and shelved following the
+	loss of the Mars Climate Observer (MCO) in 1999 and the Mars Polar
+	Lander (MPL) in 2000.
+
+	These are the two previous missions that the author was referring to in
+	the main argument of the article.
+
+-	The rover was going to help the Marie experiment by taking radiation
+	level readings form the surface of Mars.
+
+-	A single mismatch between SI and Imperial units caused the navigational
+	error which led to the MCO burning up in the Martian atmosphere.
+
+-	JPL analysed the mission plan for the Odyssey mission and discovered
+	that out of the 200,000 or so parameters, 10% are mission critical and
+	then devoted more resources to the them.
+
+-	Since the majority of the aerospace industry is still based on the
+	Imperial unit system, as opposed to NASA use of SI units, all the
+	interface documents contain both SI and Imperial units for each
+	measurement to avoid confusion.
+
+-	NASA assembled a "Red-Team" around the same time that JPL was doing it's
+	mission plan analysis.
+
+	The team was comprised of 50 industry experts to perform their own
+	series of evaluations of the Odyssey mission.
+
+-	Around 144 Action Items were tabled by the Red-Team, some of which JPL
+	were already aware of. Since they were formal now, answers had to be
+	delivered.
+
+-	The biggest design change that was prompted from the Red-Team was to
+	the main propulsion system of the orbiter. It is a hypergolic (the
+	combination of the fuel and oxidiser causes a spontaneous combustion,
+	hence no ignition necessary) system.
+
+-	The problem was that there was no isolation between the fuel and
+	oxidiser perssuarnt line once in the ignition chamber. Which could lead
+	to them mixing further up the lines causing a rupture and ending the
+	mission.
+
+-	Once the situation was fixed other changes had to be done across the
+	board to accommodate them. This led to a larger margin for error in
+	regards to the main propulsion system.
+
+-	Due to NASA attempting to save face from the previous two Mars missions,
+	the attitude changed from cost reduction to the achieving of the
+	Odyssey mission goals, cost not withstanding.
+
+-	Even with some of the funding limitation lifted, the total cost of the
+	mission was close to the original figure.
+
+-	The cancellation of the lander didn't reduce the mission cost
+	substantially, as the unit was already manufactured. It has been
+	moth balled for possible future use.
+
+-	The Odyssey still retains the UHF radio for use with the original rover.
+
+	It can be used by future missions to relay information from rovers back
+	to earth.
+
+	Although landers can now directly communicate with Earth, the use of
+	an orbiter as a relay increased the amount of data that can be 
+	transmitted.
+
+-	The Odyssey orbital will use aerobreaking to bring it in to it's final
+	orbit.
+
+	Previously, the idea was to use aerocapture to enter orbit but it was
+	too costly with a larger risk of instrument damage.
+
+-	Aerobreaking uses the upper atmosphere to retard the velocity of the
+	orbiter.
+
+-	Aerocapture is similar to Aerobreaking as to the method used, however
+	the orbiter would be further inserted in to the atmosphere, resulting
+	in a greater retarding force.
+
+	This would require extra shielding of the orbiter, which has a
+	prohibitive cost attached to it.
+
+-	Another problem would be if the boom that the GRS is attached to fails
+	to deploy it will jeopardise the mission since it reduces the
+	maneuvering capabilities of the orbiter.
+
+-	One Martian year is 687 Earth days.
+
+-	Due to the necessary cooling of the GRS, there are restrictions such
+	that depending on the angle of the sun, it may be inoperable during
+	times that the Sun's rays will be entering through the radiative cooler.
+
+	This means that it will take 917 days to get a fill Martian years worth
+	of data.

@@ -1,0 +1,164 @@
+\font\titlefont=cmr10 at 16pt
+
+\def \url #1 {\tt #1 \hfill \rm}
+
+\def \title #1 {\centerline{\titlefont #1}}
+
+\def \RCS$#1: #2 ${\expandafter\def\csname RCS#1\endcsname{#2}}
+
+\RCS$Id: browser-evaluation.tex 2 2007-07-19 13:00:48Z pdezwart $
+
+\newcount\itemnum \itemnum=0
+
+\newcount\subitemnum
+
+\def\items { \advance \itemnum by 1
+	\item {
+		\bf \the\itemnum)
+	}
+}
+
+\def\resetsubitemnum { \subitemnum=0 }
+
+\def\subitems { \advance \subitemnum by 1
+	\itemitem {
+		\bf \the\itemnum.\the\subitemnum)
+	}
+}
+
+\parskip 12 pt
+
+\def \navigate #1 { Navigate to the {\bf ``#1''} page. }
+
+\title { IT Students Association web site evaluation: }
+
+\centerline {\sevenrm \RCSId }
+
+\items What web browser is being used to evaluate the web site?
+
+\bigskip
+\hrule
+
+\items Go to the following URL \url { http://www.flameburst.com/CSCI102/ }
+\resetsubitemnum
+\subitems Does the page load in a timely manner?
+
+\items \navigate { About Us }
+\resetsubitemnum
+\subitems Do pictures of the associations members appear without any problems?
+
+\items \navigate { Location }
+\resetsubitemnum
+\subitems Does a map of the University of Wollongong appear?
+
+\items \navigate { Activities }
+\resetsubitemnum
+\subitems Was the content set out in an appealing manner?
+
+\items \navigate { Contact Us }
+\resetsubitemnum
+\subitems Attempt to send a message to the webmaster.
+\subitems Did a message appear stating that the message was sent to the desired receipent?
+
+\items \navigate { Guest Book }
+\resetsubitemnum
+\subitems Add an entry to the Guest Book.
+\subitems Did the entry appear at the top of the Guest Book?
+
+\items \navigate { Forum }
+\resetsubitemnum
+\subitems Are you sent to the following URL \url { http://pub206.ezboard.com/bcsci102 }?
+
+\items Rate the loading speed of the web site on the scale below:
+
+\bigskip
+\settabs 7 \columns
+\+ & Abysmal & Poor & Moderate & Good & Excellent \cr
+
+\items Rate the intuitiveness of the web site navigability on the scale below:
+
+\bigskip
+\settabs 7 \columns
+\+ & Abysmal & Poor & Moderate & Good & Excellent \cr
+
+\items Rate the appeal of the web site on the scale below:
+
+\bigskip
+\settabs 7 \columns
+\+ & Abysmal & Poor & Moderate & Good & Excellent \cr
+
+\items Rate the ease of use of the web site on the scale below:
+
+\bigskip
+\settabs 7 \columns
+\+ & Abysmal & Poor & Moderate & Good & Excellent \cr
+
+\items Did the web page have any visible artifacts after being rendered? If so, please describe them.
+
+\bigskip
+\hrule
+
+\bigskip
+\hrule
+
+\bigskip
+\hrule
+
+\items Please comment on the visual presentation of the web site.
+
+\bigskip
+\hrule
+
+\bigskip
+\hrule
+
+\bigskip
+\hrule
+
+\items Please comment on the content of the web site.
+
+\bigskip
+\hrule
+
+\bigskip
+\hrule
+
+\bigskip
+\hrule
+
+\items What improvements could you suggest to increase the quality of your experience of the web site with your particular browser?
+
+\bigskip
+\hrule
+
+\bigskip
+\hrule
+
+\bigskip
+\hrule
+
+\items Did you have any problems navigating the web site? If so, please elabourate.
+
+\bigskip
+\hrule
+
+\bigskip
+\hrule
+
+\bigskip
+\hrule
+
+\items Could you easily navigate from one web page to another? If no, explain why not.
+
+\bigskip
+\hrule
+
+\bigskip
+\hrule
+
+\bigskip
+\hrule
+
+\items Were the colours used on the web site easy on the eye?
+
+\bye

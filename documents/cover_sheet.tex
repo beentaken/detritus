@@ -1,0 +1,60 @@
+\font\mainfont=cmr12
+\font\mi=cmti12
+\font\subsectionfont=cmbx12
+\font\sectionfont=cmbx14
+\font\headingfont=cmbx16
+\font\titlefont=cmbx18
+
+\newcount\itemnum \itemnum=0
+\newcount\footnotes \footnotes=0
+
+\def\title#1{\centerline{\titlefont #1} \vskip 24pt}
+\def\items{\advance\itemnum by 1 \itemitem {\the\itemnum)}}
+\def\footnoter#1{\advance\footnotes by 1 \footnote{$^{\the\footnotes}$}{\rm #1}}
+\def\NA{{\mi Not Applicable}}
+\def\heading#1{\parskip 12 pt \vskip 12 pt \leftline{\headingfont #1}}
+\def\thing#1{\itemitem {#1:}}
+
+\parskip 12 pt
+\parindent 24 pt
+
+\title{de Zwart Networks Fax Cover-sheet}
+
+\mainfont
+
+\heading{Particulars}
+
+\thing{Date} Thursday, 17$^{th}$ of July, 2008
+\parskip 0 pt
+\thing{Pages} 3
+
+\heading{Recipient}
+
+\thing{To} Elvis, Hamburger
+\parskip 0 pt
+\thing{Fax} (XX) XXXX-XXXX
+
+\heading{Sender}
+
+\thing{From} Peter de Zwart, de Zwart Networks
+\parskip 0 pt
+\thing{Phone} (XX) XXXX-XXXX
+\thing{Fax} (XX) XXXX-XXXX
+\thing{e-mail} pete@dezwart.net.au
+\thing{mobile} XXXX XXX XXX
+
+\heading{Notes}
+
+Hi Elvis
+
+As requested, here are facimilies of my {\mi Cheeseburger}.
+
+Let me know if the clarity of the transmitted documents are poor, and I will attempt to scan them and send them to you via other means.
+
+Once again, thank you for your assistance with this issue.
+
+Regards,
+\vskip 24 pt
+\parindent 48 pt
+Peter de Zwart.
+\bye

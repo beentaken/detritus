@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet href="network.xsl" type="text/xsl"?>
+
+<network>
+	<!-- This is the beastly computer that runs the show -->
+	<computer>
+		<name>Tropism</name>
+		<objective>Core server</objective>
+		<arch>i686</arch>
+		<os>
+			<name>Debian GNU/Linux</name>
+			<release>Testing</release>
+			<nickname>Sarge</nickname>
+			<revision>3.1</revision>
+		</os>
+	</computer>
+
+	<!-- This is another pooter -->
+	<computer>
+		<name>Asinine</name>
+		<objective>Logs Box</objective>
+		<arch>Sparc</arch>
+		<os>
+			<name>Debian GNU/Linux</name>
+			<release>Stable</release>
+			<nickname>Woody</nickname>
+			<revision>3.0r2</revision>
+		</os>
+	</computer>
+</network>

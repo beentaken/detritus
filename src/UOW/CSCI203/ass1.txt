@@ -1,0 +1,74 @@
+CSCI203:	Assignment 1
+Student #:	9840642
+$Id: ass1.txt 2 2007-07-19 13:00:48Z pdezwart $
+
+1)
+
+2)
+
+3)
+
+4)	Proposition:	There are an infinite number of primes
+
+	Proof:
+
+	a)	Assume that there is a largest prime P.
+
+	b)	Let X = P! + 1
+
+	c)	Note that X is not easily divisible by any of the primes
+		starting with the first and ending with P.
+
+	d)	Thus either X is a prime or divisible by a prime larger than P.
+
+	e)	This contradicts the assumption in a) that P is the largest
+		prime.
+
+5)
+
+6)
+
+7)	n^2 days is theoretically the better algorithm, so far as O notation
+	goes.
+
+	n^3 seconds is better until a instance size of 86400.
+
+	Thus, the break even point for n is:
+
+		86400
+
+	Both algorithms take one full day of computation to complete at
+	n = 86400
+
+8)	Assuming that one year has 31536000 seconds in it (365 * 24 * 60 * 60)
+	and the algorithm in question takes f(n) = 0.0001 * 2^n seconds, then
+	given an instance of size 38:
+
+		f(38)	= 0.0001 * 2^38
+			= 27487791		(rounded)
+			= 318 Days
+
+	Which is almost a year.
+
+	A machine which is a hundred times faster would terminate in f(n)/100,
+	thus:
+
+		f(38)/100 = 3.18 Days
+
+	The second algorithm that takes g(n) = 0.01 * n^3 seconds, what size
+	problem would it be able to complete in one year:
+
+		31546000	= 0.01 * n^3
+		1466.610420	=	n
+
+	g(n) is capable of completing a data set of approxamately 1467 in size
+	after one year of computation.
+
+	A computer with 100 times the computational power would be able to
+	process 146661 units with g(n).
+
+	The first algorithm is better for 0 <= x <= 19.
+
+9)
+
+10)

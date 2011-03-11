@@ -1,0 +1,56 @@
+
+        CSCI203           ASSIGNMENT 3	    Due 17:00 17/5/2002
+
+Dijkstra's algorithm finds the shortest path from a given node to all other
+nodes.
+
+We observe that we can modify this algorithm to stop as soon as a particular
+node is reached; thus producing an algorithm to find the shortest path between
+a specific pair of points.
+
+We note that this algorith may involve the consideration of a number of points
+which do not lie on the final shortest path.
+
+A proposed improvement on this modifies Dijkstra's algorithm is to start at
+both the source and destination nodes and to construct two partial solution
+trees in parallel until one node is in both partial solution trees.
+
+Your task is to:
+
+1. Code the modified Diskstra's algorithm to search from the start node out.
+
+2. Code the proposed improved algorithm.
+
+3. Compare the results.
+
+Note: You should produce a single program to perform the above tasks.
+
+Input to the program will consist of
+
+The number of nodes 
+A sequence of sets of three integers where the first two are node numbers and
+the third number is a cost.
+
+Input of edges is terminated by the sequence 0 0 0.
+
+Finally a pair of integers representing the source and destination nodes for
+which a shortest path is required.
+
+Output should be:
+
+The length of the shortest path from solution 1:
+The Path (list of nodes) from solution 1:
+The list of additional nodes in the solution tree for solution 1
+(those not in the shortest path)
+The length of the shortest path from solution 2:
+The Path (list of nodes) from solution 2:
+The list of additional nodes in the solution trees for solution 2
+(those not in the shortest path)
+
+The submit program should be used to submit your answer as follows
+
+	submit -u ian -c csci203 -a 3 ass3.cc ass3.h
+
+where your unix userid should appear instead of ian.
+
+Marks will not be given to assignments which fail to compile!

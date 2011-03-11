@@ -1,0 +1,85 @@
+$Id: analysis.txt 2 2007-07-19 13:00:48Z pdezwart $
+
+Critical Analysis of "2001: A Mars Odyssey" By Stephen Cass
+
+Brief discussion of it's contents.
+
+-	Odyssey Mars mission to "erase the memories of the failure of the last
+	two NASA mission to [Mars]".
+
+-	"The Odyssey's mission is to map the planets geology, paying particular
+	attention to the role of water; both past and present."
+
+-	To carry out it's mission the Odyssey will be equipped with an IR
+	(THEMIS) and a gamma ray (GRS: NS & HEND) spectrometer.
+
+-	THEMIS uses infrared spectrography to map the Martian surface of it's
+	mineral content. The output is used to look for minerals associated
+	with water.
+
+-	THEMIS can also be used to aid the GS to create visual maps since it
+	is capable of imaging in the visible wavelengths, as well as determining
+	the suitability of possible future landing sites by measuring their
+	Thermal Inertia.
+
+-	GRS will be used to measure the atomic elemental composition of the
+	Martian. In particular, it is capable of detecting the presence of
+	Hydrogen atoms up to 1m below the surface as well as looking for
+	Chlorine, which is another indication of water.
+
+-	Marie, is an experiment not directly related to the search for water on
+	Mars. It will map the radiation levels during the Odyssey mission for
+	research regarding possible human missions to Mars and other deep space
+	exploration.
+
+-	The Odyssey was to be accompanied by a rover that was going to carry out
+	experiments useful to the possible human exploration of Mars, but
+	after the previous two Mars mission failures: MCO in 1999 and MPL in
+	2000, it was shelved for future use.
+
+-	JPL carried out extensive analysis of the missions parameters to define
+	the mission critical ones to devote more resources to them.
+
+-	Around the same time of JPL's analysis of the mission NASA assembled a
+	"Red-Team" comprising of 50 aerospace industry experts to perform an
+	independent evaluation of the mission.
+
+	This led to design changes to ensure a greater margin for error and
+	continuing the effort towards success.
+
+-	NASA also changed its monetary attitude in regards to the Odyssey
+	mission from cost conserving to achieving the mission objectives.
+
+How well did the paper present it's arguments?
+
+-	Good command of the English language.
+
+-	The article was delivered for its intended audience of people with a
+	grasp of technical details.
+
+-	Concepts were explained in a concise and brief manner to ensure that
+	they were understood for the purpose of the article.
+
+	E.g: GRS & THEMIS
+
+-	Graphics were used to show emphasis regarding certain points.
+
+	E.g: The differing geological composition of the northern and southern
+	hemispheres.
+
+-	Quotations from the people who worked on the mission was used to explain
+	various points.
+
+	E.g: Dual measurement units in interface documents.
+
+Conclusion:
+
+	Stephen Cass shows the audience that the Mars Odyssey mission is well
+on it's way to "erase memories of the failure of the last two NASA mission to
+[Mars]".
+
+	Or
+
+	Stephen Cass shows that "Although the shadow of the recent failed NASA
+missions to Mars looms over the Odyssey, the scientists and engineers have faith
+in it the spacecraft and its mission."

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Computer>
+	<Name>
+		Tropism
+	</Name>
+
+	<Arch>
+		i686
+	</Arch>
+
+	<OS>
+		Debian GNU/Linux stable 3.0r2 "Woody"
+	</OS>
+
+	<RAM>
+		512 MB
+	</RAM>
+
+	<CPUs>
+		4
+	</CPUs>
+
+	<Objective>
+		Core server
+	</Objective>
+</Computer>

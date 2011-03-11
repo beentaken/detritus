@@ -1,0 +1,216 @@
+$Id: ass1.txt 2 2007-07-19 13:00:48Z pdezwart $
+
+1 & 2:
+
+c0t0d0:		Root fs (/)
+		/usr
+		/tmp
+		/spool
+		/local
+		/spare
+
+		Both high write usage partitions, /tmp & /spool are next to
+		each other and seemingly in the middle of the disk. If the
+		middle means the cylinders in the middle, excellent!
+
+	The rest of the disks house mostly static data and binaries, from an
+lusers perspective (such as mine).
+
+	The majority of use full stuff is mounted via NFS, although the way it
+has been achieved makes little sense to me. Mostly I think it was done in a 
+patch work basis, the way the /packages tree has a plethora of mounts
+seems to indicate that it was a temporary measure that solidified. That and the
+fact that all those mounts seem to emanate from the same partition on "naga".
+
+	After a finding out that naga is a netapp network file server it
+started to make sense that home directories were all on the one filesystem.
+
+	It seems that the filesystem on Banshee has grown as it is as a matter
+of expediency rather than planning as is common in "Real Life" TM. This is not
+necessecarily a "Bad Thing" TM but ugly situations can usually be avoided with
+careful planning.
+
+Filesystem           1024-blocks        Used   Available Capacity  Mounted on
+
+# Nice small root partition
+/dev/dsk/c0t0d0s0         482824      127804      306738    30%    /
+/dev/dsk/c0t0d0s3        1490275      664010      766654    47%    /usr
+
+# Yay, the tmp partition
+/dev/dsk/c0t0d0s4         482824       27440      407102     7%    /tmp
+
+# Spool dir, space for lpd and the mailq
+/dev/dsk/c0t0d0s5         482824        5273      429269     2%    /spool
+/dev/dsk/c0t0d0s6         290065       50632      210427    20%    /local
+
+# Mmmm, spare partition, mostly a temp storage space for 'privileged' users
+/dev/dsk/c0t0d0s7        3304291     2724334      546915    84%    /spare0
+
+# Web server data
+/dev/dsk/c0t1d0s1        2055705     1205023      789011    61%    /pkg4
+
+# Wow 4GB for CORBA!?!?!?!?!?! Why?
+/dev/dsk/c0t1d0s3        4338378      797121     3497874    19%    /pkg5
+
+# Fonts?
+/dev/dsk/c0t1d0s7         221653       91942      107546    47%    /open
+
+# Hmmm, more CORBA!?!?!? & j2ee...EEEEEWWWW
+/dev/dsk/c0t2d0s0        2030279     1418265      551106    73%    /pkg2
+
+# Mesa graphics libs, swing, cshelp? and a nice world readable tar ball of the
+# whole of /pkg4 ;-)
+/dev/dsk/c0t2d0s3        2030279     1435630      533741    73%    /pkg3
+
+# Turnin and more java
+/dev/dsk/c0t3d0s0        4124422     3150251      932927    78%    /pkg1
+
+# Fancy pants mounts, virtual file systems
+/proc                          0           0           0     0%    /proc
+fd                             0           0           0     0%    /dev/fd
+
+# Swap? why is this listed as being mounted at /var/run?
+swap                     2139072           0     2139072     0%    /var/run
+
+# OK, a virtual mount which is the list of currently mounted file systems.
+# read only of course.
+mnttab                         0           0           0     0%    /etc/mnttab
+
+# Auto mount daemon fstab entries, why use automount for NFS considering that
+# it is supposedly "Stateless" and each action atomic. Seriously.
+auto_home                      0           0           0     0%    /home
+uow_auto_packages              0           0           0     0%    /packages
+uow_auto_share                 0           0           0     0%    /share
+uow_auto_web                   0           0           0     0%    /web
+uow_auto_whome                 0           0           0     0%    /whome
+uow_auto_uow                   0           0           0     0%    /uow
+
+# Computer Science Oracle mount via NFS 
+wraith:/csoracle0        3099287     2675858      361444    89%    /packages/csoracle
+
+# packages mounts from wraith via NFS
+wraith:/pkg1/pvm-3.4b7     2054562     1028392      964534    52%    /packages/pvm3
+wraith:/pkg1/bluej       2054562     1028392      964534    52%    /packages/bluej
+wraith:/pkg1/glut        2054562     1028392      964534    52%    /packages/glut
+
+# Directories mounted elsewhere
+/pkg2/cs-pub             2030279     1418265      551106    73%    /share/cs-pub
+/pkg1/turnin             4124422     3150251      932927    78%    /packages/turnin
+
+# Various nefarious /share mounts from naga via NFS
+naga:/shr/config          102400       74792       27608    74%    /share/config
+naga:/shr/scripts         102400       74792       27608    74%    /share/scripts
+naga:/shr/etc             102400       74792       27608    74%    /share/etc
+naga:/shr/bin             102400       74792       27608    74%    /share/bin
+naga:/shr/sbin            102400       74792       27608    74%    /share/sbin
+
+# Cool, data files for the packages, is this synonymous for /packages/var ?
+naga:/data              52428800    38429184    13999616    74%    /packages/data
+
+# Packages off naga via NFS
+
+# I believe this was done this way because /packages has other directories that
+# are local. Why it was done this way instead of mounting them all under their
+# own directory and creating soft links to the sub directories, I'll never know!
+
+naga:/pkg-ro/cap-198i    52428800    10745112    41683688    21%    /packages/cap
+naga:/pkg-ro/openldap    52428800    10745112    41683688    21%    /packages/openldap
+naga:/pkg-ro/openssl    52428800    10745112    41683688    21%    /packages/openssl
+naga:/pkg-ro/mysql      52428800    10745112    41683688    21%    /packages/mysql
+naga:/pkg-ro/ldapsdk-3.0    52428800    10745112    41683688    21%    /packages/ldapsdk-3.0
+naga:/pkg-ro/zlib       52428800    10745112    41683688    21%    /packages/zlib
+naga:/pkg-ro/gd         52428800    10745112    41683688    21%    /packages/gd
+naga:/pkg-ro/oracle     52428800    10745112    41683688    21%    /packages/oracle
+naga:/pkg-ro/readline    52428800    10745112    41683688    21%    /packages/readline
+naga:/pkg-ro/java       52428800    10745112    41683688    21%    /packages/java
+naga:/pkg-ro/apache     52428800    10745112    41683688    21%    /packages/apache
+naga:/pkg-ro/passwd     52428800    10745112    41683688    21%    /packages/passwd
+naga:/pkg-ro/sfw        52428800    10745112    41683688    21%    /packages/sfw
+naga:/pkg-ro/jed        52428800    10745112    41683688    21%    /packages/jed
+naga:/pkg-ro/joe-2.8    52428800    10745112    41683688    21%    /packages/joe
+naga:/pkg-ro/jakarta    52428800    10745112    41683688    21%    /packages/jakarta
+naga:/pkg-ro/icewm      52428800    10745112    41683688    21%    /packages/icewm
+naga:/pkg-ro/netscape    52428800    10745112    41683688    21%    /packages/netscape
+naga:/pkg-ro/fvwm2      52428800    10745112    41683688    21%    /packages/fvwm2
+naga:/pkg-ro/acrobat-4.05    52428800    10745112    41683688    21%    /packages/acrobat
+naga:/pkg-ro/pine       52428800    10745112    41683688    21%    /packages/pine
+naga:/pkg-ro/lprng-3.6.24    52428800    10745112    41683688    21%    /packages/lprng
+naga:/pkg-ro/setuid     52428800    10745112    41683688    21%    /packages/setuid
+naga:/pkg-ro/mutt       52428800    10745112    41683688    21%    /packages/mutt
+naga:/pkg-ro/gs         52428800    10745112    41683688    21%    /packages/gs
+naga:/pkg-ro/mirapoint    52428800    10745112    41683688    21%    /packages/mirapoint
+naga:/pkg-ro/elm-2.4Me+.PL49    52428800    10745112    41683688    21%    /packages/elm
+naga:/pkg-ro/python     52428800    10745112    41683688    21%    /packages/python
+naga:/pkg-ro/tcl        52428800    10745112    41683688    21%    /packages/tcl
+naga:/pkg-ro/gnu        52428800    10745112    41683688    21%    /packages/gnu
+naga:/pkg-ro/gcc-2.95.2    52428800    10745112    41683688    21%    /packages/gcc
+naga:/pkg-ro/sar        52428800    10745112    41683688    21%    /packages/sar
+naga:/pkg-ro/tk         52428800    10745112    41683688    21%    /packages/tk
+naga:/pkg-ro/cc         52428800    10745112    41683688    21%    /packages/cc
+naga:/pkg-ro/mail       52428800    10745112    41683688    21%    /packages/mail
+naga:/pkg-ro/man        52428800    10745112    41683688    21%    /packages/man
+
+# User home directory mounts from naga via NFS
+
+# It looks like there are all off the same device on naga, tut tut tut. Good
+# thing they enforce a QUOTA!
+
+naga:/home/ug          125829120   107275180    18553940    86%    /home/ug
+naga:/home/cs/projects   125829120   107275180    18553940    86%    /home/cs-projects
+naga:/home/pg          125829120   107275180    18553940    86%    /home/pg
+naga:/home/ug          125829120   107275180    18553940    86%    /home/cs-ug
+naga:/home/staff/informatics/cs-staff   125829120   107275180    18553940    86%    /home/cs-staff
+
+# Note, a new NFS server introduced, it is called "thowra", it seems to house
+# The SUN compiler, some man pages and a packet capturing suite. Hopefully
+# the SA's won't get cranky that I ran a few...:-) (Paints gray hat white)
+
+Question 3:
+
+	Assume that the disks are on seperate physical channels.
+
+	Given that the server is a standalone and has 100 users I've opted for
+	a generic approach.
+
+	Assume that swap is striped across partitions, as is the default in
+	linux.
+
+	Yes, also assume this is a linux box, although it "should" (read:
+	wishful thiking) be fine for any system based on SysV R foo and
+	upwards.
+
+	Simple small root and tmp partitions:
+	/ 		.2 GB	disk 0, partition 0
+	/tmp		.2 GB 	disk 0, partition 1
+
+	Spool doesn't need to be too big, allow for fudge factor:
+	/var/spool	.6 GB	disk 0, partition 2
+
+	Binaries, optional packages:
+	/usr		10 GB	disk 0, partition 3
+	/opt		10 GB	disk 0, partition 4
+
+	Swap, whacked in the middle cylinders of both disks, 100 users on a 
+	1 GB box will need some decent VM:
+	swap: disk 0	1 GB	disk 0,	partition 5
+	swap: disk 1	1 GB	disk 1, partition 1
+
+	Project areas, people do group work here:
+	NOTE: Data from running processes related to project work is not
+	supposed to be collated here!
+	/projects	18 GB	disk 0, partition 6
+
+	Around .2 GB per user! Oh the luxury!
+	/home		20 GB	disk 1, partition 0
+
+	Variable data, large to allow LOTS of data, gratuitious usage of groups
+	necessary:
+	NOTE: Project data from running processes should be collated here.
+	/var		16 GB	disk 1, partition 2
+
+	Make sure logs have a nice little sandpit:
+	/var/log	1 GB	disk 1, partition 3
+
+	%5 up the sleeve, stuck at the end of the disks:
+	spare: 		2 GB	disk 0, partition 7
+	spare: 		2 GB	disk 1, partition 4

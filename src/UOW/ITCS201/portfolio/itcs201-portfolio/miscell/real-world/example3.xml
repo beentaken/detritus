@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/css" href="greeting.css"?>
+
+<DOCUMENT>
+
+  <GREETING>
+    Hello From XML
+  </GREETING>
+
+  <MESSAGE>
+    Welcome to the wild and woolly world of XML.
+  </MESSAGE>
+
+</DOCUMENT>
