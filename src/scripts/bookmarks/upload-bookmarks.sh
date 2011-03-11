@@ -1,6 +1,5 @@
 #!/bin/sh
 
-# $Id: upload-bookmarks.sh 2 2007-07-19 13:00:48Z pdezwart $
 
 USER=dezwart
 PASS=REDACTED

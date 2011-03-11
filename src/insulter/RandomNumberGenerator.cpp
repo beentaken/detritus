@@ -1,4 +1,3 @@
-// $Id: RandomNumberGenerator.cpp 2 2007-07-19 13:00:48Z pdezwart $
 
 #include <time.h>
 #include <sys/timeb.h>

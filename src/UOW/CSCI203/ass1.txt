@@ -1,6 +1,5 @@
 CSCI203:	Assignment 1
 Student #:	9840642
-$Id: ass1.txt 2 2007-07-19 13:00:48Z pdezwart $
 
 1)
 

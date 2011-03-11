@@ -1,4 +1,3 @@
-//	$Id: omea.cpp 2 2007-07-19 13:00:48Z pdezwart $
 
 /*!	\file omea.cpp
 

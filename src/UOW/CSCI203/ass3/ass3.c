@@ -1,4 +1,3 @@
-/* $Id: ass3.c 2 2007-07-19 13:00:48Z pdezwart $ */
 
 /*
 	Written by:	Peter de Zwart.

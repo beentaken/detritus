@@ -1,6 +1,5 @@
 #!/bin/sh
 
-# $Id: zcb.sh 2 2007-07-19 13:00:48Z pdezwart $
 
 ZOUNDS=/mnt/stuff/Zounds
 OGG=$ZOUNDS/ogg

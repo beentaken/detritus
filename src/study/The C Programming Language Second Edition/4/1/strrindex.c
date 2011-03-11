@@ -1,4 +1,3 @@
-/* $Id: strrindex.c 2 2007-07-19 13:00:48Z pdezwart $ */
 
 int strrindex(char s[], char t[]) {
 	int	i, j, k, index;

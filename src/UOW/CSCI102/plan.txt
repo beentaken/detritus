@@ -1,4 +1,3 @@
-$Id: plan.txt 2 2007-07-19 13:00:48Z pdezwart $
 
 CSCI102 Tutorial Group 1: Project Plan.
 

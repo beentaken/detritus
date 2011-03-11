@@ -1,4 +1,3 @@
-// $Id: Logentry.cpp 2 2007-07-19 13:00:48Z pdezwart $
 
 /*
 nhstats, a Nethack statistics CGI program.

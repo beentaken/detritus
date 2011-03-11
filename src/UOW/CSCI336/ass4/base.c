@@ -2,7 +2,6 @@
 	Author:		Peter Nathaniel Theodore de Zwart
 	Student ID:	9840642
 
-	$Id: base.c 2 2007-07-19 13:00:48Z pdezwart $
 */
 
 #include <assert.h>

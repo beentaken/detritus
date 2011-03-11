@@ -1,4 +1,3 @@
-// $Id: Clipboard.java 2 2007-07-19 13:00:48Z pdezwart $
 
 public class Clipboard {
 	private Shape	shape;

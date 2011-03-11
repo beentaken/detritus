@@ -1,6 +1,5 @@
 #!/bin/sh
 
-# $Id: froob.net-webalizer.sh 2 2007-07-19 13:00:48Z pdezwart $
 
 LOGFILE=/tmp/web.log
 TMPLATE=/tmp/`basename $0`.XXXXXX

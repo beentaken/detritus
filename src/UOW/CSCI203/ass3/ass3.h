@@ -1,4 +1,3 @@
-/* $Id: ass3.h 2 2007-07-19 13:00:48Z pdezwart $ */
 
 #ifndef __ASS3_H
 #define __ASS3_H

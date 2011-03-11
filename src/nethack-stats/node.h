@@ -1,4 +1,3 @@
-// $Id: node.h 2 2007-07-19 13:00:48Z pdezwart $
 
 #ifndef __NODE_H
 #define __NODE_H

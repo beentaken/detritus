@@ -1,4 +1,3 @@
-# $Id: Makefile 2 2007-07-19 13:00:48Z pdezwart $
 .PHONY: clean distclean
 
 CFLAGS += -Wall -ansi -pedantic -pipe -ggdb3

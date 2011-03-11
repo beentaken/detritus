@@ -1,4 +1,3 @@
-/* $Id: logdata.c 2 2007-07-19 13:00:48Z pdezwart $ */
 
 #include <stdio.h>
 #include "logdata.h"

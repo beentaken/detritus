@@ -1,4 +1,3 @@
-// $Id: score.h 2 2007-07-19 13:00:48Z pdezwart $
 
 #ifndef __SCORE_H
 #define __SCORE_H

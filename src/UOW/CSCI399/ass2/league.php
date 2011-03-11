@@ -1,5 +1,4 @@
 <?php
-	// $Id: league.php 2 2007-07-19 13:00:48Z pdezwart $
 
 	require('common.php');
 

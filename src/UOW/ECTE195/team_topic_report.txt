@@ -1,4 +1,3 @@
-$Id: team_topic_report.txt 2 2007-07-19 13:00:48Z pdezwart $
 
 	Groups, either formed naturally or produced, will develop their own
 behavioural regulators. This is usually achieved in the "storming" to "norming"

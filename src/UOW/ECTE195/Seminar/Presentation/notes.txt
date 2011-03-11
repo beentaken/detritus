@@ -1,4 +1,3 @@
-$Id: notes.txt 2 2007-07-19 13:00:48Z pdezwart $
 
 -	07/04/01: A probe was sent out to Mars that could be pivotal in the
 	search for water.

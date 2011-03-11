@@ -1,5 +1,4 @@
 \def\RCS$#1:#2${\expandafter\def\csname RCS#1\endcsname{#2}}
-\RCS$Id: animal.w 2 2007-07-19 13:00:48Z pdezwart $
 
 \font\tf=cmr20
 \font\ti=cmti20

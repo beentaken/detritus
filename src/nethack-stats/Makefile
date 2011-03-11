@@ -1,4 +1,3 @@
-# $Id: Makefile 2 2007-07-19 13:00:48Z pdezwart $
 .PHONY: distclean clean all
 
 DEPEND=$(shell "if [ ! -e .depend ]; then touch .depend; fi")

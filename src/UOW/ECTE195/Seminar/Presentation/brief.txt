@@ -1,4 +1,3 @@
-$Id: brief.txt 2 2007-07-19 13:00:48Z pdezwart $
 
 	"2001: A Mars Odyssey" written by Stephen Cass, is an interesting
 article to read. It attempts to show how NASA is preparing to launch another

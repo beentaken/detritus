@@ -1,4 +1,3 @@
-// $Id: master.cpp 2 2007-07-19 13:00:48Z pdezwart $
 
 #include <string.h>
 #include <stdio.h>

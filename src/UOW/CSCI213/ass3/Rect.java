@@ -1,4 +1,3 @@
-// $Id: Rect.java 2 2007-07-19 13:00:48Z pdezwart $
 
 /*
  * The RectShape class defines a simple rectangular shape object.

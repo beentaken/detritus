@@ -1,4 +1,3 @@
-$Id: SA-1 2 2007-07-19 13:00:48Z pdezwart $
 
 This monoalphabetic cipher substitution table was divined by looking at the
 frequency analysis of the ciphertext and deducing which ciphertext characters

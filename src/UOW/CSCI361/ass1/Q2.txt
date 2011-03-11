@@ -1,4 +1,3 @@
-$Id: Q2.txt 2 2007-07-19 13:00:48Z pdezwart $
 
 Question 2, part 1:
 

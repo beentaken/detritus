@@ -1,4 +1,3 @@
-// $Id: nhstats.cpp 2 2007-07-19 13:00:48Z pdezwart $
 
 /*
 nhstats, a Nethack statistics CGI program.
@@ -94,7 +93,6 @@ int main(int argc, char **argv) {
 			<< "<body>\n"
 			<< "\t<h1>Nethack statistics</h1>\n"
 			<< "\t<br>\n"
-			<< "\t<p>$Id: nhstats.cpp 2 2007-07-19 13:00:48Z pdezwart $</p>\n"
 			<< "\t<br>\n"
 			<< "\t<table border='2' rules='groups' frame='hsides' summary='Nethack table of statistics'>\n"
 			<< "\t\t<caption>Nethack table of statistics</caption>\n"

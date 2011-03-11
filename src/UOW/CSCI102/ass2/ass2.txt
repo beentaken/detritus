@@ -1,4 +1,3 @@
-$Id: ass2.txt 2 2007-07-19 13:00:48Z pdezwart $
 
 	It can be shown that the Rational Unified Process model of software engineering is superior in comparison to the Waterfall model in the way it mitigates risks early and adequately understands the reality of changing user requirements.
 

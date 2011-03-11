@@ -1,4 +1,3 @@
-/* $Id: fileIO.h 2 2007-07-19 13:00:48Z pdezwart $ */
 
 #ifndef __FILEIO_H
 #define __FILEIO_H

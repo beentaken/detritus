@@ -1,6 +1,5 @@
 #!/bin/sh
 
-# $Id: backup.sh 2 2007-07-19 13:00:48Z pdezwart $
 
 IGNORE_PATH=/proc
 TAPE=/dev/st0

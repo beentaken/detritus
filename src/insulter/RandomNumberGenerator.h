@@ -1,4 +1,3 @@
-// $Id: RandomNumberGenerator.h 2 2007-07-19 13:00:48Z pdezwart $
 
 #ifndef _RandomNumberGenerator_h
 #define _RandomNumberGenerator_h

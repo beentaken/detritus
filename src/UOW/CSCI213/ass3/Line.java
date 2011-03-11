@@ -1,4 +1,3 @@
-// $Id: Line.java 2 2007-07-19 13:00:48Z pdezwart $
 
 import java.awt.*;
 

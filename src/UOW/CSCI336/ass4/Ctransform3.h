@@ -2,7 +2,6 @@
 	Author:		Peter Nathaniel Theodore de Zwart
 	Student ID:	9840642
 
-	$Id: Ctransform3.h 2 2007-07-19 13:00:48Z pdezwart $
 
 	Originally by Peter Castle, ammendments made to allow the code to
 	compile and so that it fits in with my coding style.

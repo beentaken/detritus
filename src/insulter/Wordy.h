@@ -1,4 +1,3 @@
-// $Id: Wordy.h 2 2007-07-19 13:00:48Z pdezwart $
 
 #include <list>
 #include <string>
