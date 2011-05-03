@@ -24,7 +24,7 @@ int main(int argc, char **argv) {
 	/* Get the number of nodes */
 	scanf("%i", &num_nodes);
 
-	/* Create the matrix that will hold the lengths of the edeges */
+	/* Create the matrix that will hold the lengths of the edges */
 	lengths = (int **)calloc(num_nodes, sizeof(int *));
 
 	for (i = 0; i < num_nodes; i++) {
@@ -39,6 +39,7 @@ int main(int argc, char **argv) {
 		|| cost)) {
 		node_1--;
 		node_2--;
+
 		lengths[node_1][node_2] = cost;
 		lengths[node_2][node_1] = cost;
 	}
@@ -64,7 +65,7 @@ int main(int argc, char **argv) {
 
 data_set *
 init_Dijkstra(int src) {
-	data_set	*data = (data_set *)malloc(sizeof(data_set));
+	data_set	*data = (data_set *)calloc(1, sizeof(data_set));
 	int		i;
 
 	/* Create the distances vector */
