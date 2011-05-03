@@ -36,10 +36,10 @@ int main(int argc, char **argv) {
 	scanf("%i", &numNodes);
 
 	/* Create the matrix that will hold the Graph */
-	Graph = (int ***)calloc(numNodes, sizeof(int *));
+	Graph = (int ***)calloc(numNodes, sizeof(int **));
 
 	for (i = 0; i < numNodes; i++) {
-		Graph[i] = (int **)calloc(numNodes, sizeof(int));
+		Graph[i] = (int **)calloc(numNodes, sizeof(int *));
 	}
 
 	/* Get the list of edges and put them in the matrix */
@@ -48,7 +48,7 @@ int main(int argc, char **argv) {
 		node_2--;
 
 		/* Any non NULL value denotes a edge between node_1 & node_2 */
-		Graph[node_1][node_2] = (int *)malloc(sizeof(int));
+		Graph[node_1][node_2] = (int *)calloc(1, sizeof(int));
 		*(Graph[node_1][node_2]) = NOT_IN_SPANNING_TREE;
 		Graph[node_2][node_1] = Graph[node_1][node_2];
 	}
@@ -98,7 +98,7 @@ DepthFirstTraversal(int node) {
 	int		articulate = 0;
 	
 	/* Show that this node has been visited */
-	prenum = Graph[node][node] = (int *)malloc(sizeof(int));
+	prenum = Graph[node][node] = (int *)calloc(1, sizeof(int));
 
 	/* Set the nodes sequence number in the spanning tree */
 	*prenum = higest = prenum_count++;
@@ -131,7 +131,7 @@ DepthFirstTraversal(int node) {
 
 					/* Handle the case where there is no edge between i and the root node */
 					if (!Graph[i][0]) {
-						Graph[i][0] = (int *)malloc(sizeof(int));
+						Graph[i][0] = (int *)calloc(1, sizeof(int));
 					} else if (*(Graph[i][0]) < 0) {
 						 /* If there is an edge between i and the root node and it is not a part of the spanning tree, then we have to make the
 							resulting edge value negative. */
