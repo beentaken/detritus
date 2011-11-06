@@ -1,0 +1,8 @@
+# Ignore all vim .swp files
+*.swp
+
+# Ignore make artefacts for C/C++ targets
+*.[do]
+
+# Ignore ctags files
+tags
