@@ -1,6 +1,5 @@
 #!/bin/sh
 
-
 USER=dezwart
 PASS=REDACTED
 HOST=froob.net
@@ -9,8 +8,8 @@ LDIR=$HOME/public_html
 FILE=bookmarks.html
 
 function _exit {
-	rm -f $LOGFILE $TMP
-	exit $1
+    rm -f $LOGFILE $TMP
+    exit $1
 }
 
 trap _exit 15

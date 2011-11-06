@@ -1,4 +1,3 @@
-
 /*
 nhstats, a Nethack statistics CGI program.
 Copyright (C) 2005  Pete de Zwart <dezwart@froob.net>
@@ -21,59 +20,59 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #include "Logentry.h"
 
 Logentry::Logentry() {
-	points = 0;
-	deathdnum = 0;
-	deathlev = 0;
-	maxlvl = 0;
-	hp = 0;
-	maxhp = 0;
-	deaths = 0;
-	deathdate = 99999999;
-	birthdate = 99999999;
-	uid = "NUL";
-	role = "NUL";
-	race = "NUL";
-	gender = "NUL";
-	alignment = "NUL";
-	name = "NUL";
-	reason = "NUL";
+    points = 0;
+    deathdnum = 0;
+    deathlev = 0;
+    maxlvl = 0;
+    hp = 0;
+    maxhp = 0;
+    deaths = 0;
+    deathdate = 99999999;
+    birthdate = 99999999;
+    uid = "NUL";
+    role = "NUL";
+    race = "NUL";
+    gender = "NUL";
+    alignment = "NUL";
+    name = "NUL";
+    reason = "NUL";
 }
 
 Logentry::~Logentry() {
 }
 
 ostream & operator << (ostream &os, const Logentry &log) {
-	os << log.version << ' ' << log.points << ' ' << log.deathdnum << ' '
-		<< log.deathlev << ' ' << log.maxlvl << ' ' << log.hp << ' '
-		<< log.maxhp << ' ' << log.deaths <<  ' ' << log.deathdate
-		<< ' ' << log.birthdate << ' ' << log.uid << ' ' << log.role
-		<< ' ' << log.race << ' ' << log.gender << ' ' << log.alignment
-		<< ' ' << log.name << ',' << log.reason;
+    os << log.version << ' ' << log.points << ' ' << log.deathdnum << ' '
+        << log.deathlev << ' ' << log.maxlvl << ' ' << log.hp << ' '
+        << log.maxhp << ' ' << log.deaths <<  ' ' << log.deathdate
+        << ' ' << log.birthdate << ' ' << log.uid << ' ' << log.role
+        << ' ' << log.race << ' ' << log.gender << ' ' << log.alignment
+        << ' ' << log.name << ',' << log.reason;
 
-	return(os);
+    return(os);
 }
 
 istream & operator >> (istream &is, Logentry &log) {
-	is >> log.version >> log.points >> log.deathdnum >> log.deathlev
-		>> log.maxlvl >> log.hp >> log.maxhp >> log.deaths
-		>> log.deathdate >> log.birthdate >> log.uid >> log.role
-		>> log.race >> log.gender >> log.alignment;
+    is >> log.version >> log.points >> log.deathdnum >> log.deathlev
+        >> log.maxlvl >> log.hp >> log.maxhp >> log.deaths
+        >> log.deathdate >> log.birthdate >> log.uid >> log.role
+        >> log.race >> log.gender >> log.alignment;
 
-	getline(is, log.name, ',');
-	log.name.erase(0,1);
-	getline(is, log.reason);
+    getline(is, log.name, ',');
+    log.name.erase(0,1);
+    getline(is, log.reason);
 
-	return(is);
+    return(is);
 }
 
 bool operator < (const Logentry &lhs, const Logentry &rhs) {
-	bool	rtcode;
+    bool    rtcode;
 
-	if (lhs.points == rhs.points) {
-		rtcode = lhs.name < rhs.name;
-	} else {
-		rtcode = lhs.points > rhs.points;
-	}
+    if (lhs.points == rhs.points) {
+        rtcode = lhs.name < rhs.name;
+    } else {
+        rtcode = lhs.points > rhs.points;
+    }
 
-	return(rtcode);
+    return(rtcode);
 }

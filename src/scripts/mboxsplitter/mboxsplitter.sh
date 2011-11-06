@@ -12,24 +12,24 @@ OUTPUTDIR=$3
 
 for FILE in $MBOX/cur/*
 do
-	if [ $SPLITCOUNT -lt $SPLITSIZE ]
-	then
-		let SPLITCOUNT++
-		FILES="$FILES $FILE"
-	else
-		mkdir $OUTPUTDIR/$SPLIT
-		cp $FILES $OUTPUTDIR/$SPLIT
+    if [ $SPLITCOUNT -lt $SPLITSIZE ]
+    then
+        let SPLITCOUNT++
+        FILES="$FILES $FILE"
+    else
+        mkdir $OUTPUTDIR/$SPLIT
+        cp $FILES $OUTPUTDIR/$SPLIT
 
-		let SPLITCOUNT=0
-		let SPLIT++
-		FILES=""
-	fi
+        let SPLITCOUNT=0
+        let SPLIT++
+        FILES=""
+    fi
 done
 
 if [ $SPLITCOUNT -ne 0 ]
 then
-	mkdir $OUTPUTDIR/$SPLIT
-	cp $FILES $OUTPUTDIR/$SPLIT
+    mkdir $OUTPUTDIR/$SPLIT
+    cp $FILES $OUTPUTDIR/$SPLIT
 
-	echo
+    echo
 fi

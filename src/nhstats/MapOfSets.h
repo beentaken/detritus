@@ -1,4 +1,3 @@
-
 /*
 nhstats, a Nethack statistics CGI program.
 Copyright (C) 2005  Pete de Zwart <dezwart@froob.net>
@@ -26,67 +25,67 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #include <set>
 #include <string>
 
-/*!	MapOfSets
+/*! MapOfSets
 
-	A class which contains a map of sets, which can create a new set if the map doesn't have a set describing that key yet and can add another entry to an already existing set associated with a particular key.
+    A class which contains a map of sets, which can create a new set if the map doesn't have a set describing that key yet and can add another entry to an already existing set associated with a particular key.
 */
 template <class T, class P> class MapOfSets {
-	public:
-		typedef	typename map <T, multiset <P> >::iterator iterator;
-		typedef	typename map <T, multiset <P> >::const_iterator const_iterator;
-		typedef typename set <P>::const_iterator set_iterator;
+    public:
+        typedef typename map <T, multiset <P> >::iterator iterator;
+        typedef typename map <T, multiset <P> >::const_iterator const_iterator;
+        typedef typename set <P>::const_iterator set_iterator;
 
-		/*!	insert()
+        /*! insert()
 
-			Insert a new value in to the MapOfSets, if key doesn't exist, create the new set, otherwise, put it in to the set with that key.
+            Insert a new value in to the MapOfSets, if key doesn't exist, create the new set, otherwise, put it in to the set with that key.
 
-			\param	key	The key to use.
-			\param	value	The templated value.
-		*/
-		void insert(const T key, P value) {
-			iterator	p = _map.find(key);
+            \param  key The key to use.
+            \param  value   The templated value.
+        */
+        void insert(const T key, P value) {
+            iterator    p = _map.find(key);
 
-			pair <T, multiset <P> >	_pair;
+            pair <T, multiset <P> > _pair;
 
-			if (p == _map.end()) {
-				multiset <P>	_set;
+            if (p == _map.end()) {
+                multiset <P>    _set;
 
-				_set.insert(value);
+                _set.insert(value);
 
-				_pair.first = key;
-				_pair.second = _set;
-				_map.insert(_pair);
-			} else {
-				p->second.insert(value);
-			}
-		}
+                _pair.first = key;
+                _pair.second = _set;
+                _map.insert(_pair);
+            } else {
+                p->second.insert(value);
+            }
+        }
 
-		/*!	begin()
+        /*! begin()
 
-			Get me a constant iterator to the internal map.
+            Get me a constant iterator to the internal map.
 
-			\return		A constant iterator.
-		*/
-		const_iterator begin(void) const {
-			return (_map.begin());
-		}
+            \return     A constant iterator.
+        */
+        const_iterator begin(void) const {
+            return (_map.begin());
+        }
 
-		/*!	end()
+        /*! end()
 
-			Get the iterator that is the end of the internal map.
+            Get the iterator that is the end of the internal map.
 
-			\return		The end iterator.
-		*/
-		const_iterator end(void) const {
-			return (_map.end());
-		}
+            \return     The end iterator.
+        */
+        const_iterator end(void) const {
+            return (_map.end());
+        }
 
-	private:
-		/*!	_map
+    private:
+        /*! _map
 
-			The internal STL map using a string for the key and a templated set for the value.
-		*/
-		map <const T, multiset <P> >	_map;
+            The internal STL map using a string for the key and a templated set for the value.
+        */
+        map <const T, multiset <P> >    _map;
 };
 
 #endif

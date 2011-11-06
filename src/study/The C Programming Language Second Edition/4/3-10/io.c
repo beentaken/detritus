@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <ctype.h>
 #include "io.h"
@@ -8,62 +7,62 @@ static void ungetch(int c);
 
 /* getch: get next operator or numeric operand from stdin */
 int getop(char s[]) {
-	int	i, c;
+    int i, c;
 
-	while ((s[0] = c = getch()) == ' ' || c == '\t') {
-	}
+    while ((s[0] = c = getch()) == ' ' || c == '\t') {
+    }
 
-	s[1] = '\0';
+    s[1] = '\0';
 
-	if (!(isdigit(c) || c == '.' || c == '-' || c == '+')) {
-		/* not a number */
-		return(c);
-	}
+    if (!(isdigit(c) || c == '.' || c == '-' || c == '+')) {
+        /* not a number */
+        return(c);
+    }
 
-	i = 0;
-	/* Handle the sign if there is one */
-	if (c == '-' || c == '+') {
-		s[i++] = c;
-		if(! isdigit(s[i] = c = getch())) {
-			/* This is an operator not an operand */
-			ungetch(c);
-			return(s[--i]);
-		}
-	}
+    i = 0;
+    /* Handle the sign if there is one */
+    if (c == '-' || c == '+') {
+        s[i++] = c;
+        if(! isdigit(s[i] = c = getch())) {
+            /* This is an operator not an operand */
+            ungetch(c);
+            return(s[--i]);
+        }
+    }
 
-	if (isdigit(c)) {
-		/* collect integer part */
-		while (isdigit(s[++i] = c = getch())) {
-		}
-	}
+    if (isdigit(c)) {
+        /* collect integer part */
+        while (isdigit(s[++i] = c = getch())) {
+        }
+    }
 
-	if (c == '.') {
-		/* collect fraction part */
-		while (isdigit(s[++i] = c = getch())) {
-		}
-	}
+    if (c == '.') {
+        /* collect fraction part */
+        while (isdigit(s[++i] = c = getch())) {
+        }
+    }
 
-	s[i] = '\0';
-	if (c != EOF) {
-		ungetch(c);
-	}
+    s[i] = '\0';
+    if (c != EOF) {
+        ungetch(c);
+    }
 
-	return(NUMBER);
+    return(NUMBER);
 }
 
 #define BUFSIZE 100
 
-char	buf[BUFSIZE];	/* buffer for ungetc */
-int	bufp = 0;	/* next free position in buf */
+char    buf[BUFSIZE];   /* buffer for ungetc */
+int bufp = 0;   /* next free position in buf */
 
 int getch(void) {
-	return((bufp > 0) ? buf[--bufp] : getchar());
+    return((bufp > 0) ? buf[--bufp] : getchar());
 }
 
 void ungetch(int c) {
-	if (bufp >= BUFSIZE) {
-		printf("ungetch: buffer full\n");
-	} else {
-		buf[bufp++] = c;
-	}
+    if (bufp >= BUFSIZE) {
+        printf("ungetch: buffer full\n");
+    } else {
+        buf[bufp++] = c;
+    }
 }

@@ -1,6 +1,5 @@
 #!/bin/sh
 
-
 IGNORE_PATH=/proc
 TAPE=/dev/st0
 
