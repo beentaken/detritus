@@ -3,17 +3,17 @@
 COMPILER = 6g
 LINKER = 6l
 
-SOURCES = main.go
+SOURCES = sieve.go
 OBJECTS = $(SOURCES:.go=.6)
 
-all: main
+all: sieve
 
 clean:
-	rm -f *.[6] main
+	rm -f *.[6] sieve
 
 distclean: clean
 
-main: $(OBJECTS)
+sieve: $(OBJECTS)
 	$(LINKER) -o $@ $(OBJECTS)
 
 %.6: %.go
