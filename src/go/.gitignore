@@ -1,0 +1,5 @@
+# Ignore the go arch 6 object files
+*.6
+
+# Ignore the resultant binary
+main
