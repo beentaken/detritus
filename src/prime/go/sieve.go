@@ -11,7 +11,7 @@ func main() {
     numbers := make([]bool, max_num)
 
     printPrime(1)
-    for i := 2 ; i < max_num; i++ {
+    for i := 2; i < max_num; i++ {
         if numbers[i] == false {
             printPrime(i)
         }
