@@ -1,4 +1,8 @@
-cv.dvi
-cv.log
-cv.pdf
+# Ignore all device independant files from TeX
+*.dvi
 
+# Ignore all TeX log files
+*.log
+
+# Ignore all PDF files
+*.pdf
