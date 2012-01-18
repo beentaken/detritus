@@ -1,0 +1,90 @@
+\font\sixrm=cmr6
+\font\mainfont=cmr10
+\font\mi=cmti10
+\font\mb=cmbx10
+\font\sectionfont=cmbx12
+\font\headingfont=cmbx12
+\font\titlefont=cmbx12
+
+\def\heading#1{\vskip 12 pt \leftline{\headingfont #1}}
+
+\newcount\footnotes \footnotes=0
+
+\def\footnoter#1{\advance\footnotes by 1 \footnote{$^{\the\footnotes}$}{\mainfont #1}}
+
+\def\section#1{\vskip 12 pt \leftline{\sectionfont #1}}
+
+\def\title#1{\centerline{\titlefont{#1}} \footline{\hss\tenrm{#1:} Page \folio\hss}}
+
+\def\pskip{\parskip 12 pt}
+\def\lskip{\parskip 3pt}
+\def\sskip{\parskip 6pt}
+
+\pskip
+\parindent 24 pt
+
+\title{Interconnecting Cisco Networking Devices - Part 1}
+
+\mainfont
+
+\heading{Module 1 - Building a simple network}
+
+Module Objectives
+
+\item - Identify the benefits of computer networks \& how they function.
+\lskip
+\item - Identify common threats to a network \& thread-mitigation methods.
+\item - Identify \& compare the communication models that control host-to-host communications.
+\item - Describe IP\footnoter{IP - Internet Protocol} address classification \& how a host can obtain an address.
+\item - Describe the process that TCP\footnoter{TCP - Transmission Control Protocol} uses to establish a reliable connection.
+\item - Describe the host-to-host packet delivery process.
+\item - Describe how Ethernet operates at Layer 1 and Layer 2 of the OSI\footnoter{OSI - Open Systems Interconnection} model.
+\item - Identify metohds of connecting to an Ethernet LAN\footnoter{LAN - Local Area Network}.
+\pskip
+
+Lesson 1 - Exploring the Functions of Networking
+
+Objectives
+
+\item - Define a network.
+\lskip
+\item - List the common components of a network.
+\item - Interpret network diagrams.
+\item - List major resource-sharing functions of networks \& their benefits.
+\item - List four common user applications that require network access \& the benefits of each.
+\item - Describe the impact of user applications in the network.
+\item - List the categories of characteristics that are used to describe the various network types.
+\item - Compare \& contrast logical \& physical topologies.
+\item - List the characteristics of a bus topology.
+\item - List the characteristics of a star \& extended-star topology.
+\item - List the characteristics of a ring \& dual-ring topology.
+\item - List the characteristics of a mesh \& partial-mesh topology.
+\item - Describe the methods of connecting to the Internet.
+\pskip
+
+What is a Network?
+
+A network is a connected collection of devices \& end systems, such as computers \& servers, which can communicate with each other.
+
+\item - Main office, where most corporate information is located.
+\lskip
+\item - Branch office, local network resources such as printers, most information accessed from main office.
+\item - Home office, require on-demand connection to main office or branch office to access information or use network resources.
+\item - Mobile users, connect to main office when at main office, branch office when at branch office, \&c... Location of mobile user determines access requirements.
+\pskip
+
+Common Physical Components of a Network.
+
+Five major catagories:
+
+\item - PCs, endpoints in the network, send \& receive data.
+\lskip
+\item - Interconnections, components that provide means for data to travel from one point to another point in the network.
+\itemitem - NICs\footnoter{NIC - Network Interface Card}, translate computer data to format transmissable over local network.
+\itemitem - Network media, cables or wireless media that provides means for signals to be transmitted from one network device to another.
+\itemitem - Connectors, provide connection points for network media.
+\item - Switches, provide network attachment to end systems \& intelligent switching of data within the local network.
+\item - Routers, interconnect networks \& choose best path between networks.
+\item - WLAN\footnoter{WLAN - Wireless LAN}, connect endpoints without using cables.
+
+\bye
