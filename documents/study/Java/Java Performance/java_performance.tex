@@ -18,6 +18,8 @@
 
 \def\tw#1{\tt{#1}\mainfont}
 \def\XX#1{\tw{-XX:#1}}
+\def\I{\item -}
+\def\II{\itemitem -}
 
 \def\pskip{\parskip 12 pt}
 \def\lskip{\parskip 3pt}
@@ -32,33 +34,115 @@
 
 \heading{Scribbled Notes}
 
-\item - Memory mapped.
+\I Memory mapped.
 \lskip
-\item - Try HotSpot debug vm with \XX{+PrintInterpreter}
-\item - Native C stack.
-\item - Semantic.
-\item - Stack unwinding.
-\item - Stack frame.
-\item - \XX{-UseBiasedLocking}.
-\item - Fast-path code.
-\item - C1 JIT "\tw{-client}".
-\item - C2 JIT "\tw{-server}".
-\item - Mark word.
-\item - Thread local storage.
-\item - \tw{java.lang.Object.wait()}.
-\item - Threads lock.
-\item - Safepoints.
-\item - HotSpot VM C/C++ heap.
-\itemitem - Arena.
-\itemitem - Chunks.
-\itemitem - ChunkPools. 3 Sizes.
-\item - Heap.
-\item - \XX{ErrorFile=}
-\item - \XX{OnError=}
-\item - \XX{+ShowMessageBoxOnError}
-\item - Stack overflow.
-\item - \XX{OnOutOfMemoryError=}
-\item - JConsole.
-\item - Weak Generational Hypothesis.
-
+\I Try HotSpot debug vm with \XX{+PrintInterpreter}
+\I Native C stack.
+\I Semantic.
+\I Stack unwinding.
+\I Stack frame.
+\I \XX{-UseBiasedLocking}.
+\I Fast-path code.
+\I C1 JIT "\tw{-client}".
+\I C2 JIT "\tw{-server}".
+\I Mark word.
+\I Thread local storage.
+\I \tw{java.lang.Object.wait()}.
+\I Threads lock.
+\I Safepoints.
+\I HotSpot VM C/C++ heap.
+\II Arena.
+\II Chunks.
+\II ChunkPools. 3 Sizes.
+\I Heap.
+\I \XX{ErrorFile=}
+\I \XX{OnError=}
+\I \XX{+ShowMessageBoxOnError}
+\I Stack overflow.
+\I \XX{OnOutOfMemoryError=}
+\I JConsole.
+\I Weak Generational Hypothesis.
+\I Card Table:
+\II Card: 512 byte chunk of old gen.
+\II Table: Array of one byte per card in heap.
+\I Write barrier.
+\I Premature promotion.
+\I Promotion failure.
+\I Bump the pointer.
+\I TLAB: Thread Local Allocation Buffer.
+\I Sliding compacting mark-seep (mark-compact).
+\I CMS free lists.
+\I G1GC, garbage first garbage collector.
+\I CMS old gen occupancy.
+\I CMS initiating limit.
+\I TrainGC.
+\I Calling conventions.
+\I Compiler:
+\II Front end.
+\II Back end.
+\II Intermediate Representation (IR).
+\II Static Single Assignment (SSA).
+\I Register Spilling:
+\II Round robin local allocator.
+\II Graph colouring.
+\II Linear scan register allocation.
+\I Class Heirachy Analysis (CHA).
+\I Deoptimistaion:
+\II Compiled frame.
+\II Interpreted frame.
+\I Compilation policy:
+\II Invocation counter.
+\II Backedge counter.
+\I Bytecode index.
+\I Compile threshold:
+\II \tw{-Xbatch}.
+\II \XX{-BackgroundCompilation}.
+\I On Stack Replacement (OSR).
+\I Uncommon traps.
+\I Method liveness.
+\I Code cache.
+\I OopMaps.
+\I x86 SSE.
+\I Program dependence graph.
+\I \tw{methodDataOop}.
+\I Loop unswitching.
+\I Loop unrolling.
+\I Range check elimination.
+\I Iteration splitting:
+\II Preloop.
+\II Main loop.
+\II Post loop.
+\I Superword.
+\I \tw{nmethod}.
+\I Tiered compilation:
+\II \XX{+TieredCompilation} 6u25+.
+\I Adaptive tuning, ergonomics.
+\I \tw{Runtime.availableProcessors()}.
+\I Adaptive heap sizing.
+\I \XX{-UseAdaptiveSizePolicy}.
+\I Performance monitoring.
+\I Performance profiling.
+\I Performance tuning.
+\I \XX{+ScavengeBeforeFullGC}.
+\I \XX{+PrintGCDetails}.
+\I \tw{PSYoungGen}.
+\I \tw{ParNew}.
+\I \tw{DefNew}.
+\I \tw{PSOldGen}.
+\I \tw{PSPermGen}.
+\I \XX{+UseParNewGC}.
+\I \XX{+PrintTenuringDistribution}.
+\I Concurrent mode failure.
+\I \XX{+PrintGCTimeStamps}.
+\I \XX{+PrintGCDateStamps}.
+\I \tw{-Xloggc:<filename>}:
+\II With \XX{+PrintGCDetails} \& \XX{PrintGCTimeStamps}.
+\I \XX{+PrintGCApplicationConcurrentTime}.
+\I \XX{+PrintGCApplicationStoppedTime}.
+\I Full GC (System).
+\I GCHisto.
+\I Expected initial mark \& remark phase pauses less than minor collection.
+\I VisualGC \tw{http://java.sun.com/performance/jvmstat}.
+\I VisualVM \tw{http://visualvm.dev.java.net/}.
+\I JConsole \tw{-Dcom.sun.management.jmxremote} \tw{<} 6.
 \bye
