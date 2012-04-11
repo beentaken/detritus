@@ -1,0 +1,64 @@
+\font\sixrm=cmr6
+\font\mainfont=cmr10
+\font\mi=cmti10
+\font\mb=cmbx10
+\font\sectionfont=cmbx12
+\font\headingfont=cmbx12
+\font\titlefont=cmbx12
+
+\def\heading#1{\vskip 12 pt \leftline{\headingfont #1}}
+
+\newcount\footnotes \footnotes=0
+
+\def\footnoter#1{\advance\footnotes by 1 \footnote{$^{\the\footnotes}$}{\mainfont #1}}
+
+\def\section#1{\vskip 12 pt \leftline{\sectionfont #1}}
+
+\def\title#1{\centerline{\titlefont{#1}} \footline{\hss\tenrm{#1:} Page \folio\hss}}
+
+\def\tw#1{\tt{#1}\mainfont}
+\def\XX#1{\tw{-XX:#1}}
+
+\def\pskip{\parskip 12 pt}
+\def\lskip{\parskip 3pt}
+\def\sskip{\parskip 6pt}
+
+\pskip
+\parindent 24 pt
+
+\title{Java Performance}
+
+\mainfont
+
+\heading{Scribbled Notes}
+
+\item - Memory mapped.
+\lskip
+\item - Try HotSpot debug vm with \XX{+PrintInterpreter}
+\item - Native C stack.
+\item - Semantic.
+\item - Stack unwinding.
+\item - Stack frame.
+\item - \XX{-UseBiasedLocking}.
+\item - Fast-path code.
+\item - C1 JIT "\tw{-client}".
+\item - C2 JIT "\tw{-server}".
+\item - Mark word.
+\item - Thread local storage.
+\item - \tw{java.lang.Object.wait()}.
+\item - Threads lock.
+\item - Safepoints.
+\item - HotSpot VM C/C++ heap.
+\itemitem - Arena.
+\itemitem - Chunks.
+\itemitem - ChunkPools. 3 Sizes.
+\item - Heap.
+\item - \XX{ErrorFile=}
+\item - \XX{OnError=}
+\item - \XX{+ShowMessageBoxOnError}
+\item - Stack overflow.
+\item - \XX{OnOutOfMemoryError=}
+\item - JConsole.
+\item - Weak Generational Hypothesis.
+
+\bye
