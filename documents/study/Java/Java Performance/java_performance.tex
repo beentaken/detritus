@@ -175,4 +175,45 @@
 \I Minor GC Reclamation Principal.
 \I GC Maximum Memory Prinicipal.
 \I 2 of 3 GC Tuning Principal.
+
+\pskip
+Page missing.
+\I \XX{+UseParallelGC} 6u21
+\lskip
+\I Low latency GC tuning, use:
+\II \XX{+PrintGCApplicationStoppedTime}.
+\II \XX{+PrintGCApplicationConcurrentTime}.
+\II \XX{+PrintSafepointStatistics}.
+\II Live data set.
+\II CMS: Race between reclaim rate vs. promotion rate.
+\I CMS initiating occupancy:
+\II \XX{CMSInitiatingOccupancyFraction=<percent>}.
+\II \XX{+UseCMSInitiatingOccupancyOnly}.
+\I CMS explicit GC:
+\II \XX{+ExplicitGCInvokesConcurrent}.
+\II \XX{+ExplicitGCInvokedConcurrentAndUnloadsClasses}.
+\II \XX{+DisableExplicitGC}.
+\I CMS permanent generation:
+\II \XX{+CMSClassUnloadingEnabled}.
+\II \XX{+CMSPermGenSweepingEnabled}.
+\I \XX{ParallelGCThreads=<n>}.
+\I \XX{+CMSScavengeBeforeRemark}.
+\I \XX{+ParallelRefProcEnable}.
+\I \XX{+PrintAdaptiveSizePolicy}.
+\I \XX{+UseNUMA}.
+\I \XX{+AgressiveOpts}.
+\I Escape analysis.
+\I Object explosion.
+\I Scalar replacement.
+\I Thread state allocation.
+\I Eliminate synchronisation.
+\I Eliminate GC r/w barriers.
+\I \XX{-UseBiasedLocking} for applications with thread pools for request processing. E.g. web applications.
+\I TLB: Translation Lookaside Buffer.
+\I \XX{+UseLargePages}.
+\I \XX{LargePageSizeInBytes=<n>}.
+\I Batch mode.
+\I Microbenchmark.
+\I SPEC: Standard Performance Evaluation Corporation.
+\I \tw{System.runFinalization()}.
 \bye
