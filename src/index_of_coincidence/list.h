@@ -2,9 +2,9 @@
 #define __LIST_H
 
 struct _Node {
-    char    letter;
-    int     count;
-    struct _Node    *next;
+  char letter;
+  int count;
+  struct _Node *next;
 } typedef Node;
 
 Node *

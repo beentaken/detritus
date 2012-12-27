@@ -2,71 +2,71 @@
 
 // Node with blank data
 Node::Node() {
-    child = NULL;
+  child = NULL;
 
-    initdata();
+  initdata();
 }
 
 // Create a Node using a STL string as the data
 Node::Node(string *s) {
-    child = NULL;
+  child = NULL;
 
-    setdata(s);
+  setdata(s);
 }
 
 // Create a Node using a c string as the data
 Node::Node(char *s) {
-    child = NULL;
+  child = NULL;
 
-    setdata(s);
+  setdata(s);
 }
 
 Node::~Node() {
-    delete data;
+  delete data;
 }
 
 void Node::setchild(Node *n) {
-    child = n;
+  child = n;
 }
 
 void Node::initdata() {
-    try {
-        data = new string;
-    } catch (exception e) {
-        data = NULL;
-        cerr << "Memory alloc error in Node::setdata" << endl;
-        throw(e);
-    }
+  try {
+    data = new string;
+  } catch (exception e) {
+    data = NULL;
+    cerr << "Memory alloc error in Node::setdata" << endl;
+    throw(e);
+  }
 };
 
 void Node::setdata(string *s) {
-    if (!data) {
-        initdata();
-    }
+  if (!data) {
+    initdata();
+  }
 
-    *data = *s;
+  *data = *s;
 }
 
 void Node::setdata(char *s) {
-    if (!data) {
-        initdata();
-    }
+  if (!data) {
+    initdata();
+  }
 
-    *data = s;
+  *data = s;
 }
 
 istream & operator >> (istream &input, Node &node) {
-    if (!node.data) {
-        node.initdata();
-    }
+  if (!node.data) {
+    node.initdata();
+  }
 
-    input >> *(node.data);
+  input >> *(node.data);
 
-    return(input);
+  return(input);
 }
 
 ostream & operator << (ostream &output, const Node &node) {
-    output << *(node.data);
+  output << *(node.data);
 
-    return(output);
+  return(output);
 }

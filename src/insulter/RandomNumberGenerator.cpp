@@ -5,31 +5,32 @@
 #include "RandomNumberGenerator.h"
 
 RandomNumberGenerator::RandomNumberGenerator() {
-    unsigned int    finetime;
+  unsigned int finetime;
 
-    struct timeb    time;
-    struct timespec req;
+  struct timeb time;
 
-    req.tv_sec = 0;
-    req.tv_nsec = spawn_pause;
+  struct timespec req;
 
-    // Pause to avoid seed collision
-    nanosleep(&req, NULL);
+  req.tv_sec = 0;
+  req.tv_nsec = spawn_pause;
 
-    // Get the time
-    ftime(&time);
+  // Pause to avoid seed collision
+  nanosleep(&req, NULL);
 
-    finetime = time.time * 1000 + time.millitm;
+  // Get the time
+  ftime(&time);
 
-    // Peturb the RNG
-    initstate(finetime, state, state_len);
+  finetime = time.time * 1000 + time.millitm;
+
+  // Peturb the RNG
+  initstate(finetime, state, state_len);
 }
 
 RandomNumberGenerator::~RandomNumberGenerator() {
 }
 
 int RandomNumberGenerator::next(int max) {
-    setstate(state);
+  setstate(state);
 
-    return(1 + (unsigned int)((float)max * random() / (RAND_MAX + 1.0)));
+  return(1 + (unsigned int)((float)max * random() / (RAND_MAX + 1.0)));
 }

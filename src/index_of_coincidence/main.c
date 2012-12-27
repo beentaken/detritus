@@ -3,9 +3,9 @@
 
 int
 main(int argc, char **argv) {
-    while (argc > 1) {
-        printf("%e\n", ic(argv[--argc]));
-    }
+  while (argc > 1) {
+    printf("%e\n", ic(argv[--argc]));
+  }
 
-    return(0);
+  return(0);
 }

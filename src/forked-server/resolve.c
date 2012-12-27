@@ -11,35 +11,38 @@
 
 char *
 resolve(char *ip) {
-    static char     previous_ip[MAX_IP_LEN] = "";
-    static char previous_answer[MAX_HOST_LEN] = "";
-    struct hostent  *host = NULL;
-    char    *resolution = NULL;
-    char    ip_addr[MAX_IP_ADDR_LEN];
-    int ip_addr_int[MAX_IP_ADDR_LEN];
-    int i;
+  static char previous_ip[MAX_IP_LEN] = "";
+  static char previous_answer[MAX_HOST_LEN] = "";
 
-    if (strcmp(ip, previous_ip) == 0) {
-        resolution = previous_answer;
-    } else {
-        sscanf(ip, "%d.%d.%d.%d", &ip_addr_int[0], &ip_addr_int[1],
-            &ip_addr_int[2], &ip_addr_int[3]);
+  struct hostent *host = NULL;
 
-        for (i = 0; i < MAX_IP_ADDR_LEN; i++) {
-            ip_addr[i] = (char)ip_addr_int[i];
-        }
+  char *resolution = NULL;
+  char ip_addr[MAX_IP_ADDR_LEN];
 
-        host = gethostbyaddr(ip_addr, sizeof(ip_addr), AF_INET);
+  int ip_addr_int[MAX_IP_ADDR_LEN];
+  int i;
 
-        if (host) {
-            resolution = host->h_name;
-        } else {
-            resolution = ip;
-        }
+  if (strcmp(ip, previous_ip) == 0) {
+    resolution = previous_answer;
+  } else {
+    sscanf(ip, "%d.%d.%d.%d", &ip_addr_int[0], &ip_addr_int[1],
+      &ip_addr_int[2], &ip_addr_int[3]);
 
-        strcpy(previous_answer, resolution);
-        strcpy(previous_ip, ip);
+    for (i = 0; i < MAX_IP_ADDR_LEN; i++) {
+      ip_addr[i] = (char)ip_addr_int[i];
     }
 
-    return(resolution);
+    host = gethostbyaddr(ip_addr, sizeof(ip_addr), AF_INET);
+
+    if (host) {
+      resolution = host->h_name;
+    } else {
+      resolution = ip;
+    }
+
+    strcpy(previous_answer, resolution);
+    strcpy(previous_ip, ip);
+  }
+
+  return(resolution);
 }

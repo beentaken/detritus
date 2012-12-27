@@ -1,29 +1,30 @@
 #include "Wordy.h"
 
 Wordy::Wordy(char *file_name) {
-    ifstream    ifs;
-    string      word;
+  ifstream ifs;
 
-    ifs.open(file_name);
+  string word;
 
-    while(ifs.good()) {
-        ifs >> word;
+  ifs.open(file_name);
 
-        words.insert(words.begin(), word);
-    }
+  while(ifs.good()) {
+    ifs >> word;
+
+    words.insert(words.begin(), word);
+  }
 }
 
 Wordy::~Wordy() {
 }
 
 string Wordy::get() {
-    list <string> ::iterator    i = words.begin();
+  list <string> ::iterator i = words.begin();
 
-    int next = rng.next(words.size() - 1);
+  int next = rng.next(words.size() - 1);
 
-    while (next--) {
-        i++;
-    }
+  while (next--) {
+    i++;
+  }
 
-    return(*i);
+  return(*i);
 }

@@ -10,16 +10,16 @@ i=0
 
 for word in `cat /usr/share/dict/words`
 do
-    words[$i]="$word"
-    let i+=1
+  words[$i]="$word"
+  let i+=1
 done
 
 while true
 do
-    index=$(($RANDOM*$RANDOM%$i))
-    word="${words[$index]}"
-    sleepy=$RANDOM
-    echo "Sleeping for $sleepy to say $word"
-    sleep $RANDOM
-    say "$word"
+  index=$(($RANDOM*$RANDOM%$i))
+  word="${words[$index]}"
+  sleepy=$RANDOM
+  echo "Sleeping for $sleepy to say $word"
+  sleep $RANDOM
+  say "$word"
 done

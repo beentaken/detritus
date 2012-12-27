@@ -1,4 +1,3 @@
-
 #ifndef _RESOLVE_H
 #define _RESOLVE_H
 
